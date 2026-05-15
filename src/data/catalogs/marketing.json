@@ -1,0 +1,1628 @@
+{
+  "nicho": "marketing",
+  "versao": "1.0.0",
+  "metadata": {
+    "titulo_painel": "Agência de Marketing 24h",
+    "descricao": "57 agentes de marketing trabalhando 24/7 — tráfego, criativos, copywriting, SEO, CRM, lançamentos, social media.",
+    "paleta": {
+      "primary": "#FF4D8D",
+      "secondary": "#0F0F1A",
+      "accent": "#FFD60A",
+      "background": "#0A0A14",
+      "surface": "#16161F"
+    },
+    "tom": "vibrante"
+  },
+  "agents": [
+    {
+      "id": "prospeccao-outbound-linkedin-sales-navigator",
+      "nome": "Prospeccao Outbound Linkedin Sales Navigator",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em prospeccao outbound B2B para agencias de marketing digital — identificacao de ICP (Ideal Customer Profile) usando Sales Navigator, cadencia multi-canal (LinkedIn...",
+      "tarefas_template": [
+        "Criando Prospeccao Outbound Linkedin Sales Navigator — {cliente}",
+        "Otimizando Prospeccao Outbound Linkedin Sales Navigator — {cliente}",
+        "Analisando Prospeccao Outbound Linkedin Sales Navigator — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "audit-gratuito-isca-leadgen-agencia",
+      "nome": "Audit Gratuito Isca Leadgen Agencia",
+      "categoria": "Discovery",
+      "icone": "search",
+      "cor": "#FF4985",
+      "descricao": "Especialista em audit gratuito (mini-diagnostico) como isca de leadgen para agencia de marketing — checklist publico de 30-60min entregue em 48h, cobre GA4 setup (data stream, e...",
+      "tarefas_template": [
+        "Criando Audit Gratuito Isca Leadgen Agencia — {cliente}",
+        "Otimizando Audit Gratuito Isca Leadgen Agencia — {cliente}",
+        "Analisando Audit Gratuito Isca Leadgen Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "discovery"
+      ]
+    },
+    {
+      "id": "discovery-call-roteiro-novo-cliente",
+      "nome": "Discovery Call Roteiro Novo Cliente",
+      "categoria": "Discovery",
+      "icone": "search",
+      "cor": "#FF4985",
+      "descricao": "Especialista em discovery call para agencia de marketing — pauta estruturada de 30-45min, 4 blocos (situacao atual + dor com impacto financeiro + criterios de decisao com deciso...",
+      "tarefas_template": [
+        "Criando Discovery Call Roteiro Novo Cliente — {cliente}",
+        "Otimizando Discovery Call Roteiro Novo Cliente — {cliente}",
+        "Analisando Discovery Call Roteiro Novo Cliente — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "discovery"
+      ]
+    },
+    {
+      "id": "rfp-rfi-resposta-pitch-agencia",
+      "nome": "RFP RFI Resposta Pitch Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em resposta a RFP (Request for Proposal) e RFI (Request for Information) + pitch competitivo para agencia — analise critica do edital com Question Matrix (Christens...",
+      "tarefas_template": [
+        "Criando RFP RFI Resposta Pitch Agencia — {cliente}",
+        "Otimizando RFP RFI Resposta Pitch Agencia — {cliente}",
+        "Analisando RFP RFI Resposta Pitch Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "proposta-comercial-agencia",
+      "nome": "Proposta Comercial Agencia",
+      "categoria": "Onboarding",
+      "icone": "rocket",
+      "cor": "#F35991",
+      "descricao": "Especialista em proposta comercial de agencia de marketing (modelos retainer mensal + projeto one-shot + performance fee) — estrutura completa em 8 secoes (capa, sumario executi...",
+      "tarefas_template": [
+        "Criando Proposta Comercial Agencia — {cliente}",
+        "Otimizando Proposta Comercial Agencia — {cliente}",
+        "Analisando Proposta Comercial Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "onboarding"
+      ]
+    },
+    {
+      "id": "precificacao-fee-agencia",
+      "nome": "Precificacao Fee Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em precificacao de fee de agencia de marketing — domina 3 modelos (hora-vendida + cost-plus + value-based pricing), calcula blended rate (custo medio ponderado por ...",
+      "tarefas_template": [
+        "Criando Precificacao Fee Agencia — {cliente}",
+        "Otimizando Precificacao Fee Agencia — {cliente}",
+        "Analisando Precificacao Fee Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "pitch-deck-novo-cliente-agencia",
+      "nome": "Pitch Deck Novo Cliente Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em pitch deck para apresentacao de agencia a novo cliente — 12 slides em formato Guy Kawasaki / Sequoia (capa, problema, solucao, metodologia, cases, resultados, ti...",
+      "tarefas_template": [
+        "Criando Pitch Deck Novo Cliente Agencia — {cliente}",
+        "Otimizando Pitch Deck Novo Cliente Agencia — {cliente}",
+        "Analisando Pitch Deck Novo Cliente Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "contrato-prestacao-servico-agencia",
+      "nome": "Contrato Prestacao Servico Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em contrato de prestacao de servico de agencia de marketing — estrutura juridica completa em 14 clausulas (objeto, escopo + SLA, prazo + vigencia, valor + reajuste ...",
+      "tarefas_template": [
+        "Criando Contrato Prestacao Servico Agencia — {cliente}",
+        "Otimizando Contrato Prestacao Servico Agencia — {cliente}",
+        "Analisando Contrato Prestacao Servico Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "brief-novo-cliente-template",
+      "nome": "Brief Novo Cliente Template",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em brief completo para novo cliente de agencia — template de 12 secoes (negocio + persona + produto + jornada + concorrencia + posicionamento + oferta + brand voice...",
+      "tarefas_template": [
+        "Criando Brief Novo Cliente Template — {cliente}",
+        "Otimizando Brief Novo Cliente Template — {cliente}",
+        "Analisando Brief Novo Cliente Template — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "kickoff-meeting-agenda-roteiro",
+      "nome": "Kickoff Meeting Agenda Roteiro",
+      "categoria": "Onboarding",
+      "icone": "rocket",
+      "cor": "#F35991",
+      "descricao": "Especialista em kickoff meeting de novo cliente em agencia — roteiro de 60min em 5 blocos (apresentacao do time + alinhamento de meta e KPI + processo + cadencia + ferramentas +...",
+      "tarefas_template": [
+        "Criando Kickoff Meeting Agenda Roteiro — {cliente}",
+        "Otimizando Kickoff Meeting Agenda Roteiro — {cliente}",
+        "Analisando Kickoff Meeting Agenda Roteiro — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "onboarding"
+      ]
+    },
+    {
+      "id": "onboarding-cliente-30-60-90-dias",
+      "nome": "Onboarding Cliente 30 60 90 Dias",
+      "categoria": "Onboarding",
+      "icone": "rocket",
+      "cor": "#F35991",
+      "descricao": "Especialista em onboarding estruturado de novo cliente em agencia — plano de 90 dias divididos em 3 fases (semana 1-2 setup tecnico + acessos + brief; mes 1 quick wins visiveis;...",
+      "tarefas_template": [
+        "Criando Onboarding Cliente 30 60 90 Dias — {cliente}",
+        "Otimizando Onboarding Cliente 30 60 90 Dias — {cliente}",
+        "Analisando Onboarding Cliente 30 60 90 Dias — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "onboarding"
+      ]
+    },
+    {
+      "id": "acesso-credenciais-handover-checklist",
+      "nome": "Acesso Credenciais Handover Checklist",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em handover de acessos e credenciais entre cliente e agencia — checklist completo de 25+ ferramentas (Business Manager Meta + Asset Manager + Catalog + Pixel; GA4 +...",
+      "tarefas_template": [
+        "Criando Acesso Credenciais Handover Checklist — {cliente}",
+        "Otimizando Acesso Credenciais Handover Checklist — {cliente}",
+        "Analisando Acesso Credenciais Handover Checklist — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "sla-deliverables-tempo-resposta",
+      "nome": "SLA Deliverables Tempo Resposta",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em definicao de SLA (Service Level Agreement) por tipo de entrega + tempo de resposta para agencia de marketing — tabela mestre com 20+ tipos de deliverable (criati...",
+      "tarefas_template": [
+        "Criando SLA Deliverables Tempo Resposta — {cliente}",
+        "Otimizando SLA Deliverables Tempo Resposta — {cliente}",
+        "Analisando SLA Deliverables Tempo Resposta — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "account-plan-anual",
+      "nome": "Account Plan Anual",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em account plan anual de cliente em agencia — documento mestre de planejamento estrategico com 8 secoes (diagnostico cliente + OKRs anuais + roadmap trimestral + mi...",
+      "tarefas_template": [
+        "Criando Account Plan Anual — {cliente}",
+        "Otimizando Account Plan Anual — {cliente}",
+        "Analisando Account Plan Anual — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "squad-celula-cliente-estrutura",
+      "nome": "Squad Celula Cliente Estrutura",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em estrutura de squad/celula de cliente em agencia digital — modelo dedicado vs compartilhado vs hibrido, headcount otimo por tier (small <R$5k usa shared 8-12 cont...",
+      "tarefas_template": [
+        "Criando Squad Celula Cliente Estrutura — {cliente}",
+        "Otimizando Squad Celula Cliente Estrutura — {cliente}",
+        "Analisando Squad Celula Cliente Estrutura — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "sprint-marketing-2-semanas-scrum",
+      "nome": "Sprint Marketing 2 Semanas Scrum",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em sprint Scrum-like de 2 semanas para celula de marketing em agencia — adaptacao do Scrum framework (Jeff Sutherland + Ken Schwaber — Scrum Guide) ao contexto de d...",
+      "tarefas_template": [
+        "Criando Sprint Marketing 2 Semanas Scrum — {cliente}",
+        "Otimizando Sprint Marketing 2 Semanas Scrum — {cliente}",
+        "Analisando Sprint Marketing 2 Semanas Scrum — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "stand-up-daily-agencia",
+      "nome": "Stand Up Daily Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em daily stand-up para celula de agencia de marketing — ritual de 15min com 3 perguntas classicas (ontem / hoje / blockers), formato remoto (Zoom/Slack) ou presenci...",
+      "tarefas_template": [
+        "Criando Stand Up Daily Agencia — {cliente}",
+        "Otimizando Stand Up Daily Agencia — {cliente}",
+        "Analisando Stand Up Daily Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "status-report-semanal-cliente",
+      "nome": "Status Report Semanal Cliente",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em status report semanal de cliente em agencia — formato 1 pagina lido em 5min, estrutura fixa de 5 blocos (entregas da semana + KPIs vs meta + riscos identificados...",
+      "tarefas_template": [
+        "Criando Status Report Semanal Cliente — {cliente}",
+        "Otimizando Status Report Semanal Cliente — {cliente}",
+        "Analisando Status Report Semanal Cliente — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "tracking-tarefas-clickup-asana-jira-agencia",
+      "nome": "Tracking Tarefas Clickup Asana Jira Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em tracking de tarefas em ClickUp / Asana / Jira para agencia de marketing — taxonomia hierarquica (Workspace > Cliente > Squad > Sprint > Task), custom fields padr...",
+      "tarefas_template": [
+        "Criando Tracking Tarefas Clickup Asana Jira Agencia — {cliente}",
+        "Otimizando Tracking Tarefas Clickup Asana Jira Agencia — {cliente}",
+        "Analisando Tracking Tarefas Clickup Asana Jira Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "timesheet-apontamento-horas-rentabilidade",
+      "nome": "Timesheet Apontamento Horas Rentabilidade",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em apontamento de horas + analise de rentabilidade por cliente em agencia digital — captura sistematica de horas por projeto/tarefa via ferramenta dedicada (Toggl +...",
+      "tarefas_template": [
+        "Criando Timesheet Apontamento Horas Rentabilidade — {cliente}",
+        "Otimizando Timesheet Apontamento Horas Rentabilidade — {cliente}",
+        "Analisando Timesheet Apontamento Horas Rentabilidade — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "capacity-planning-time-vs-pipeline",
+      "nome": "Capacity Planning Time Vs Pipeline",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em capacity planning de agencia de marketing — calculo de capacidade produtiva (HC × hora-util/mes × utilizacao 75%) versus pipeline em hora-vendida, identificacao ...",
+      "tarefas_template": [
+        "Criando Capacity Planning Time Vs Pipeline — {cliente}",
+        "Otimizando Capacity Planning Time Vs Pipeline — {cliente}",
+        "Analisando Capacity Planning Time Vs Pipeline — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "escalation-matrix-conflito-cliente",
+      "nome": "Escalation Matrix Conflito Cliente",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em escalation matrix de conflito cliente em agencia de marketing — niveis de escalada (AM > AM Lead > Diretor de Atendimento > Socio/CEO), triggers objetivos de esc...",
+      "tarefas_template": [
+        "Criando Escalation Matrix Conflito Cliente — {cliente}",
+        "Otimizando Escalation Matrix Conflito Cliente — {cliente}",
+        "Analisando Escalation Matrix Conflito Cliente — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "reuniao-mensal-resultados-roteiro",
+      "nome": "Reuniao Mensal Resultados Roteiro",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em conducao de reuniao mensal de resultados em agencia de marketing — roteiro 60min com timeboxing rigido (abertura 3min, resultados vs meta 15min, insights 10min, ...",
+      "tarefas_template": [
+        "Criando Reuniao Mensal Resultados Roteiro — {cliente}",
+        "Otimizando Reuniao Mensal Resultados Roteiro — {cliente}",
+        "Analisando Reuniao Mensal Resultados Roteiro — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "qbr-trimestral-cliente",
+      "nome": "QBR Trimestral Cliente",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em QBR (Quarterly Business Review) trimestral em agencia de marketing — reuniao 90min com C-level cliente focada em ROI consolidado do trimestre, learnings estrateg...",
+      "tarefas_template": [
+        "Criando QBR Trimestral Cliente — {cliente}",
+        "Otimizando QBR Trimestral Cliente — {cliente}",
+        "Analisando QBR Trimestral Cliente — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "ata-reuniao-padrao-action-items",
+      "nome": "Ata Reuniao Padrao Action Items",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em ata de reuniao padrao com action items em agencia de marketing — formato rigoroso (data, participantes, agenda, decisoes tomadas, action items com DRI + prazo + ...",
+      "tarefas_template": [
+        "Criando Ata Reuniao Padrao Action Items — {cliente}",
+        "Otimizando Ata Reuniao Padrao Action Items — {cliente}",
+        "Analisando Ata Reuniao Padrao Action Items — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "newsletter-resultados-cliente",
+      "nome": "Newsletter Resultados Cliente",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em newsletter de resultados em agencia de marketing — formato semanal/quinzenal/mensal de email curto + dashboard publico (Looker Studio, Metabase, Klipfolio, Power...",
+      "tarefas_template": [
+        "Criando Newsletter Resultados Cliente — {cliente}",
+        "Otimizando Newsletter Resultados Cliente — {cliente}",
+        "Analisando Newsletter Resultados Cliente — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "apresentacao-deck-mensal",
+      "nome": "Apresentacao Deck Mensal",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em apresentacao deck mensal cliente em agencia de marketing — 15-20 slides com narrativa estruturada (situacao -> resultado -> o que aprendemos -> proximo mes), fra...",
+      "tarefas_template": [
+        "Criando Apresentacao Deck Mensal — {cliente}",
+        "Otimizando Apresentacao Deck Mensal — {cliente}",
+        "Analisando Apresentacao Deck Mensal — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "follow-up-pos-reuniao-resumo",
+      "nome": "Follow Up Pos Reuniao Resumo",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em follow-up email pos-reuniao em agencia de marketing — email com 4 partes (decisoes tomadas, action items com DRI + prazo, prazos confirmados, anexos), enviado em...",
+      "tarefas_template": [
+        "Criando Follow Up Pos Reuniao Resumo — {cliente}",
+        "Otimizando Follow Up Pos Reuniao Resumo — {cliente}",
+        "Analisando Follow Up Pos Reuniao Resumo — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "brief-interno-criacao",
+      "nome": "Brief Interno Criacao",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em brief interno de criacao em agencia de marketing — template padrao com 8 campos obrigatorios (objetivo de negocio, persona, oferta, canal, formato, tom de voz, d...",
+      "tarefas_template": [
+        "Criando Brief Interno Criacao — {cliente}",
+        "Otimizando Brief Interno Criacao — {cliente}",
+        "Analisando Brief Interno Criacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "fluxo-aprovacao-cliente-3-rodadas",
+      "nome": "Fluxo Aprovacao Cliente 3 Rodadas",
+      "categoria": "Email/CRM",
+      "icone": "mail",
+      "cor": "#FF5589",
+      "descricao": "Especialista em fluxo de aprovacao cliente em 3 rodadas em agencia de marketing — V1 (apresentacao de ideias / rascunho), V2 (1a aprovacao com feedback estruturado), V3 (refinam...",
+      "tarefas_template": [
+        "Criando Fluxo Aprovacao Cliente 3 Rodadas — {cliente}",
+        "Otimizando Fluxo Aprovacao Cliente 3 Rodadas — {cliente}",
+        "Analisando Fluxo Aprovacao Cliente 3 Rodadas — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "email-crm"
+      ]
+    },
+    {
+      "id": "banco-referencias-creative-library-agencia",
+      "nome": "Banco Referencias Creative Library Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em banco de referencias creative library em agencia de marketing — Notion / Eagle / Pinterest / Are.na / Pureref / Milanote organizados com tags por industria (SaaS...",
+      "tarefas_template": [
+        "Criando Banco Referencias Creative Library Agencia — {cliente}",
+        "Otimizando Banco Referencias Creative Library Agencia — {cliente}",
+        "Analisando Banco Referencias Creative Library Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "review-criativo-feedback-padrao",
+      "nome": "Review Criativo Feedback Padrao",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em review criativo com feedback padrao em agencia de marketing — checklist obrigatorio em 7 dimensoes (objetivo, persona, mensagem, hierarquia visual, marca, CTA, c...",
+      "tarefas_template": [
+        "Criando Review Criativo Feedback Padrao — {cliente}",
+        "Otimizando Review Criativo Feedback Padrao — {cliente}",
+        "Analisando Review Criativo Feedback Padrao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "versionamento-arquivos-naming-convention",
+      "nome": "Versionamento Arquivos Naming Convention",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em versionamento de arquivos + naming convention em agencia de marketing — padrao YYYYMMDD_cliente_canal_formato_versao_status (ex: 20260505_acme_meta_carrossel_v03...",
+      "tarefas_template": [
+        "Criando Versionamento Arquivos Naming Convention — {cliente}",
+        "Otimizando Versionamento Arquivos Naming Convention — {cliente}",
+        "Analisando Versionamento Arquivos Naming Convention — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "entrega-final-cliente-handover",
+      "nome": "Entrega Final Cliente Handover",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em entrega final cliente + handover em agencia de marketing — pacote zip estruturado com fontes editaveis (PSD/AI/Figma/INDD/Sketch/XD) + arquivos exportados (PNG/J...",
+      "tarefas_template": [
+        "Criando Entrega Final Cliente Handover — {cliente}",
+        "Otimizando Entrega Final Cliente Handover — {cliente}",
+        "Analisando Entrega Final Cliente Handover — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "hora-vendida-vs-trabalhada-margem",
+      "nome": "Hora Vendida Vs Trabalhada Margem",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em hora vendida vs trabalhada e calculo de margem de agencia de marketing — formula (hora-vendida ÷ custo-hora total) × 100, margem alvo 50%+ (servico maduro), indi...",
+      "tarefas_template": [
+        "Criando Hora Vendida Vs Trabalhada Margem — {cliente}",
+        "Otimizando Hora Vendida Vs Trabalhada Margem — {cliente}",
+        "Analisando Hora Vendida Vs Trabalhada Margem — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "rentabilidade-projeto-margem-bruta",
+      "nome": "Rentabilidade Projeto Margem Bruta",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em rentabilidade por projeto e margem bruta em agencia de marketing — formula receita_projeto / custo_direto (mao-de-obra + ferramentas + freela + midia repassada),...",
+      "tarefas_template": [
+        "Criando Rentabilidade Projeto Margem Bruta — {cliente}",
+        "Otimizando Rentabilidade Projeto Margem Bruta — {cliente}",
+        "Analisando Rentabilidade Projeto Margem Bruta — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "bdi-agencia-overhead",
+      "nome": "BDI Agencia Overhead",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em BDI (Beneficios e Despesas Indiretas) e overhead de agencia de marketing — percentual aplicado sobre custo direto cobrindo administracao, comercial, vendas, ferr...",
+      "tarefas_template": [
+        "Criando BDI Agencia Overhead — {cliente}",
+        "Otimizando BDI Agencia Overhead — {cliente}",
+        "Analisando BDI Agencia Overhead — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "cobranca-mensalidade-recorrente-stripe-iugu",
+      "nome": "Cobranca Mensalidade Recorrente Stripe Iugu",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em cobranca de mensalidade recorrente em agencia de marketing — uso de Stripe / Iugu / Asaas / Pagar.me / Vindi / Pagseguro / Mercado Pago / Cielo Recorrente para r...",
+      "tarefas_template": [
+        "Criando Cobranca Mensalidade Recorrente Stripe Iugu — {cliente}",
+        "Otimizando Cobranca Mensalidade Recorrente Stripe Iugu — {cliente}",
+        "Analisando Cobranca Mensalidade Recorrente Stripe Iugu — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "inadimplencia-regua-cobranca-cliente",
+      "nome": "Inadimplencia Regua Cobranca Cliente",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em inadimplencia e regua de cobranca cliente em agencia de marketing — D+0 lembrete amigavel, D+3 cobranca formal, D+7 escalar AM Lead, D+15 suspender entrega + ofi...",
+      "tarefas_template": [
+        "Criando Inadimplencia Regua Cobranca Cliente — {cliente}",
+        "Otimizando Inadimplencia Regua Cobranca Cliente — {cliente}",
+        "Analisando Inadimplencia Regua Cobranca Cliente — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "forecast-receita-mrr-pipeline-agencia",
+      "nome": "Forecast Receita MRR Pipeline Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em forecast de receita para agencia de marketing digital — modelo bottom-up baseado em MRR atual + new MRR + churn MRR + expansion MRR + reactivation MRR (movement ...",
+      "tarefas_template": [
+        "Criando Forecast Receita MRR Pipeline Agencia — {cliente}",
+        "Otimizando Forecast Receita MRR Pipeline Agencia — {cliente}",
+        "Analisando Forecast Receita MRR Pipeline Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "hiring-criativo-pj-clt",
+      "nome": "Hiring Criativo PJ CLT",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em hiring de criativo (designer, copywriter, motion, social media, videomaker) e profissionais de agencia de marketing digital nos regimes PJ e CLT — job descriptio...",
+      "tarefas_template": [
+        "Criando Hiring Criativo PJ CLT — {cliente}",
+        "Otimizando Hiring Criativo PJ CLT — {cliente}",
+        "Analisando Hiring Criativo PJ CLT — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "freelancer-marketplace-99freelas-workana",
+      "nome": "Freelancer Marketplace 99freelas Workana",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em gestao de freelancers como capacidade variavel para agencia de marketing digital — uso de marketplaces (99freelas, Workana, GetNinjas, Upwork, Fiverr Pro, Behanc...",
+      "tarefas_template": [
+        "Criando Freelancer Marketplace 99freelas Workana — {cliente}",
+        "Otimizando Freelancer Marketplace 99freelas Workana — {cliente}",
+        "Analisando Freelancer Marketplace 99freelas Workana — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "onboarding-funcionario-30-60-90-agencia",
+      "nome": "Onboarding Funcionario 30 60 90 Agencia",
+      "categoria": "Onboarding",
+      "icone": "rocket",
+      "cor": "#F35991",
+      "descricao": "Especialista em onboarding de novo funcionario (CLT ou PJ) em agencia de marketing digital — pre-boarding D-7 a D-1 (kit boas-vindas + acessos + manual + tour virtual + pareamen...",
+      "tarefas_template": [
+        "Criando Onboarding Funcionario 30 60 90 Agencia — {cliente}",
+        "Otimizando Onboarding Funcionario 30 60 90 Agencia — {cliente}",
+        "Analisando Onboarding Funcionario 30 60 90 Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "onboarding"
+      ]
+    },
+    {
+      "id": "plano-carreira-criativo-account-traffic",
+      "nome": "Plano Carreira Criativo Account Traffic",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em plano de carreira para criativo, account manager, traffic manager, social media e dev em agencia de marketing digital — niveis claros (Junior 0-2 anos / Pleno 2-...",
+      "tarefas_template": [
+        "Criando Plano Carreira Criativo Account Traffic — {cliente}",
+        "Otimizando Plano Carreira Criativo Account Traffic — {cliente}",
+        "Analisando Plano Carreira Criativo Account Traffic — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "review-trimestral-1-on-1",
+      "nome": "Review Trimestral 1 On 1",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em review trimestral de performance + 1-on-1 semanal/quinzenal em agencia de marketing digital — formato com auto-avaliacao + feedback do gestor + 360 opcional (3 p...",
+      "tarefas_template": [
+        "Criando Review Trimestral 1 On 1 — {cliente}",
+        "Otimizando Review Trimestral 1 On 1 — {cliente}",
+        "Analisando Review Trimestral 1 On 1 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "retencao-talento-criativo-cultura",
+      "nome": "Retencao Talento Criativo Cultura",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em retencao de talento criativo e construcao de cultura em agencia de marketing digital — pacote de beneficios competitivo (CLT VR/VA + plano saude SulAmerica/Brade...",
+      "tarefas_template": [
+        "Criando Retencao Talento Criativo Cultura — {cliente}",
+        "Otimizando Retencao Talento Criativo Cultura — {cliente}",
+        "Analisando Retencao Talento Criativo Cultura — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "nps-csat-pesquisa-cliente-agencia",
+      "nome": "NPS CSAT Pesquisa Cliente Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em pesquisa de satisfacao de cliente em agencia de marketing digital — NPS (Net Promoter Score, Frederick Reichheld) trimestral com pergunta unica \"0-10 indicaria n...",
+      "tarefas_template": [
+        "Criando NPS CSAT Pesquisa Cliente Agencia — {cliente}",
+        "Otimizando NPS CSAT Pesquisa Cliente Agencia — {cliente}",
+        "Analisando NPS CSAT Pesquisa Cliente Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "churn-cliente-prevencao-early-warning",
+      "nome": "Churn Cliente Prevencao Early Warning",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em prevencao de churn de cliente em agencia de marketing digital — early warning system com sinais de alerta (queda de uso da plataforma, atraso de pagamento >7d, t...",
+      "tarefas_template": [
+        "Criando Churn Cliente Prevencao Early Warning — {cliente}",
+        "Otimizando Churn Cliente Prevencao Early Warning — {cliente}",
+        "Analisando Churn Cliente Prevencao Early Warning — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "win-back-cliente-perdido-90-dias",
+      "nome": "Win Back Cliente Perdido 90 Dias",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em win-back de cliente perdido em janela 30/60/90 dias para agencia de marketing digital — analise root cause da saida (exit interview pos-saida + investigacao com ...",
+      "tarefas_template": [
+        "Criando Win Back Cliente Perdido 90 Dias — {cliente}",
+        "Otimizando Win Back Cliente Perdido 90 Dias — {cliente}",
+        "Analisando Win Back Cliente Perdido 90 Dias — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "upsell-cross-sell-cliente-existente",
+      "nome": "Upsell Cross Sell Cliente Existente",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em upsell (subir ticket) e cross-sell (vender servico adjacente) em cliente existente de agencia de marketing digital — mapeamento de share-of-wallet (% do budget m...",
+      "tarefas_template": [
+        "Criando Upsell Cross Sell Cliente Existente — {cliente}",
+        "Otimizando Upsell Cross Sell Cliente Existente — {cliente}",
+        "Analisando Upsell Cross Sell Cliente Existente — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "case-de-sucesso-resultado-prova-social",
+      "nome": "Case De Sucesso Resultado Prova Social",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em case de sucesso e prova social para agencia de marketing digital — formato canonico (situacao + intervencao + resultado quantificado em R$/% + aprendizado), auto...",
+      "tarefas_template": [
+        "Criando Case De Sucesso Resultado Prova Social — {cliente}",
+        "Otimizando Case De Sucesso Resultado Prova Social — {cliente}",
+        "Analisando Case De Sucesso Resultado Prova Social — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "off-boarding-cliente-handover-saida",
+      "nome": "Off Boarding Cliente Handover Saida",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em off-boarding (saida) de cliente em agencia de marketing digital — entrega de senhas e acessos para cliente (Meta Business, Google Ads, GA4, Search Console, RD St...",
+      "tarefas_template": [
+        "Criando Off Boarding Cliente Handover Saida — {cliente}",
+        "Otimizando Off Boarding Cliente Handover Saida — {cliente}",
+        "Analisando Off Boarding Cliente Handover Saida — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "personal-branding-ceo-fundador-agencia",
+      "nome": "Personal Branding CEO Fundador Agencia",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em personal branding para CEO/fundador de agencia de marketing digital — pilares de conteudo (autoridade tecnica, processo da agencia, bastidores do dia a dia, opin...",
+      "tarefas_template": [
+        "Criando Personal Branding CEO Fundador Agencia — {cliente}",
+        "Otimizando Personal Branding CEO Fundador Agencia — {cliente}",
+        "Analisando Personal Branding CEO Fundador Agencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "conteudo-linkedin-agencia-thought-leadership",
+      "nome": "Conteudo Linkedin Agencia Thought Leadership",
+      "categoria": "SEO/Conteúdo",
+      "icone": "trending-up",
+      "cor": "#F74599",
+      "descricao": "Especialista em conteudo de thought leadership no LinkedIn da pagina da agencia de marketing digital — 4 pilares (resultado de cliente / case, opiniao do mercado / posicionament...",
+      "tarefas_template": [
+        "Criando Conteudo Linkedin Agencia Thought Leadership — {cliente}",
+        "Otimizando Conteudo Linkedin Agencia Thought Leadership — {cliente}",
+        "Analisando Conteudo Linkedin Agencia Thought Leadership — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "seo-conteúdo"
+      ]
+    },
+    {
+      "id": "networking-eventos-rd-summit-meio-mensagem",
+      "nome": "Networking Eventos RD Summit Meio Mensagem",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em networking presencial em eventos para agencia de marketing digital — RD Summit (Florianopolis, novembro), Meio & Mensagem premios + festivais, Web Summit Rio, RD...",
+      "tarefas_template": [
+        "Criando Networking Eventos RD Summit Meio Mensagem — {cliente}",
+        "Otimizando Networking Eventos RD Summit Meio Mensagem — {cliente}",
+        "Analisando Networking Eventos RD Summit Meio Mensagem — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "parceria-white-label-co-marketing",
+      "nome": "Parceria White Label Co Marketing",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em parceria estrategica entre agencias para agencia de marketing digital — modelo white-label (uma agencia executa em nome da outra com brand do contratante), model...",
+      "tarefas_template": [
+        "Criando Parceria White Label Co Marketing — {cliente}",
+        "Otimizando Parceria White Label Co Marketing — {cliente}",
+        "Analisando Parceria White Label Co Marketing — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    },
+    {
+      "id": "ia-agencia-stack-claude-midjourney-runway",
+      "nome": "IA Agencia Stack Claude Midjourney Runway",
+      "categoria": "Prospecção",
+      "icone": "user-plus",
+      "cor": "#FF4D8D",
+      "descricao": "Especialista em adocao de IA na agencia de marketing digital — stack completa (Claude Sonnet 4.7 / GPT-5 para texto + processo + analise + Claude Code para automacao; Midjourney...",
+      "tarefas_template": [
+        "Criando IA Agencia Stack Claude Midjourney Runway — {cliente}",
+        "Otimizando IA Agencia Stack Claude Midjourney Runway — {cliente}",
+        "Analisando IA Agencia Stack Claude Midjourney Runway — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 720,
+        "max": 1800
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "prospecção"
+      ]
+    }
+  ],
+  "pool_clientes_fallback": [
+    "E-commerce Moda Casual",
+    "Clínica Estética Glow",
+    "SaaS Beta Analytics",
+    "Pizzaria Mama Mia",
+    "Curso Online Tráfego",
+    "Academia Power Fit",
+    "Restaurante Sabor",
+    "Loja Pet Shop Pro",
+    "Mentoria Digital",
+    "Curso Investimentos",
+    "App Delivery Local",
+    "Imobiliária Premium"
+  ]
+}

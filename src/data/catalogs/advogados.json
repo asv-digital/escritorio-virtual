@@ -1,0 +1,1629 @@
+{
+  "nicho": "advogados",
+  "versao": "1.0.0",
+  "metadata": {
+    "titulo_painel": "Escritório Jurídico 24h",
+    "descricao": "57 agentes jurídicos trabalhando 24/7 — peças, prazos, contratos, recursos, direito civil/trabalhista/criminal/tributário.",
+    "paleta": {
+      "primary": "#8B7355",
+      "secondary": "#2D2419",
+      "accent": "#C9A876",
+      "background": "#0A0A0A",
+      "surface": "#1A1612"
+    },
+    "tom": "formal"
+  },
+  "agents": [
+    {
+      "id": "peticao-inicial-civel",
+      "nome": "Peticao Inicial Civel",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em redação de petição inicial cível pelo rito comum (CPC 318-321 e 319), com tutela provisória de urgência (CPC 300) ou evidência (CPC 311), valor da causa adequado...",
+      "tarefas_template": [
+        "Redigindo Peticao Inicial Civel — {cliente}",
+        "Revisando Peticao Inicial Civel — {cliente}",
+        "Protocolando Peticao Inicial Civel — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "contestacao-civel",
+      "nome": "Contestacao Civel",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em contestação cível com TODA matéria de defesa em peça única (CPC 335-343) — preliminares (CPC 337 — 14 hipóteses), impugnação ESPECÍFICA aos fatos (CPC 341 — fato...",
+      "tarefas_template": [
+        "Redigindo Contestacao Civel — {cliente}",
+        "Revisando Contestacao Civel — {cliente}",
+        "Protocolando Contestacao Civel — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "apelacao-civel",
+      "nome": "Apelacao Civel",
+      "categoria": "Recurso",
+      "icone": "file-up",
+      "cor": "#936F4D",
+      "descricao": "Especialista em apelação cível (CPC 1.009-1.014) contra sentença terminativa (CPC 485) ou definitiva (CPC 487), com tempestividade 15 dias úteis (30 Fazenda — CPC 229), preparo ...",
+      "tarefas_template": [
+        "Redigindo Apelacao Civel — {cliente}",
+        "Revisando Apelacao Civel — {cliente}",
+        "Protocolando Apelacao Civel — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "recurso"
+      ]
+    },
+    {
+      "id": "agravo-instrumento",
+      "nome": "Agravo Instrumento",
+      "categoria": "Recurso",
+      "icone": "file-up",
+      "cor": "#936F4D",
+      "descricao": "Especialista em agravo de instrumento (CPC 1.015-1.020) contra decisão interlocutória — rol taxativo (CPC 1.015) com mitigação Tema 988 STJ (taxatividade mitigada para prejuízo ...",
+      "tarefas_template": [
+        "Redigindo Agravo Instrumento — {cliente}",
+        "Revisando Agravo Instrumento — {cliente}",
+        "Protocolando Agravo Instrumento — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "recurso"
+      ]
+    },
+    {
+      "id": "embargos-declaracao",
+      "nome": "Embargos Declaracao",
+      "categoria": "Recurso",
+      "icone": "file-up",
+      "cor": "#936F4D",
+      "descricao": "Especialista em embargos de declaração (CPC 1.022-1.026) — vícios omissão / contradição / obscuridade / erro material — em qualquer decisão (interlocutória, sentença, acórdão), ...",
+      "tarefas_template": [
+        "Redigindo Embargos Declaracao — {cliente}",
+        "Revisando Embargos Declaracao — {cliente}",
+        "Protocolando Embargos Declaracao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "recurso"
+      ]
+    },
+    {
+      "id": "acao-cobranca",
+      "nome": "Acao Cobranca",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação de cobrança (rito comum) e MONITÓRIA (CPC 700-702 — para prova escrita sem eficácia executiva: cheque prescrito, NP sem 2 testemunhas, contrato sem aceite, ...",
+      "tarefas_template": [
+        "Redigindo Acao Cobranca — {cliente}",
+        "Revisando Acao Cobranca — {cliente}",
+        "Protocolando Acao Cobranca — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "acao-indenizacao-danos-morais",
+      "nome": "Acao Indenizacao Danos Morais",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação de danos morais — contratual ou extracontratual (CC 186-188, 927; CDC 12, 14), valor sugerido com benchmark jurisprudencial, Súm 326 STJ (procedência parcia...",
+      "tarefas_template": [
+        "Redigindo Acao Indenizacao Danos Morais — {cliente}",
+        "Revisando Acao Indenizacao Danos Morais — {cliente}",
+        "Protocolando Acao Indenizacao Danos Morais — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "acao-indenizacao-danos-materiais",
+      "nome": "Acao Indenizacao Danos Materiais",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação de danos materiais (CC 402) — dano emergente (efetivamente diminuiu patrimônio: reparo veículo, despesas médicas, salário perdido, locação substituta) e luc...",
+      "tarefas_template": [
+        "Redigindo Acao Indenizacao Danos Materiais — {cliente}",
+        "Revisando Acao Indenizacao Danos Materiais — {cliente}",
+        "Protocolando Acao Indenizacao Danos Materiais — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "acao-revisional-contrato",
+      "nome": "Acao Revisional Contrato",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em revisional de contrato bancário/financiamento/leasing/cartão — capitalização sem pactuação (Súm 539 STJ — capitalização anual era regra; mensal só com cláusula e...",
+      "tarefas_template": [
+        "Redigindo Acao Revisional Contrato — {cliente}",
+        "Revisando Acao Revisional Contrato — {cliente}",
+        "Protocolando Acao Revisional Contrato — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "acao-rescisoria",
+      "nome": "Acao Rescisoria",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação rescisória (CPC 966-975) para desconstituir sentença transitada em julgado nas hipóteses do art. 966 (prevaricação juiz, dolo/colusão partes, ofensa coisa j...",
+      "tarefas_template": [
+        "Redigindo Acao Rescisoria — {cliente}",
+        "Revisando Acao Rescisoria — {cliente}",
+        "Protocolando Acao Rescisoria — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "reclamacao-trabalhista-inicial",
+      "nome": "Reclamacao Trabalhista Inicial",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em reclamação trabalhista (CLT 840 § 1º — pedido líquido pós Lei 13.467/2017) com prescrição CF 7º XXIX (2 anos do ajuizamento, 5 anos para verbas), médias variávei...",
+      "tarefas_template": [
+        "Redigindo Reclamacao Trabalhista Inicial — {cliente}",
+        "Revisando Reclamacao Trabalhista Inicial — {cliente}",
+        "Protocolando Reclamacao Trabalhista Inicial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "defesa-trabalhista-empregador",
+      "nome": "Defesa Trabalhista Empregador",
+      "categoria": "Criminal",
+      "icone": "shield-alert",
+      "cor": "#7F7F59",
+      "descricao": "Especialista em defesa do empregador na JT — preliminares CPC 337, impugnação ESPECÍFICA dos fatos (CPC 341), prescrição quinquenal CF 7º XXIX, prova documental concentrada (pas...",
+      "tarefas_template": [
+        "Redigindo Defesa Trabalhista Empregador — {cliente}",
+        "Revisando Defesa Trabalhista Empregador — {cliente}",
+        "Protocolando Defesa Trabalhista Empregador — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "criminal"
+      ]
+    },
+    {
+      "id": "calculo-verbas-rescisorias",
+      "nome": "Calculo Verbas Rescisorias",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em cálculo financeiro de TRCT — verbas por motivo (sem justa causa, justa causa, pedido demissão, acordo 484-A com multa **20%** não 40%, fim contrato, aposentadori...",
+      "tarefas_template": [
+        "Redigindo Calculo Verbas Rescisorias — {cliente}",
+        "Revisando Calculo Verbas Rescisorias — {cliente}",
+        "Protocolando Calculo Verbas Rescisorias — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "calculo-horas-extras",
+      "nome": "Calculo Horas Extras",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em cálculo de horas extras — HE 50% (CF 7º XVI mín), HE 100% domingos/feriados, hora reduzida noturna 52'30\" (CLT 73 § 1º) + adicional noturno 20%, sobreaviso 1/3 (...",
+      "tarefas_template": [
+        "Redigindo Calculo Horas Extras — {cliente}",
+        "Revisando Calculo Horas Extras — {cliente}",
+        "Protocolando Calculo Horas Extras — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "recurso-ordinario-trt",
+      "nome": "Recurso Ordinario Trt",
+      "categoria": "Recurso",
+      "icone": "file-up",
+      "cor": "#936F4D",
+      "descricao": "Especialista em RO ao TRT (CLT 893-902) contra sentença trabalhista de 1ª instância — prazo 8 dias úteis, depósito recursal CLT 899 (limites do TST anuais ~R$ 12.665 RO em 2026)...",
+      "tarefas_template": [
+        "Redigindo Recurso Ordinario Trt — {cliente}",
+        "Revisando Recurso Ordinario Trt — {cliente}",
+        "Protocolando Recurso Ordinario Trt — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "recurso"
+      ]
+    },
+    {
+      "id": "recurso-revista-tst",
+      "nome": "Recurso Revista Tst",
+      "categoria": "Recurso",
+      "icone": "file-up",
+      "cor": "#936F4D",
+      "descricao": "Especialista em RR ao TST (CLT 896) com pressupostos extrínsecos (preparo, prazo 8 dias úteis) e intrínsecos (divergência jurisprudencial OU violação literal CF/CLT/súmula OU co...",
+      "tarefas_template": [
+        "Redigindo Recurso Revista Tst — {cliente}",
+        "Revisando Recurso Revista Tst — {cliente}",
+        "Protocolando Recurso Revista Tst — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "recurso"
+      ]
+    },
+    {
+      "id": "divorcio-consensual",
+      "nome": "Divorcio Consensual",
+      "categoria": "Família",
+      "icone": "heart-handshake",
+      "cor": "#9B7B51",
+      "descricao": "Especialista em divórcio consensual EXTRAJUDICIAL (Lei 11.441/2007 + Lei 14.382/2022 — escritura no tabelionato, sem filhos menores ou já com decisão prévia, advogado obrigatóri...",
+      "tarefas_template": [
+        "Redigindo Divorcio Consensual — {cliente}",
+        "Revisando Divorcio Consensual — {cliente}",
+        "Protocolando Divorcio Consensual — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "família"
+      ]
+    },
+    {
+      "id": "divorcio-litigioso",
+      "nome": "Divorcio Litigioso",
+      "categoria": "Família",
+      "icone": "heart-handshake",
+      "cor": "#9B7B51",
+      "descricao": "Especialista em divórcio litigioso com discordância em qualquer ponto (partilha, guarda, alimentos, sobrepartilha) ou conduta do outro cônjuge (Lei Maria da Penha 11.340/06). Es...",
+      "tarefas_template": [
+        "Redigindo Divorcio Litigioso — {cliente}",
+        "Revisando Divorcio Litigioso — {cliente}",
+        "Protocolando Divorcio Litigioso — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "família"
+      ]
+    },
+    {
+      "id": "acao-alimentos",
+      "nome": "Acao Alimentos",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação de alimentos (Lei 5.478/68 + CPC 693-699 + CC 1.694-1.710) com binômio necessidade × possibilidade (CC 1.694 § 1º), provisórios na inicial (Lei 5.478 art. 4...",
+      "tarefas_template": [
+        "Redigindo Acao Alimentos — {cliente}",
+        "Revisando Acao Alimentos — {cliente}",
+        "Protocolando Acao Alimentos — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "inventario-extrajudicial",
+      "nome": "Inventario Extrajudicial",
+      "categoria": "Família",
+      "icone": "heart-handshake",
+      "cor": "#9B7B51",
+      "descricao": "Especialista em inventário e partilha extrajudicial em cartório (Lei 11.441/2007 + Lei 14.382/2022) — herdeiros maiores e capazes, consenso, sem testamento (com exceções 14.382)...",
+      "tarefas_template": [
+        "Redigindo Inventario Extrajudicial — {cliente}",
+        "Revisando Inventario Extrajudicial — {cliente}",
+        "Protocolando Inventario Extrajudicial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "família"
+      ]
+    },
+    {
+      "id": "inventario-judicial",
+      "nome": "Inventario Judicial",
+      "categoria": "Família",
+      "icone": "heart-handshake",
+      "cor": "#9B7B51",
+      "descricao": "Especialista em inventário judicial (CPC 610-673) — herdeiro incapaz, litígio, testamento contestado, massa complexa. Inventariante (CPC 617 — ordem preferencial), primeiras dec...",
+      "tarefas_template": [
+        "Redigindo Inventario Judicial — {cliente}",
+        "Revisando Inventario Judicial — {cliente}",
+        "Protocolando Inventario Judicial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "família"
+      ]
+    },
+    {
+      "id": "partilha-bens",
+      "nome": "Partilha Bens",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em partilha de bens (CPC 647 — ação autônoma após divórcio decretado, ou em inventário) com avaliação atualizada (FIPE, IPTU, valuation), tornas em dinheiro com clá...",
+      "tarefas_template": [
+        "Redigindo Partilha Bens — {cliente}",
+        "Revisando Partilha Bens — {cliente}",
+        "Protocolando Partilha Bens — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "guarda-compartilhada",
+      "nome": "Guarda Compartilhada",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em guarda compartilhada (Lei 13.058/2014 — regra mesmo sem consenso) com lar de referência (onde criança dorme com mais frequência), plano de convivência DETALHADO ...",
+      "tarefas_template": [
+        "Redigindo Guarda Compartilhada — {cliente}",
+        "Revisando Guarda Compartilhada — {cliente}",
+        "Protocolando Guarda Compartilhada — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "uniao-estavel-reconhecimento",
+      "nome": "Uniao Estavel Reconhecimento",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em união estável (CC 1.723-1.727) — requisitos públicos/contínuos/duradouros + objetivo de constituir família, regime padrão comunhão parcial CC 1.725 (ou contrato ...",
+      "tarefas_template": [
+        "Redigindo Uniao Estavel Reconhecimento — {cliente}",
+        "Revisando Uniao Estavel Reconhecimento — {cliente}",
+        "Protocolando Uniao Estavel Reconhecimento — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "defesa-criminal-resposta-acusacao",
+      "nome": "Defesa Criminal Resposta Acusacao",
+      "categoria": "Criminal",
+      "icone": "shield-alert",
+      "cor": "#7F7F59",
+      "descricao": "Especialista em resposta à acusação (CPP 396 e 396-A) — prazo 10 dias após citação, pode obter absolvição sumária CPP 397 (excludente ilicitude/culpabilidade manifesta, atipicid...",
+      "tarefas_template": [
+        "Redigindo Defesa Criminal Resposta Acusacao — {cliente}",
+        "Revisando Defesa Criminal Resposta Acusacao — {cliente}",
+        "Protocolando Defesa Criminal Resposta Acusacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "criminal"
+      ]
+    },
+    {
+      "id": "alegacoes-finais-criminal",
+      "nome": "Alegacoes Finais Criminal",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em alegações finais criminais (memoriais — CPP 403 § 3º) — análise crítica das provas produzidas, teses de absolvição (CPP 386 — 7 hipóteses), desclassificação (rou...",
+      "tarefas_template": [
+        "Redigindo Alegacoes Finais Criminal — {cliente}",
+        "Revisando Alegacoes Finais Criminal — {cliente}",
+        "Protocolando Alegacoes Finais Criminal — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "habeas-corpus",
+      "nome": "Habeas Corpus",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em habeas corpus liberatório/preventivo (CF 5º LXVIII; CPP 647-667) — sem prazo, contra constrangimento ilegal a liberdade. Hipóteses CPP 648 (sem justa causa, exce...",
+      "tarefas_template": [
+        "Redigindo Habeas Corpus — {cliente}",
+        "Revisando Habeas Corpus — {cliente}",
+        "Protocolando Habeas Corpus — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "apelacao-criminal",
+      "nome": "Apelacao Criminal",
+      "categoria": "Recurso",
+      "icone": "file-up",
+      "cor": "#936F4D",
+      "descricao": "Especialista em apelação criminal (CPP 593) — sentença condenatória/absolutória, prazo 5 dias interposição + 8 dias razões (CPP 600), error in procedendo (cerceamento, nulidade ...",
+      "tarefas_template": [
+        "Redigindo Apelacao Criminal — {cliente}",
+        "Revisando Apelacao Criminal — {cliente}",
+        "Protocolando Apelacao Criminal — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "recurso"
+      ]
+    },
+    {
+      "id": "revisao-criminal",
+      "nome": "Revisao Criminal",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em revisão criminal (CPP 621-631) — desconstituir condenação transitada em julgado quando há (I) contrariedade ao texto expresso de lei OU à evidência dos autos, (I...",
+      "tarefas_template": [
+        "Redigindo Revisao Criminal — {cliente}",
+        "Revisando Revisao Criminal — {cliente}",
+        "Protocolando Revisao Criminal — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "mandado-seguranca-tributario",
+      "nome": "Mandado Seguranca Tributario",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em mandado de segurança tributário (Lei 12.016/2009) — direito líquido e certo violado por autoridade fiscal. Cabe MS preventivo (ameaça concreta) ou repressivo (at...",
+      "tarefas_template": [
+        "Redigindo Mandado Seguranca Tributario — {cliente}",
+        "Revisando Mandado Seguranca Tributario — {cliente}",
+        "Protocolando Mandado Seguranca Tributario — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "acao-anulatoria-debito-fiscal",
+      "nome": "Acao Anulatoria Debito Fiscal",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação anulatória de débito fiscal — anular CDA / lançamento administrativo já constituído (CTN 165, Lei 6.830/80 art. 38). Diferente de embargos (depende de penho...",
+      "tarefas_template": [
+        "Redigindo Acao Anulatoria Debito Fiscal — {cliente}",
+        "Revisando Acao Anulatoria Debito Fiscal — {cliente}",
+        "Protocolando Acao Anulatoria Debito Fiscal — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "embargos-execucao-fiscal",
+      "nome": "Embargos Execucao Fiscal",
+      "categoria": "Recurso",
+      "icone": "file-up",
+      "cor": "#936F4D",
+      "descricao": "Especialista em embargos à execução fiscal (Lei 6.830/80 art. 16). Defesa do executado após GARANTIA do juízo (penhora, depósito, fiança bancária ou seguro garantia — art. 16 § ...",
+      "tarefas_template": [
+        "Redigindo Embargos Execucao Fiscal — {cliente}",
+        "Revisando Embargos Execucao Fiscal — {cliente}",
+        "Protocolando Embargos Execucao Fiscal — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "recurso"
+      ]
+    },
+    {
+      "id": "excecao-pre-executividade",
+      "nome": "Excecao Pre Executividade",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em exceção de pré-executividade (EPE) — defesa nos próprios autos da execução fiscal SEM garantia do juízo, restrita a matérias de ordem pública e que não exijam di...",
+      "tarefas_template": [
+        "Redigindo Excecao Pre Executividade — {cliente}",
+        "Revisando Excecao Pre Executividade — {cliente}",
+        "Protocolando Excecao Pre Executividade — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "recuperacao-tributaria-judicial",
+      "nome": "Recuperacao Tributaria Judicial",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em recuperar créditos tributários via judicial — repetição de indébito (CTN 165-169), compensação tributária judicialmente reconhecida (Súm 213 STJ), Tema 962 STF (...",
+      "tarefas_template": [
+        "Redigindo Recuperacao Tributaria Judicial — {cliente}",
+        "Revisando Recuperacao Tributaria Judicial — {cliente}",
+        "Protocolando Recuperacao Tributaria Judicial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "recuperacao-judicial-empresarial",
+      "nome": "Recuperacao Judicial Empresarial",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em recuperação judicial empresarial (Lei 11.101/2005 alterada pela Lei 14.112/2020). Petição inicial, requisitos (art. 48), stay period 180 dias prorrogável, plano ...",
+      "tarefas_template": [
+        "Redigindo Recuperacao Judicial Empresarial — {cliente}",
+        "Revisando Recuperacao Judicial Empresarial — {cliente}",
+        "Protocolando Recuperacao Judicial Empresarial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "falencia-pedido",
+      "nome": "Falencia Pedido",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em pedido de falência (Lei 11.101/2005 art. 94 alterada pela Lei 14.112/2020). Hipóteses: impontualidade injustificada (R$ 40 salários mínimos — art. 94 I), execuçã...",
+      "tarefas_template": [
+        "Redigindo Falencia Pedido — {cliente}",
+        "Revisando Falencia Pedido — {cliente}",
+        "Protocolando Falencia Pedido — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "dissolucao-sociedade",
+      "nome": "Dissolucao Sociedade",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em dissolução de sociedade — total (CC 1.033 e 1.034) ou parcial (CC 1.029 — direito de retirada; 1.030 — exclusão de sócio; 1.085 — exclusão por justa causa; 1.028...",
+      "tarefas_template": [
+        "Redigindo Dissolucao Sociedade — {cliente}",
+        "Revisando Dissolucao Sociedade — {cliente}",
+        "Protocolando Dissolucao Sociedade — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "contrato-social-elaboracao",
+      "nome": "Contrato Social Elaboracao",
+      "categoria": "Contrato",
+      "icone": "file-signature",
+      "cor": "#836B61",
+      "descricao": "Especialista em elaborar contrato social — LTDA (CC 1.052-1.087), LTDA unipessoal (Lei 13.874/19), SLU (sociedade limitada unipessoal). Estrutura completa: qualificação sócios, ...",
+      "tarefas_template": [
+        "Redigindo Contrato Social Elaboracao — {cliente}",
+        "Revisando Contrato Social Elaboracao — {cliente}",
+        "Protocolando Contrato Social Elaboracao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "contrato"
+      ]
+    },
+    {
+      "id": "acordo-acionistas",
+      "nome": "Acordo Acionistas",
+      "categoria": "Contrato",
+      "icone": "file-signature",
+      "cor": "#836B61",
+      "descricao": "Especialista em acordo de acionistas / quotistas (LSA art. 118 — SAs; CC 1.053 + aplicação subsidiária — LTDAs). Cláusulas: bloco de controle, voto em conjunto, preferência, tag...",
+      "tarefas_template": [
+        "Redigindo Acordo Acionistas — {cliente}",
+        "Revisando Acordo Acionistas — {cliente}",
+        "Protocolando Acordo Acionistas — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "contrato"
+      ]
+    },
+    {
+      "id": "acao-consumidor-procon",
+      "nome": "Acao Consumidor Procon",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação de consumidor após reclamação no Procon. CDC arts. 6º, 14, 18, 39, 42, 51, 101 — inversão do ônus, foro do domicílio, responsabilidade objetiva, restituição...",
+      "tarefas_template": [
+        "Redigindo Acao Consumidor Procon — {cliente}",
+        "Revisando Acao Consumidor Procon — {cliente}",
+        "Protocolando Acao Consumidor Procon — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "acao-cdc-pratica-abusiva",
+      "nome": "Acao Cdc Pratica Abusiva",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação contra prática abusiva (CDC 39, 51) — venda casada, recusa de venda, elevação injustificada de preço, publicidade enganosa/abusiva (CDC 37), cobrança vexató...",
+      "tarefas_template": [
+        "Redigindo Acao Cdc Pratica Abusiva — {cliente}",
+        "Revisando Acao Cdc Pratica Abusiva — {cliente}",
+        "Protocolando Acao Cdc Pratica Abusiva — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "acao-vicio-produto-servico",
+      "nome": "Acao Vicio Produto Servico",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação por vício/defeito em produto ou serviço. Distinção crítica vício (CDC 18-25) vs defeito (CDC 12-14). Prazo decadencial vício (CDC 26 — 30 dias não duráveis ...",
+      "tarefas_template": [
+        "Redigindo Acao Vicio Produto Servico — {cliente}",
+        "Revisando Acao Vicio Produto Servico — {cliente}",
+        "Protocolando Acao Vicio Produto Servico — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "acao-despejo",
+      "nome": "Acao Despejo",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação de despejo (Lei 8.245/91 — Lei do Inquilinato). Hipóteses: falta de pagamento (art. 9º III, 62), denúncia vazia (art. 46 § 2º — locação por prazo indetermin...",
+      "tarefas_template": [
+        "Redigindo Acao Despejo — {cliente}",
+        "Revisando Acao Despejo — {cliente}",
+        "Protocolando Acao Despejo — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "acao-renovatoria-locacao",
+      "nome": "Acao Renovatoria Locacao",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação renovatória de locação não residencial (Lei 8.245/91 art. 51). Requisitos: contrato escrito, prazo determinado, mín 5 anos contínuos no MESMO ramo, ramo de ...",
+      "tarefas_template": [
+        "Redigindo Acao Renovatoria Locacao — {cliente}",
+        "Revisando Acao Renovatoria Locacao — {cliente}",
+        "Protocolando Acao Renovatoria Locacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "usucapiao-extrajudicial",
+      "nome": "Usucapiao Extrajudicial",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em usucapião extrajudicial (CPC 216-A — Lei 13.105/2015 + Lei 11.977/2009; Provimento CNJ 65/2017). Tramita em CARTÓRIO de Registro de Imóveis. Modalidades: extraor...",
+      "tarefas_template": [
+        "Redigindo Usucapiao Extrajudicial — {cliente}",
+        "Revisando Usucapiao Extrajudicial — {cliente}",
+        "Protocolando Usucapiao Extrajudicial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "usucapiao-judicial",
+      "nome": "Usucapiao Judicial",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação de usucapião judicial — quando inviável extrajudicial. CC 1.238 (extraordinária), 1.242 (ordinária), CF 183 (especial urbana 5 anos), CF 191 (especial rural...",
+      "tarefas_template": [
+        "Redigindo Usucapiao Judicial — {cliente}",
+        "Revisando Usucapiao Judicial — {cliente}",
+        "Protocolando Usucapiao Judicial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "adjudicacao-compulsoria",
+      "nome": "Adjudicacao Compulsoria",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em ação de adjudicação compulsória (CC 1.418, 1.419; Decreto-Lei 58/37; Lei 6.766/79 art. 26 §6º). Promitente comprador que pagou integralmente o preço pode forçar ...",
+      "tarefas_template": [
+        "Redigindo Adjudicacao Compulsoria — {cliente}",
+        "Revisando Adjudicacao Compulsoria — {cliente}",
+        "Protocolando Adjudicacao Compulsoria — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "aposentadoria-tempo-contribuicao",
+      "nome": "Aposentadoria Tempo Contribuicao",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em aposentadoria por tempo de contribuição pós-EC 103/2019 (Reforma da Previdência). Regras de transição: pedágio 50% (Lei 9.876/99 art. 9º + EC 103 art. 17), pedág...",
+      "tarefas_template": [
+        "Redigindo Aposentadoria Tempo Contribuicao — {cliente}",
+        "Revisando Aposentadoria Tempo Contribuicao — {cliente}",
+        "Protocolando Aposentadoria Tempo Contribuicao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "aposentadoria-especial",
+      "nome": "Aposentadoria Especial",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em aposentadoria especial (Lei 8.213/91 art. 57-58; EC 103/19 art. 19, 22). Atividade insalubre / periculosa por 15, 20 ou 25 anos. PPP (Perfil Profissiográfico Pre...",
+      "tarefas_template": [
+        "Redigindo Aposentadoria Especial — {cliente}",
+        "Revisando Aposentadoria Especial — {cliente}",
+        "Protocolando Aposentadoria Especial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "bpc-loas",
+      "nome": "Bpc Loas",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em BPC-LOAS — Benefício de Prestação Continuada (Lei 8.742/93 — LOAS art. 20). Para idosos ≥ 65 anos OU pessoas com deficiência (PCD), renda familiar per capita < 1...",
+      "tarefas_template": [
+        "Redigindo Bpc Loas — {cliente}",
+        "Revisando Bpc Loas — {cliente}",
+        "Protocolando Bpc Loas — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "auxilio-doenca-recurso",
+      "nome": "Auxilio Doenca Recurso",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em auxílio-doença / auxílio por incapacidade temporária (B31 — Lei 8.213/91 art. 59-63), aposentadoria por invalidez / incapacidade permanente (B32 — art. 42-47), a...",
+      "tarefas_template": [
+        "Redigindo Auxilio Doenca Recurso — {cliente}",
+        "Revisando Auxilio Doenca Recurso — {cliente}",
+        "Protocolando Auxilio Doenca Recurso — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "cumprimento-sentenca",
+      "nome": "Cumprimento Sentenca",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em cumprimento de sentença (CPC 513-538). Após trânsito em julgado de sentença condenatória, intima devedor para pagar em 15 dias (CPC 523). Não pago: multa 10% + h...",
+      "tarefas_template": [
+        "Redigindo Cumprimento Sentenca — {cliente}",
+        "Revisando Cumprimento Sentenca — {cliente}",
+        "Protocolando Cumprimento Sentenca — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "impugnacao-cumprimento-sentenca",
+      "nome": "Impugnacao Cumprimento Sentenca",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em impugnação ao cumprimento de sentença (CPC 525). Defesa do executado em 15 dias após intimação para pagar. Hipóteses (CPC 525 § 1º): falta ou nulidade da citação...",
+      "tarefas_template": [
+        "Redigindo Impugnacao Cumprimento Sentenca — {cliente}",
+        "Revisando Impugnacao Cumprimento Sentenca — {cliente}",
+        "Protocolando Impugnacao Cumprimento Sentenca — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "calculo-judicial-atualizacao",
+      "nome": "Calculo Judicial Atualizacao",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em cálculos judiciais — atualização monetária + juros + multas. Selic (Tema 962 STF), TR (planos econômicos), IPCA-E, INPC, IGPM. Juros 1% mês (CC 406; pré-Selic), ...",
+      "tarefas_template": [
+        "Redigindo Calculo Judicial Atualizacao — {cliente}",
+        "Revisando Calculo Judicial Atualizacao — {cliente}",
+        "Protocolando Calculo Judicial Atualizacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "parecer-juridico",
+      "nome": "Parecer Juridico",
+      "categoria": "Parecer",
+      "icone": "lightbulb",
+      "cor": "#97675D",
+      "descricao": "Especialista em parecer jurídico — análise técnica de questão controvertida com fundamentação legal + jurisprudencial. Formato consultivo (não contencioso). Estrutura: consulta ...",
+      "tarefas_template": [
+        "Redigindo Parecer Juridico — {cliente}",
+        "Revisando Parecer Juridico — {cliente}",
+        "Protocolando Parecer Juridico — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "parecer"
+      ]
+    },
+    {
+      "id": "minuta-contrato-servicos",
+      "nome": "Minuta Contrato Servicos",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em redação de contrato de prestação de serviços (CC 593-609). Estrutura: partes + objeto + prazo + remuneração + obrigações + propriedade intelectual + confidencial...",
+      "tarefas_template": [
+        "Redigindo Minuta Contrato Servicos — {cliente}",
+        "Revisando Minuta Contrato Servicos — {cliente}",
+        "Protocolando Minuta Contrato Servicos — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    },
+    {
+      "id": "direito-digital-lgpd",
+      "nome": "Direito Digital LGPD",
+      "categoria": "Petição",
+      "icone": "scroll-text",
+      "cor": "#8B7355",
+      "descricao": "Especialista em Direito Digital e LGPD (Lei 13.709/2018) — resposta a incidente de seguranca / data breach (art. 48 — comunicacao a ANPD e titulares), parecer juridico LGPD, def...",
+      "tarefas_template": [
+        "Redigindo Direito Digital LGPD — {cliente}",
+        "Revisando Direito Digital LGPD — {cliente}",
+        "Protocolando Direito Digital LGPD — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 180,
+      "tags": [
+        "petição"
+      ]
+    }
+  ],
+  "pool_clientes_fallback": [
+    "Construtora Aliança",
+    "Lopes Advocacia Cliente",
+    "Silva & Cia LTDA",
+    "Marcos R. (PF)",
+    "Tech Solutions",
+    "Padaria Central",
+    "Maria Souza (PF)",
+    "Boutique Style",
+    "Restaurante Sabor",
+    "Importadora Global",
+    "João Pereira (PF)",
+    "Construtora Norte",
+    "Consultoria Beta"
+  ]
+}

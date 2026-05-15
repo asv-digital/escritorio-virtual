@@ -1,9 +1,18 @@
 import { type Catalog, type Nicho, validateCatalog } from "./schema";
 import contadoresRaw from "@/data/catalogs/contadores.json";
+import advogadosRaw from "@/data/catalogs/advogados.json";
+import engenheirosRaw from "@/data/catalogs/engenheiros.json";
+import arquitetosRaw from "@/data/catalogs/arquitetos.json";
+import marketingRaw from "@/data/catalogs/marketing.json";
+import funcionariosRaw from "@/data/catalogs/funcionarios.json";
 
-const CATALOGS: Partial<Record<Nicho, unknown>> = {
+const CATALOGS: Record<Nicho, unknown> = {
   contadores: contadoresRaw,
-  // advogados: ..., engenheiros: ..., etc. (próximos sprints)
+  advogados: advogadosRaw,
+  engenheiros: engenheirosRaw,
+  arquitetos: arquitetosRaw,
+  marketing: marketingRaw,
+  funcionarios: funcionariosRaw,
 };
 
 let cached: Catalog | null = null;
@@ -14,7 +23,7 @@ export function getCatalog(): Catalog {
   const raw = CATALOGS[nicho];
   if (!raw) {
     throw new Error(
-      `Catálogo do nicho "${nicho}" não disponível neste build. Disponíveis: ${Object.keys(CATALOGS).join(", ")}`,
+      `Catálogo do nicho "${nicho}" indisponível. Aceitos: ${Object.keys(CATALOGS).join(", ")}`,
     );
   }
   cached = validateCatalog(raw);

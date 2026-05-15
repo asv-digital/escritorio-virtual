@@ -1,0 +1,1628 @@
+{
+  "nicho": "funcionarios",
+  "versao": "1.0.0",
+  "metadata": {
+    "titulo_painel": "Departamento Operacional 24h",
+    "descricao": "57 agentes funcionários trabalhando 24/7 — tráfego, marketing, vendas, WhatsApp, lançamento, conteúdo, design, ops, financeiro, RH.",
+    "paleta": {
+      "primary": "#4D8BFF",
+      "secondary": "#1A1F2E",
+      "accent": "#06B6D4",
+      "background": "#0A0E18",
+      "surface": "#14181F"
+    },
+    "tom": "confiante"
+  },
+  "agents": [
+    {
+      "id": "trafego-meta-analise-campanha",
+      "nome": "Trafego Meta Analise Campanha",
+      "categoria": "Tráfego Meta",
+      "icone": "facebook",
+      "cor": "#4D8BFF",
+      "descricao": "Especialista em diagnostico tecnico de campanhas Meta Ads (Facebook, Instagram, Audience Network, Messenger) — leilao, fase de aprendizado, breakdown por placement, fadiga, atri...",
+      "tarefas_template": [
+        "Executando Trafego Meta Analise Campanha — {cliente}",
+        "Otimizando Trafego Meta Analise Campanha — {cliente}",
+        "Analisando Trafego Meta Analise Campanha — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "tráfego-meta"
+      ]
+    },
+    {
+      "id": "trafego-meta-relatorio",
+      "nome": "Trafego Meta Relatorio",
+      "categoria": "Tráfego Meta",
+      "icone": "facebook",
+      "cor": "#4D8BFF",
+      "descricao": "Especialista em relatorio executivo de Meta Ads pronto pra cliente, diretor ou C-level — KPIs por funil (TOFU/MOFU/BOFU), comparativo periodo, modelo de atribuicao (7d-click/1d-...",
+      "tarefas_template": [
+        "Executando Trafego Meta Relatorio — {cliente}",
+        "Otimizando Trafego Meta Relatorio — {cliente}",
+        "Analisando Trafego Meta Relatorio — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "tráfego-meta"
+      ]
+    },
+    {
+      "id": "trafego-meta-copy-criativo",
+      "nome": "Trafego Meta Copy Criativo",
+      "categoria": "Tráfego Meta",
+      "icone": "facebook",
+      "cor": "#4D8BFF",
+      "descricao": "Especialista em copy e direcao criativa de anuncios Meta Ads (Feed, Stories, Reels, Carrossel, Advantage+ Creative) — limites de caracteres EXATOS por placement, headline 27 cha...",
+      "tarefas_template": [
+        "Executando Trafego Meta Copy Criativo — {cliente}",
+        "Otimizando Trafego Meta Copy Criativo — {cliente}",
+        "Analisando Trafego Meta Copy Criativo — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "tráfego-meta"
+      ]
+    },
+    {
+      "id": "trafego-meta-audiencia",
+      "nome": "Trafego Meta Audiencia",
+      "categoria": "Tráfego Meta",
+      "icone": "facebook",
+      "cor": "#4D8BFF",
+      "descricao": "Especialista em arquitetura de publicos Meta Ads — Custom Audience com hash SHA-256, match rate em upload de lista, Lookalike 1-10% (qualidade x volume), exclusoes cross-conjunt...",
+      "tarefas_template": [
+        "Executando Trafego Meta Audiencia — {cliente}",
+        "Otimizando Trafego Meta Audiencia — {cliente}",
+        "Analisando Trafego Meta Audiencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "tráfego-meta"
+      ]
+    },
+    {
+      "id": "trafego-google-analise",
+      "nome": "Trafego Google Analise",
+      "categoria": "Tráfego Google",
+      "icone": "search",
+      "cor": "#5587F7",
+      "descricao": "Especialista em diagnostico tecnico de Google Ads — Search, Performance Max, Shopping, YouTube, Display. Quality Score por componente (Expected CTR + Ad Relevance + Landing Page...",
+      "tarefas_template": [
+        "Executando Trafego Google Analise — {cliente}",
+        "Otimizando Trafego Google Analise — {cliente}",
+        "Analisando Trafego Google Analise — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "tráfego-google"
+      ]
+    },
+    {
+      "id": "trafego-google-relatorio",
+      "nome": "Trafego Google Relatorio",
+      "categoria": "Tráfego Google",
+      "icone": "search",
+      "cor": "#5587F7",
+      "descricao": "Especialista em relatorio executivo Google Ads pronto pra cliente, diretor ou C-level — KPIs por rede (Search/PMax/Shopping/Display/YouTube), Quality Score Report Card por faixa...",
+      "tarefas_template": [
+        "Executando Trafego Google Relatorio — {cliente}",
+        "Otimizando Trafego Google Relatorio — {cliente}",
+        "Analisando Trafego Google Relatorio — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "tráfego-google"
+      ]
+    },
+    {
+      "id": "trafego-google-copy",
+      "nome": "Trafego Google Copy",
+      "categoria": "Tráfego Google",
+      "icone": "search",
+      "cor": "#5587F7",
+      "descricao": "Especialista em copy Google Ads — RSA (15 headlines max 30 chars + 4 descriptions max 90 chars com pinning Pos 1/2/3), 8 sitelinks (titulo 25 / desc 35-35), 4-10 callouts (25 ch...",
+      "tarefas_template": [
+        "Executando Trafego Google Copy — {cliente}",
+        "Otimizando Trafego Google Copy — {cliente}",
+        "Analisando Trafego Google Copy — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "tráfego-google"
+      ]
+    },
+    {
+      "id": "lancamento-cronograma",
+      "nome": "Lancamento Cronograma",
+      "categoria": "Lançamento",
+      "icone": "rocket",
+      "cor": "#4197FF",
+      "descricao": "Especialista em cronograma de lancamento digital (PLF de Jeff Walker — Pre-Pre-Launch/Pre-Launch/Open Cart/Internal; FL5 de Erico Rocha — semente/interno/externo/relampago/perpe...",
+      "tarefas_template": [
+        "Executando Lancamento Cronograma — {cliente}",
+        "Otimizando Lancamento Cronograma — {cliente}",
+        "Analisando Lancamento Cronograma — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "lançamento"
+      ]
+    },
+    {
+      "id": "lancamento-copy",
+      "nome": "Lancamento Copy",
+      "categoria": "Lançamento",
+      "icone": "rocket",
+      "cor": "#4197FF",
+      "descricao": "Especialista em copy de pre-lancamento (aquecimento + captacao) — PLCs/CPLs (titulos, ganchos, scripts com timestamps), emails de aquecimento, anuncios da fase de captacao Meta/...",
+      "tarefas_template": [
+        "Executando Lancamento Copy — {cliente}",
+        "Otimizando Lancamento Copy — {cliente}",
+        "Analisando Lancamento Copy — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "lançamento"
+      ]
+    },
+    {
+      "id": "lancamento-emails-cpl",
+      "nome": "Lancamento Emails CPL",
+      "categoria": "Lançamento",
+      "icone": "rocket",
+      "cor": "#4197FF",
+      "descricao": "Especialista em sequencia completa de e-mails de pre-lancamento (PLC/CPL — fase Pre-Launch do PLF Walker / Aquecimento+Captacao FL5 Erico) — boas-vindas, historia, entrega de PL...",
+      "tarefas_template": [
+        "Executando Lancamento Emails CPL — {cliente}",
+        "Otimizando Lancamento Emails CPL — {cliente}",
+        "Analisando Lancamento Emails CPL — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "lançamento"
+      ]
+    },
+    {
+      "id": "lancamento-emails-carrinho",
+      "nome": "Lancamento Emails Carrinho",
+      "categoria": "Lançamento",
+      "icone": "rocket",
+      "cor": "#4197FF",
+      "descricao": "Especialista em sequencia completa de e-mails do carrinho aberto / Open Cart (D0 a fechamento) — abertura, beneficios + ROI, prova social, FAQ + objecoes, transformacao A vs B, ...",
+      "tarefas_template": [
+        "Executando Lancamento Emails Carrinho — {cliente}",
+        "Otimizando Lancamento Emails Carrinho — {cliente}",
+        "Analisando Lancamento Emails Carrinho — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "lançamento"
+      ]
+    },
+    {
+      "id": "lancamento-metricas",
+      "nome": "Lancamento Metricas",
+      "categoria": "Lançamento",
+      "icone": "rocket",
+      "cor": "#4197FF",
+      "descricao": "Especialista em metricas de lancamento digital — diagnostico de funil completo (impressoes -> cliques -> leads -> aquecidos -> visitantes PV -> checkout -> compra), calculo CPL/...",
+      "tarefas_template": [
+        "Executando Lancamento Metricas — {cliente}",
+        "Otimizando Lancamento Metricas — {cliente}",
+        "Analisando Lancamento Metricas — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "lançamento"
+      ]
+    },
+    {
+      "id": "lancamento-oferta",
+      "nome": "Lancamento Oferta",
+      "categoria": "Lançamento",
+      "icone": "rocket",
+      "cor": "#4197FF",
+      "descricao": "Especialista em estruturacao de oferta irresistivel — core offer (FE/Front-End), bonus stack estrategico (cada bonus removendo 1 objecao especifica), garantia (incondicional / c...",
+      "tarefas_template": [
+        "Executando Lancamento Oferta — {cliente}",
+        "Otimizando Lancamento Oferta — {cliente}",
+        "Analisando Lancamento Oferta — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "lançamento"
+      ]
+    },
+    {
+      "id": "lancamento-pagina",
+      "nome": "Lancamento Pagina",
+      "categoria": "Lançamento",
+      "icone": "rocket",
+      "cor": "#4197FF",
+      "descricao": "Especialista em pagina de vendas (sales page) de alta conversao — hero (above-the-fold com pre-headline + headline + subheadline + CTA + indicadores de confianca), problema, agi...",
+      "tarefas_template": [
+        "Executando Lancamento Pagina — {cliente}",
+        "Otimizando Lancamento Pagina — {cliente}",
+        "Analisando Lancamento Pagina — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "lançamento"
+      ]
+    },
+    {
+      "id": "lancamento-pos-venda",
+      "nome": "Lancamento Pos Venda",
+      "categoria": "Lançamento",
+      "icone": "rocket",
+      "cor": "#4197FF",
+      "descricao": "Especialista em pos-venda de lancamento digital (curso, mentoria, comunidade, SaaS, infoproduto evergreen) — onboarding nas primeiras 72h (CDC art. 49 garantia legal), prevencao...",
+      "tarefas_template": [
+        "Executando Lancamento Pos Venda — {cliente}",
+        "Otimizando Lancamento Pos Venda — {cliente}",
+        "Analisando Lancamento Pos Venda — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "lançamento"
+      ]
+    },
+    {
+      "id": "instagram-copy",
+      "nome": "Instagram Copy",
+      "categoria": "Conteúdo",
+      "icone": "video",
+      "cor": "#5D93FB",
+      "descricao": "Especialista em copy para Instagram (legendas, carrosseis, posts feed) — hook em 125 caracteres (preview do feed), desenvolvimento mobile-first, CTA orientado a salvamento/compa...",
+      "tarefas_template": [
+        "Executando Instagram Copy — {cliente}",
+        "Otimizando Instagram Copy — {cliente}",
+        "Analisando Instagram Copy — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "conteúdo"
+      ]
+    },
+    {
+      "id": "instagram-calendario",
+      "nome": "Instagram Calendario",
+      "categoria": "Conteúdo",
+      "icone": "video",
+      "cor": "#5D93FB",
+      "descricao": "Especialista em calendario editorial Instagram (mensal/semanal) — pilares de conteudo (framework 5 pilares), mix de formatos (feed/carrossel/Reels/stories) com frequencia adapta...",
+      "tarefas_template": [
+        "Executando Instagram Calendario — {cliente}",
+        "Otimizando Instagram Calendario — {cliente}",
+        "Analisando Instagram Calendario — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "conteúdo"
+      ]
+    },
+    {
+      "id": "instagram-roteiro",
+      "nome": "Instagram Roteiro",
+      "categoria": "Conteúdo",
+      "icone": "video",
+      "cor": "#5D93FB",
+      "descricao": "Especialista em roteiro de Reels (15s/30s/60s/90s), Stories e Lives — hook 0-3s (Pattern Interrupt), retencao alvo > 70% pra distribuicao algoritmica em 2026, payoff e CTA com l...",
+      "tarefas_template": [
+        "Executando Instagram Roteiro — {cliente}",
+        "Otimizando Instagram Roteiro — {cliente}",
+        "Analisando Instagram Roteiro — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "conteúdo"
+      ]
+    },
+    {
+      "id": "instagram-hashtag",
+      "nome": "Instagram Hashtag",
+      "categoria": "Conteúdo",
+      "icone": "video",
+      "cor": "#5D93FB",
+      "descricao": "Especialista em estrategia de hashtags Instagram 2026 — pesquisa via Instagram busca + analise de concorrentes, classificacao por volume (mega/grande/media/pequena/nicho/branded...",
+      "tarefas_template": [
+        "Executando Instagram Hashtag — {cliente}",
+        "Otimizando Instagram Hashtag — {cliente}",
+        "Analisando Instagram Hashtag — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "conteúdo"
+      ]
+    },
+    {
+      "id": "conteudo-pauta-seo",
+      "nome": "Conteudo Pauta SEO",
+      "categoria": "Conteúdo",
+      "icone": "video",
+      "cor": "#5D93FB",
+      "descricao": "Especialista em pauta editorial SEO 2026 — pesquisa de keywords (Search Volume + KD + intent), analise de SERP via Google Search parsedhtml, topic clusters/pillar pages (HubSpot...",
+      "tarefas_template": [
+        "Executando Conteudo Pauta SEO — {cliente}",
+        "Otimizando Conteudo Pauta SEO — {cliente}",
+        "Analisando Conteudo Pauta SEO — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "conteúdo"
+      ]
+    },
+    {
+      "id": "conteudo-blog",
+      "nome": "Conteudo Blog",
+      "categoria": "Conteúdo",
+      "icone": "video",
+      "cor": "#5D93FB",
+      "descricao": "Especialista em redacao de artigos de blog otimizados para SEO 2026 — escreve ponta a ponta (1.500-7.000 palavras) com title tag, meta description, URL slug, intro com hook (APP...",
+      "tarefas_template": [
+        "Executando Conteudo Blog — {cliente}",
+        "Otimizando Conteudo Blog — {cliente}",
+        "Analisando Conteudo Blog — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "conteúdo"
+      ]
+    },
+    {
+      "id": "conteudo-script-video",
+      "nome": "Conteudo Script Video",
+      "categoria": "Conteúdo",
+      "icone": "video",
+      "cor": "#5D93FB",
+      "descricao": "Especialista em script de vídeo para YouTube longo (5-15 min), Shorts/Reels/TikTok (15-90s), VSL (12-90 min) e anúncio Meta/Google (15-60s) — hook 0-3s/0-15s, retenção curva (dr...",
+      "tarefas_template": [
+        "Executando Conteudo Script Video — {cliente}",
+        "Otimizando Conteudo Script Video — {cliente}",
+        "Analisando Conteudo Script Video — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "conteúdo"
+      ]
+    },
+    {
+      "id": "whatsapp-atendimento",
+      "nome": "Whatsapp Atendimento",
+      "categoria": "WhatsApp",
+      "icone": "message-circle",
+      "cor": "#4583FF",
+      "descricao": "Especialista em atendimento WhatsApp humanizado para PME brasileira — SLA TPR (tempo primeira resposta) < 5min ouro / < 15min prata, scripts de saudação, qualificação BANT/SPIN ...",
+      "tarefas_template": [
+        "Executando Whatsapp Atendimento — {cliente}",
+        "Otimizando Whatsapp Atendimento — {cliente}",
+        "Analisando Whatsapp Atendimento — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "whatsapp-disparos",
+      "nome": "Whatsapp Disparos",
+      "categoria": "WhatsApp",
+      "icone": "message-circle",
+      "cor": "#4583FF",
+      "descricao": "Especialista em campanhas WhatsApp Cloud API (Meta oficial) e Business App — Quality Rating Green/Yellow/Red, tier de conversas (250/24h → 1k → 10k → 100k → ilimitado), HSM temp...",
+      "tarefas_template": [
+        "Executando Whatsapp Disparos — {cliente}",
+        "Otimizando Whatsapp Disparos — {cliente}",
+        "Analisando Whatsapp Disparos — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "whatsapp-chatbot",
+      "nome": "Whatsapp Chatbot",
+      "categoria": "WhatsApp",
+      "icone": "message-circle",
+      "cor": "#4583FF",
+      "descricao": "Especialista em fluxo de chatbot WhatsApp para PME brasileira — árvore de decisão, reconhecimento de intenção por palavra-chave + regex, qualificação BANT comprimida (3 pergunta...",
+      "tarefas_template": [
+        "Executando Whatsapp Chatbot — {cliente}",
+        "Otimizando Whatsapp Chatbot — {cliente}",
+        "Analisando Whatsapp Chatbot — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "whatsapp-crm",
+      "nome": "Whatsapp CRM",
+      "categoria": "WhatsApp",
+      "icone": "message-circle",
+      "cor": "#4583FF",
+      "descricao": "Especialista em CRM via WhatsApp para PME brasileira — pipeline 7 estágios (Novo → Qualificação → Qualificado → Proposta → Negociação → Ganho/Perdido), sistema de tags 6 dimensõ...",
+      "tarefas_template": [
+        "Executando Whatsapp CRM — {cliente}",
+        "Otimizando Whatsapp CRM — {cliente}",
+        "Analisando Whatsapp CRM — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "comercial-proposta",
+      "nome": "Comercial Proposta",
+      "categoria": "Comercial",
+      "icone": "handshake",
+      "cor": "#597FFF",
+      "descricao": "Especialista em proposta comercial B2B/B2C profissional para PME brasileira — 10 seções (Capa → Sumário Executivo → Diagnóstico → Solução → Metodologia → Timeline → Investimento...",
+      "tarefas_template": [
+        "Executando Comercial Proposta — {cliente}",
+        "Otimizando Comercial Proposta — {cliente}",
+        "Analisando Comercial Proposta — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "comercial"
+      ]
+    },
+    {
+      "id": "comercial-crm",
+      "nome": "Comercial CRM",
+      "categoria": "Comercial",
+      "icone": "handshake",
+      "cor": "#597FFF",
+      "descricao": "Especialista em pipeline CRM B2B/B2C profissional para PME brasileira — funil 5-7 estágios com critério de saída, lead scoring fit + engajamento (0-100), MQL → SQL handoff (12-1...",
+      "tarefas_template": [
+        "Executando Comercial CRM — {cliente}",
+        "Otimizando Comercial CRM — {cliente}",
+        "Analisando Comercial CRM — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "comercial"
+      ]
+    },
+    {
+      "id": "comercial-follow-up",
+      "nome": "Comercial Follow Up",
+      "categoria": "Comercial",
+      "icone": "handshake",
+      "cor": "#597FFF",
+      "descricao": "Especialista em sequências de follow-up comercial multi-canal (WhatsApp, e-mail, ligação, LinkedIn) com cadência decrescente em 7 toques (D+0/D+1/D+3/D+7/D+14/D+30/D+90), script...",
+      "tarefas_template": [
+        "Executando Comercial Follow Up — {cliente}",
+        "Otimizando Comercial Follow Up — {cliente}",
+        "Analisando Comercial Follow Up — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "comercial"
+      ]
+    },
+    {
+      "id": "marketing-funil",
+      "nome": "Marketing Funil",
+      "categoria": "Marketing",
+      "icone": "megaphone",
+      "cor": "#3D8FF7",
+      "descricao": "Especialista em arquitetura de funil de marketing TOFU/MOFU/BOFU + pós-venda usando AARRR (Pirate Metrics de Dave McClure), com mapeamento de pontos de captura, North Star Metri...",
+      "tarefas_template": [
+        "Executando Marketing Funil — {cliente}",
+        "Otimizando Marketing Funil — {cliente}",
+        "Analisando Marketing Funil — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "marketing-email",
+      "nome": "Marketing Email",
+      "categoria": "Marketing",
+      "icone": "megaphone",
+      "cor": "#3D8FF7",
+      "descricao": "Especialista em e-mail marketing — welcome sequence, nurture, sales sequence, RFM segmentation, broadcast/newsletter, drip, re-engagement, transacional — com benchmarks BR 2026 ...",
+      "tarefas_template": [
+        "Executando Marketing Email — {cliente}",
+        "Otimizando Marketing Email — {cliente}",
+        "Analisando Marketing Email — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "marketing-persona",
+      "nome": "Marketing Persona",
+      "categoria": "Marketing",
+      "icone": "megaphone",
+      "cor": "#3D8FF7",
+      "descricao": "Especialista em construção de Buyer Persona aprofundada usando Adele Revella's 5 Rings of Buying Insight (Priority Initiatives, Success Factors, Perceived Barriers, Decision Cri...",
+      "tarefas_template": [
+        "Executando Marketing Persona — {cliente}",
+        "Otimizando Marketing Persona — {cliente}",
+        "Analisando Marketing Persona — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "marketing-concorrentes",
+      "nome": "Marketing Concorrentes",
+      "categoria": "Marketing",
+      "icone": "megaphone",
+      "cor": "#3D8FF7",
+      "descricao": "Especialista em análise competitiva profunda — mapeamento de concorrentes diretos e indiretos em 7 dimensões (produto, preço, marketing, posicionamento, experiência, SWOT compar...",
+      "tarefas_template": [
+        "Executando Marketing Concorrentes — {cliente}",
+        "Otimizando Marketing Concorrentes — {cliente}",
+        "Analisando Marketing Concorrentes — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "marketing-seo",
+      "nome": "Marketing SEO",
+      "categoria": "Marketing",
+      "icone": "megaphone",
+      "cor": "#3D8FF7",
+      "descricao": "Especialista em SEO estratégico — audit técnico (50+ itens entre crawl, Core Web Vitals 2026 LCP<2.5s/INP<200ms/CLS<0.1, schema, on-page), keyword research priorizado, content c...",
+      "tarefas_template": [
+        "Executando Marketing SEO — {cliente}",
+        "Otimizando Marketing SEO — {cliente}",
+        "Analisando Marketing SEO — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "marketing-campanha",
+      "nome": "Marketing Campanha",
+      "categoria": "Marketing",
+      "icone": "megaphone",
+      "cor": "#3D8FF7",
+      "descricao": "Especialista em planejamento de campanha integrada multi-canal — briefing, mix de canais (Meta + Google + e-mail + WhatsApp + influencer + PR), alocação de budget por porte, dir...",
+      "tarefas_template": [
+        "Executando Marketing Campanha — {cliente}",
+        "Otimizando Marketing Campanha — {cliente}",
+        "Analisando Marketing Campanha — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "influencer-outreach",
+      "nome": "Influencer Outreach",
+      "categoria": "Tráfego Meta",
+      "icone": "facebook",
+      "cor": "#4D8BFF",
+      "descricao": "Especialista em marketing de influencia ponta a ponta — identificacao por tier (nano <10k, micro 10-100k, mid 100k-1M, macro 1-10M, mega >10M), score de selecao (relevancia, eng...",
+      "tarefas_template": [
+        "Executando Influencer Outreach — {cliente}",
+        "Otimizando Influencer Outreach — {cliente}",
+        "Analisando Influencer Outreach — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "tráfego-meta"
+      ]
+    },
+    {
+      "id": "negocios-diagnostico",
+      "nome": "Negocios Diagnostico",
+      "categoria": "Negócios",
+      "icone": "briefcase",
+      "cor": "#519BF3",
+      "descricao": "Especialista em diagnostico empresarial 360 — coleta dados nas 8 areas (Financeira, Comercial, Marketing, Operacoes, RH, Juridico, Tributario, Tech), calcula 20+ metricas (marge...",
+      "tarefas_template": [
+        "Executando Negocios Diagnostico — {cliente}",
+        "Otimizando Negocios Diagnostico — {cliente}",
+        "Analisando Negocios Diagnostico — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "negócios"
+      ]
+    },
+    {
+      "id": "negocios-precificacao",
+      "nome": "Negocios Precificacao",
+      "categoria": "Negócios",
+      "icone": "briefcase",
+      "cor": "#519BF3",
+      "descricao": "Especialista em precificacao estrategica — combina cost-plus (custo + margem 30-60%), value-based (% do valor entregue ao cliente, geralmente 10-20%), competitive pricing (premi...",
+      "tarefas_template": [
+        "Executando Negocios Precificacao — {cliente}",
+        "Otimizando Negocios Precificacao — {cliente}",
+        "Analisando Negocios Precificacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "negócios"
+      ]
+    },
+    {
+      "id": "negocios-proposta",
+      "nome": "Negocios Proposta",
+      "categoria": "Negócios",
+      "icone": "briefcase",
+      "cor": "#519BF3",
+      "descricao": "Especialista em business proposal estrategica — parceria, joint venture, M&A (fusao/aquisicao), grande contrato corporativo, fornecedor estrategico, captacao de investimento. Es...",
+      "tarefas_template": [
+        "Executando Negocios Proposta — {cliente}",
+        "Otimizando Negocios Proposta — {cliente}",
+        "Analisando Negocios Proposta — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "negócios"
+      ]
+    },
+    {
+      "id": "negocios-processos",
+      "nome": "Negocios Processos",
+      "categoria": "Negócios",
+      "icone": "briefcase",
+      "cor": "#519BF3",
+      "descricao": "Especialista em mapeamento e otimizacao de processos — BPMN 2.0 (events, activities, gateways, sequence flows, pools/lanes, artifacts), RACI (Responsible/Accountable/Consulted/I...",
+      "tarefas_template": [
+        "Executando Negocios Processos — {cliente}",
+        "Otimizando Negocios Processos — {cliente}",
+        "Analisando Negocios Processos — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "negócios"
+      ]
+    },
+    {
+      "id": "negocios-kpis",
+      "nome": "Negocios Kpis",
+      "categoria": "Negócios",
+      "icone": "briefcase",
+      "cor": "#519BF3",
+      "descricao": "Especialista em arquitetura de metricas — define hierarquia North Star Metric (Sean Ellis — 1 unica) → KPIs por departamento (3-5 cada) → metricas operacionais (daily) com hiera...",
+      "tarefas_template": [
+        "Executando Negocios Kpis — {cliente}",
+        "Otimizando Negocios Kpis — {cliente}",
+        "Analisando Negocios Kpis — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "negócios"
+      ]
+    },
+    {
+      "id": "negocios-forecasting",
+      "nome": "Negocios Forecasting",
+      "categoria": "Negócios",
+      "icone": "briefcase",
+      "cor": "#519BF3",
+      "descricao": "Especialista em forecast de receita e modelagem financeira para PME — combina top-down (TAM/SAM/SOM × market share) e bottom-up (MRR + new + churn + expansion para recorrente; t...",
+      "tarefas_template": [
+        "Executando Negocios Forecasting — {cliente}",
+        "Otimizando Negocios Forecasting — {cliente}",
+        "Analisando Negocios Forecasting — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "negócios"
+      ]
+    },
+    {
+      "id": "negocios-pitch",
+      "nome": "Negocios Pitch",
+      "categoria": "Negócios",
+      "icone": "briefcase",
+      "cor": "#519BF3",
+      "descricao": "Especialista em pitch deck e script para investidor (anjo, seed, Series A), parceiro estrategico ou cliente enterprise, dominando Y Combinator template (10-12 slides), Storybran...",
+      "tarefas_template": [
+        "Executando Negocios Pitch — {cliente}",
+        "Otimizando Negocios Pitch — {cliente}",
+        "Analisando Negocios Pitch — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "negócios"
+      ]
+    },
+    {
+      "id": "design-briefing",
+      "nome": "Design Briefing",
+      "categoria": "Design",
+      "icone": "palette",
+      "cor": "#497BFF",
+      "descricao": "Especialista em design brief estruturado em 8 secoes para entrega a designer humano (freelancer, agencia, in-house) ou IA generativa (Midjourney, Flux, Recraft, Ideogram, DALL-E...",
+      "tarefas_template": [
+        "Executando Design Briefing — {cliente}",
+        "Otimizando Design Briefing — {cliente}",
+        "Analisando Design Briefing — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "id": "design-brand",
+      "nome": "Design Brand",
+      "categoria": "Design",
+      "icone": "palette",
+      "cor": "#497BFF",
+      "descricao": "Especialista em identidade de marca (brand identity) ponta a ponta — proposito, missao, visao, valores, arquetipo, personalidade, voz/tom, paleta WCAG-validada, tipografia hiera...",
+      "tarefas_template": [
+        "Executando Design Brand — {cliente}",
+        "Otimizando Design Brand — {cliente}",
+        "Analisando Design Brand — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "id": "design-prompts-ia",
+      "nome": "Design Prompts Ia",
+      "categoria": "Design",
+      "icone": "palette",
+      "cor": "#497BFF",
+      "descricao": "Especialista em prompt engineering para geracao de imagem com IA — Midjourney v6.1/v7, Flux 1.1 Pro, Flux dev, Recraft v3, Ideogram 2.0, Stable Diffusion XL/3, DALL-E 3, Nano Ba...",
+      "tarefas_template": [
+        "Executando Design Prompts Ia — {cliente}",
+        "Otimizando Design Prompts Ia — {cliente}",
+        "Analisando Design Prompts Ia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "id": "design-ui-ux",
+      "nome": "Design UI UX",
+      "categoria": "Design",
+      "icone": "palette",
+      "cor": "#497BFF",
+      "descricao": "Especialista em UX/UI de tela e feature — landing page, app mobile, dashboard, SaaS, ecommerce, marketplace. Domina user flow, sitemap, wireframe, design system tokenizado (Atom...",
+      "tarefas_template": [
+        "Executando Design UI UX — {cliente}",
+        "Otimizando Design UI UX — {cliente}",
+        "Analisando Design UI UX — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "id": "design-apresentacao",
+      "nome": "Design Apresentacao",
+      "categoria": "Design",
+      "icone": "palette",
+      "cor": "#497BFF",
+      "descricao": "Especialista em apresentacao executiva (deck) — QBR, board update, all-hands, treinamento corporativo, conferencia/keynote, comercial enterprise, institucional. Domina storytell...",
+      "tarefas_template": [
+        "Executando Design Apresentacao — {cliente}",
+        "Otimizando Design Apresentacao — {cliente}",
+        "Analisando Design Apresentacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "id": "design-naming",
+      "nome": "Design Naming",
+      "categoria": "Design",
+      "icone": "palette",
+      "cor": "#497BFF",
+      "descricao": "Especialista em naming de marca, produto, servico, app ou campanha — domina 7+ categorias (descritivo, sugestivo, abstrato/coined, composto/blend, portmanteau, metaforico/evocat...",
+      "tarefas_template": [
+        "Executando Design Naming — {cliente}",
+        "Otimizando Design Naming — {cliente}",
+        "Analisando Design Naming — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "id": "ops-rh",
+      "nome": "Ops Rh",
+      "categoria": "Operações",
+      "icone": "settings",
+      "cor": "#618BEF",
+      "descricao": "Especialista em RH operacional para PMEs brasileiras (CLT + Reforma Trabalhista Lei 13.467/17 + e-Social + LGPD + NR-1 saúde mental 2025). Use proativamente quando o usuário (a)...",
+      "tarefas_template": [
+        "Executando Ops Rh — {cliente}",
+        "Otimizando Ops Rh — {cliente}",
+        "Analisando Ops Rh — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "operações"
+      ]
+    },
+    {
+      "id": "ops-cs",
+      "nome": "Ops CS",
+      "categoria": "Operações",
+      "icone": "settings",
+      "cor": "#618BEF",
+      "descricao": "Especialista em Customer Success para PMEs e SaaS brasileiros. Use proativamente quando o usuário (a) montar onboarding de cliente / playbook de ativação por segmento (high-touc...",
+      "tarefas_template": [
+        "Executando Ops CS — {cliente}",
+        "Otimizando Ops CS — {cliente}",
+        "Analisando Ops CS — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "operações"
+      ]
+    },
+    {
+      "id": "ops-documentacao",
+      "nome": "Ops Documentacao",
+      "categoria": "Operações",
+      "icone": "settings",
+      "cor": "#618BEF",
+      "descricao": "Especialista em documentação interna estruturada (Notion, Confluence, GitBook, wikis) para PMEs aplicando framework Diátaxis (Procida), BPMN, ITIL v4, ISO 9001, RACI. Use proati...",
+      "tarefas_template": [
+        "Executando Ops Documentacao — {cliente}",
+        "Otimizando Ops Documentacao — {cliente}",
+        "Analisando Ops Documentacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "operações"
+      ]
+    },
+    {
+      "id": "ops-financeiro",
+      "nome": "Ops Financeiro",
+      "categoria": "Operações",
+      "icone": "settings",
+      "cor": "#618BEF",
+      "descricao": "Especialista em gestão financeira para PMEs brasileiras (CFO fracional aplicando CPC 26 — DRE, regime caixa vs competência, capital de giro, unit economics, conciliação, cobranç...",
+      "tarefas_template": [
+        "Executando Ops Financeiro — {cliente}",
+        "Otimizando Ops Financeiro — {cliente}",
+        "Analisando Ops Financeiro — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "operações"
+      ]
+    },
+    {
+      "id": "ops-produto",
+      "nome": "Ops Produto",
+      "categoria": "Operações",
+      "icone": "settings",
+      "cor": "#618BEF",
+      "descricao": "Especialista em gestão de produto (PM) para PMEs e startups brasileiras aplicando frameworks Lean Startup (Ries), JTBD (Christensen), RICE (Intercom), ICE (Sean Ellis), MoSCoW, ...",
+      "tarefas_template": [
+        "Executando Ops Produto — {cliente}",
+        "Otimizando Ops Produto — {cliente}",
+        "Analisando Ops Produto — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "operações"
+      ]
+    },
+    {
+      "id": "ops-automacao",
+      "nome": "Ops Automacao",
+      "categoria": "Operações",
+      "icone": "settings",
+      "cor": "#618BEF",
+      "descricao": "Especialista em automação no-code/low-code (Make, Zapier, n8n, Pipedream) para PMEs brasileiras com rigor de engenharia (idempotência, error handling 4 níveis, ROI quantificado,...",
+      "tarefas_template": [
+        "Executando Ops Automacao — {cliente}",
+        "Otimizando Ops Automacao — {cliente}",
+        "Analisando Ops Automacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "operações"
+      ]
+    },
+    {
+      "id": "ops-dados",
+      "nome": "Ops Dados",
+      "categoria": "Operações",
+      "icone": "settings",
+      "cor": "#618BEF",
+      "descricao": "Especialista em análise e visualização de dados (BI) para PMEs brasileiras aplicando Modern Data Stack, modelagem dimensional star schema (Kimball), atribuição multi-touch, prin...",
+      "tarefas_template": [
+        "Executando Ops Dados — {cliente}",
+        "Otimizando Ops Dados — {cliente}",
+        "Analisando Ops Dados — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "operações"
+      ]
+    },
+    {
+      "id": "trafego-tiktok-ads",
+      "nome": "Trafego Tiktok Ads",
+      "categoria": "Tráfego Meta",
+      "icone": "facebook",
+      "cor": "#4D8BFF",
+      "descricao": "Especialista em TikTok Ads Manager — diagnostico, copy de video, audiencia, relatorio e otimizacao de campanhas no TikTok For Business. Domina objetivos (Reach, Traffic, Video V...",
+      "tarefas_template": [
+        "Executando Trafego Tiktok Ads — {cliente}",
+        "Otimizando Trafego Tiktok Ads — {cliente}",
+        "Analisando Trafego Tiktok Ads — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 900,
+        "max": 2400
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 120,
+      "tags": [
+        "tráfego-meta"
+      ]
+    }
+  ],
+  "pool_clientes_fallback": [
+    "E-commerce Moda Casual",
+    "Clínica Estética Glow",
+    "Mentoria Digital Pro",
+    "Curso Investimentos",
+    "SaaS Analytics",
+    "Restaurante Sabor",
+    "Loja Pet Shop",
+    "Academia Power Fit",
+    "Pizzaria Família",
+    "Imobiliária Premium",
+    "Curso de Idiomas",
+    "Salão Vip"
+  ]
+}

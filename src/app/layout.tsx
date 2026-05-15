@@ -14,6 +14,15 @@ const geistMono = Geist_Mono({
 });
 
 const catalog = getCatalog();
+const p = catalog.metadata.paleta;
+
+const themeStyle = `:root {
+  --bg: ${p.background};
+  --surface: ${p.surface};
+  --primary: ${p.primary};
+  --primary-dim: ${p.secondary};
+  --accent: ${p.accent};
+}`;
 
 export const metadata: Metadata = {
   title: `${catalog.metadata.titulo_painel} — Bravy`,
@@ -43,8 +52,13 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
+      data-nicho={catalog.nicho}
+      data-tom={catalog.metadata.tom}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <style dangerouslySetInnerHTML={{ __html: themeStyle }} />
+      </head>
       <body className="min-h-full flex flex-col bg-[var(--bg)] text-[var(--fg)]">
         {children}
       </body>

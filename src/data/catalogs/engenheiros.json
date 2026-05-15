@@ -1,0 +1,1628 @@
+{
+  "nicho": "engenheiros",
+  "versao": "1.0.0",
+  "metadata": {
+    "titulo_painel": "Escritório de Engenharia 24h",
+    "descricao": "57 agentes de engenharia trabalhando 24/7 — cálculo estrutural, projetos elétrico/hidráulico, NBR, ART, vistorias, laudos.",
+    "paleta": {
+      "primary": "#FFA94D",
+      "secondary": "#1A1A1A",
+      "accent": "#FFD700",
+      "background": "#0A0A0A",
+      "surface": "#181612"
+    },
+    "tom": "tecnico"
+  },
+  "agents": [
+    {
+      "id": "calculo-estrutural-concreto-armado-nbr-6118",
+      "nome": "Calculo Estrutural Concreto Armado NBR 6118",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto e dimensionamento de estruturas em concreto armado conforme NBR 6118:2014 (Projeto de estruturas de concreto), NBR 6120:2019 (Cargas), NBR 8681 (Acoes e ...",
+      "tarefas_template": [
+        "Calculando Calculo Estrutural Concreto Armado NBR 6118 — {cliente}",
+        "Dimensionando Calculo Estrutural Concreto Armado NBR 6118 — {cliente}",
+        "Verificando Calculo Estrutural Concreto Armado NBR 6118 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "calculo-estrutural-aco-nbr-8800",
+      "nome": "Calculo Estrutural Aco NBR 8800",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto e dimensionamento de estruturas em aco conforme NBR 8800:2008 (Projeto de estruturas de aco e mistas de aco e concreto), NBR 14762:2010 (perfis formados ...",
+      "tarefas_template": [
+        "Calculando Calculo Estrutural Aco NBR 8800 — {cliente}",
+        "Dimensionando Calculo Estrutural Aco NBR 8800 — {cliente}",
+        "Verificando Calculo Estrutural Aco NBR 8800 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "calculo-estrutural-madeira-nbr-7190",
+      "nome": "Calculo Estrutural Madeira NBR 7190",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto e dimensionamento de estruturas em madeira conforme NBR 7190:1997 + NBR 7190-1:2022 (revisao em vigor com criterio LRFD), NBR 8681 (acoes), NBR 6120 (car...",
+      "tarefas_template": [
+        "Calculando Calculo Estrutural Madeira NBR 7190 — {cliente}",
+        "Dimensionando Calculo Estrutural Madeira NBR 7190 — {cliente}",
+        "Verificando Calculo Estrutural Madeira NBR 7190 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "alvenaria-estrutural-nbr-15812-15961",
+      "nome": "Alvenaria Estrutural NBR 15812 15961",
+      "categoria": "Fundação/Contenção",
+      "icone": "mountain",
+      "cor": "#FFA545",
+      "descricao": "Especialista em projeto de alvenaria estrutural conforme NBR 15812:2020 (blocos ceramicos) e NBR 15961:2020 (blocos de concreto), NBR 16868:2020 (alvenaria estrutural - parte 1 ...",
+      "tarefas_template": [
+        "Calculando Alvenaria Estrutural NBR 15812 15961 — {cliente}",
+        "Dimensionando Alvenaria Estrutural NBR 15812 15961 — {cliente}",
+        "Verificando Alvenaria Estrutural NBR 15812 15961 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "fundação-contenção"
+      ]
+    },
+    {
+      "id": "fundacao-rasa-sapata-radier-nbr-6122",
+      "nome": "Fundacao Rasa Sapata Radier NBR 6122",
+      "categoria": "Fundação/Contenção",
+      "icone": "mountain",
+      "cor": "#FFA545",
+      "descricao": "Especialista em fundacao rasa (direta) — sapata isolada, sapata corrida, baldrame e radier — conforme NBR 6122:2022 (Projeto e execucao de fundacoes), NBR 6118:2014 (calculo do ...",
+      "tarefas_template": [
+        "Calculando Fundacao Rasa Sapata Radier NBR 6122 — {cliente}",
+        "Dimensionando Fundacao Rasa Sapata Radier NBR 6122 — {cliente}",
+        "Verificando Fundacao Rasa Sapata Radier NBR 6122 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "fundação-contenção"
+      ]
+    },
+    {
+      "id": "fundacao-profunda-estaca-tubulao",
+      "nome": "Fundacao Profunda Estaca Tubulao",
+      "categoria": "Fundação/Contenção",
+      "icone": "mountain",
+      "cor": "#FFA545",
+      "descricao": "Especialista em fundacao profunda — estaca (helice continua, hexagono, raiz, premoldada cravada, Strauss, Franki, escavada com lama, broca/trado) e tubulao (a ceu aberto, a ar c...",
+      "tarefas_template": [
+        "Calculando Fundacao Profunda Estaca Tubulao — {cliente}",
+        "Dimensionando Fundacao Profunda Estaca Tubulao — {cliente}",
+        "Verificando Fundacao Profunda Estaca Tubulao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "fundação-contenção"
+      ]
+    },
+    {
+      "id": "contencao-arrimo-cortina-tirantes",
+      "nome": "Contencao Arrimo Cortina Tirantes",
+      "categoria": "Fundação/Contenção",
+      "icone": "mountain",
+      "cor": "#FFA545",
+      "descricao": "Especialista em obras de contencao e arrimo — muro de gravidade (concreto ciclopico, pedra argamassada, gabiao), muro de flexao (em L ou T invertido), terra armada, cortina atir...",
+      "tarefas_template": [
+        "Calculando Contencao Arrimo Cortina Tirantes — {cliente}",
+        "Dimensionando Contencao Arrimo Cortina Tirantes — {cliente}",
+        "Verificando Contencao Arrimo Cortina Tirantes — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "fundação-contenção"
+      ]
+    },
+    {
+      "id": "laje-protendida-pos-tracionada",
+      "nome": "Laje Protendida Pos Tracionada",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em laje protendida pos-tracionada (concreto protendido) conforme NBR 6118:2014 cap. 24 (concreto protendido), NBR 7484 (cordoalhas para concreto), NBR 14931 (execuc...",
+      "tarefas_template": [
+        "Calculando Laje Protendida Pos Tracionada — {cliente}",
+        "Dimensionando Laje Protendida Pos Tracionada — {cliente}",
+        "Verificando Laje Protendida Pos Tracionada — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "patologia-estrutural-laudo-nbr-9452",
+      "nome": "Patologia Estrutural Laudo NBR 9452",
+      "categoria": "Vistoria",
+      "icone": "search",
+      "cor": "#F3B551",
+      "descricao": "Especialista em patologia das estruturas de concreto armado e pareceres tecnicos de inspecao predial conforme NBR 9452:2019 (inspeção de estruturas de concreto), NBR 5674:2012 (...",
+      "tarefas_template": [
+        "Calculando Patologia Estrutural Laudo NBR 9452 — {cliente}",
+        "Dimensionando Patologia Estrutural Laudo NBR 9452 — {cliente}",
+        "Verificando Patologia Estrutural Laudo NBR 9452 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "vistoria"
+      ]
+    },
+    {
+      "id": "projeto-eletrico-residencial-nbr-5410",
+      "nome": "Projeto Eletrico Residencial NBR 5410",
+      "categoria": "Elétrico",
+      "icone": "zap",
+      "cor": "#FFB149",
+      "descricao": "Especialista em projeto eletrico residencial em baixa tensao (BT, ate 1000V) conforme NBR 5410:2004 + Emenda 1:2008 (Instalacoes eletricas de baixa tensao), NR-10 (seguranca em ...",
+      "tarefas_template": [
+        "Calculando Projeto Eletrico Residencial NBR 5410 — {cliente}",
+        "Dimensionando Projeto Eletrico Residencial NBR 5410 — {cliente}",
+        "Verificando Projeto Eletrico Residencial NBR 5410 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "elétrico"
+      ]
+    },
+    {
+      "id": "projeto-eletrico-industrial-nbr-14039",
+      "nome": "Projeto Eletrico Industrial NBR 14039",
+      "categoria": "Elétrico",
+      "icone": "zap",
+      "cor": "#FFB149",
+      "descricao": "Especialista em projeto eletrico industrial em media tensao (MT, 1 a 36,2 kV) conforme NBR 14039:2021 (instalações eletricas de media tensao), NBR 5410:2004 (BT secundaria), NR-...",
+      "tarefas_template": [
+        "Calculando Projeto Eletrico Industrial NBR 14039 — {cliente}",
+        "Dimensionando Projeto Eletrico Industrial NBR 14039 — {cliente}",
+        "Verificando Projeto Eletrico Industrial NBR 14039 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "elétrico"
+      ]
+    },
+    {
+      "id": "spda-para-raios-nbr-5419",
+      "nome": "SPDA Para Raios NBR 5419",
+      "categoria": "Elétrico",
+      "icone": "zap",
+      "cor": "#FFB149",
+      "descricao": "Especialista em projeto de SPDA (Sistema de Protecao contra Descargas Atmosfericas) conforme NBR 5419:2015 (4 partes: 1-principios, 2-gerenciamento de risco, 3-danos fisicos, 4-...",
+      "tarefas_template": [
+        "Calculando SPDA Para Raios NBR 5419 — {cliente}",
+        "Dimensionando SPDA Para Raios NBR 5419 — {cliente}",
+        "Verificando SPDA Para Raios NBR 5419 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "elétrico"
+      ]
+    },
+    {
+      "id": "entrada-energia-padrao-concessionaria",
+      "nome": "Entrada Energia Padrao Concessionaria",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em padroes de entrada de energia eletrica das concessionarias brasileiras — Enel SP/CE/GO, Light RJ, Cemig MG, Coelba/Cosern/Celpe (Neoenergia BA-RN-PE), Copel PR, ...",
+      "tarefas_template": [
+        "Calculando Entrada Energia Padrao Concessionaria — {cliente}",
+        "Dimensionando Entrada Energia Padrao Concessionaria — {cliente}",
+        "Verificando Entrada Energia Padrao Concessionaria — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "quadro-cargas-balanceamento-fases",
+      "nome": "Quadro Cargas Balanceamento Fases",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em montagem de quadro de cargas (quadro de distribuicao QD) e balanceamento de fases conforme NBR 5410:2004 + Emenda 1:2008 (BT) e NBR 14039:2021 (MT secundaria). E...",
+      "tarefas_template": [
+        "Calculando Quadro Cargas Balanceamento Fases — {cliente}",
+        "Dimensionando Quadro Cargas Balanceamento Fases — {cliente}",
+        "Verificando Quadro Cargas Balanceamento Fases — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "fotovoltaico-on-grid-lei-14-300",
+      "nome": "Fotovoltaico On Grid Lei 14.300",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto fotovoltaico on-grid (conectado a rede da concessionaria) sob micro/mini geracao distribuida conforme Lei 14.300/2022 (marco legal da GD), Resolucao Norm...",
+      "tarefas_template": [
+        "Calculando Fotovoltaico On Grid Lei 14.300 — {cliente}",
+        "Dimensionando Fotovoltaico On Grid Lei 14.300 — {cliente}",
+        "Verificando Fotovoltaico On Grid Lei 14.300 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "carregador-veiculo-eletrico-evse",
+      "nome": "Carregador Veiculo Eletrico EVSE",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto de infraestrutura de recarga para veiculo eletrico (EVSE - Electric Vehicle Supply Equipment) conforme NBR IEC 61851-1/22 (instalacao de recarga), NBR IE...",
+      "tarefas_template": [
+        "Calculando Carregador Veiculo Eletrico EVSE — {cliente}",
+        "Dimensionando Carregador Veiculo Eletrico EVSE — {cliente}",
+        "Verificando Carregador Veiculo Eletrico EVSE — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "cabeamento-estruturado-eia-tia-568",
+      "nome": "Cabeamento Estruturado EIA TIA 568",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em cabeamento estruturado para redes corporativas/comerciais conforme TIA-568.0-D (planejamento generico), TIA-568.1-D (premise cabling), TIA-568.2-D (par-trancado ...",
+      "tarefas_template": [
+        "Calculando Cabeamento Estruturado EIA TIA 568 — {cliente}",
+        "Dimensionando Cabeamento Estruturado EIA TIA 568 — {cliente}",
+        "Verificando Cabeamento Estruturado EIA TIA 568 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "hidrossanitario-residencial-nbr-5626-8160",
+      "nome": "Hidrossanitario Residencial NBR 5626 8160",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto hidrossanitario residencial e comercial leve conforme NBR 5626:2020 (sistemas prediais de agua fria e quente), NBR 8160:1999 (sistemas prediais de esgoto...",
+      "tarefas_template": [
+        "Calculando Hidrossanitario Residencial NBR 5626 8160 — {cliente}",
+        "Dimensionando Hidrossanitario Residencial NBR 5626 8160 — {cliente}",
+        "Verificando Hidrossanitario Residencial NBR 5626 8160 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "esgoto-fossa-sumidouro-nbr-7229-13969",
+      "nome": "Esgoto Fossa Sumidouro NBR 7229 13969",
+      "categoria": "Hidráulico",
+      "icone": "droplets",
+      "cor": "#F7A159",
+      "descricao": "Especialista em sistema de tratamento de esgoto sanitario por fossa septica + sumidouro / valas de infiltracao / filtro anaerobio conforme NBR 7229:1993 (projeto, construcao e o...",
+      "tarefas_template": [
+        "Calculando Esgoto Fossa Sumidouro NBR 7229 13969 — {cliente}",
+        "Dimensionando Esgoto Fossa Sumidouro NBR 7229 13969 — {cliente}",
+        "Verificando Esgoto Fossa Sumidouro NBR 7229 13969 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "hidráulico"
+      ]
+    },
+    {
+      "id": "aguas-pluviais-nbr-10844-retencao",
+      "nome": "Aguas Pluviais NBR 10844 Retencao",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto de drenagem de aguas pluviais predial e reservatorio de retencao (piscinao predial / cisterna obrigatoria) conforme NBR 10844:1989 (instalacoes prediais ...",
+      "tarefas_template": [
+        "Calculando Aguas Pluviais NBR 10844 Retencao — {cliente}",
+        "Dimensionando Aguas Pluviais NBR 10844 Retencao — {cliente}",
+        "Verificando Aguas Pluviais NBR 10844 Retencao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "reuso-agua-cinza-reservatorio-pluvial",
+      "nome": "Reuso Agua Cinza Reservatorio Pluvial",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em reuso de agua cinza (pias, chuveiros, maquinas de lavar) e aproveitamento de agua pluvial conforme NBR 15527:2007 (aproveitamento de coberturas em areas urbanas ...",
+      "tarefas_template": [
+        "Calculando Reuso Agua Cinza Reservatorio Pluvial — {cliente}",
+        "Dimensionando Reuso Agua Cinza Reservatorio Pluvial — {cliente}",
+        "Verificando Reuso Agua Cinza Reservatorio Pluvial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "ppci-hidrantes-sprinklers-nbr-13714",
+      "nome": "PPCI Hidrantes Sprinklers NBR 13714",
+      "categoria": "Incêndio",
+      "icone": "flame",
+      "cor": "#FF9D55",
+      "descricao": "Especialista em projeto de Prevencao e Combate a Incendio (PPCI) — sistemas de hidrantes e mangotinhos NBR 13714:2000, sprinklers (chuveiros automaticos) NBR 10897:2020, reserva...",
+      "tarefas_template": [
+        "Calculando PPCI Hidrantes Sprinklers NBR 13714 — {cliente}",
+        "Dimensionando PPCI Hidrantes Sprinklers NBR 13714 — {cliente}",
+        "Verificando PPCI Hidrantes Sprinklers NBR 13714 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "incêndio"
+      ]
+    },
+    {
+      "id": "gas-glp-gn-nbr-13523-15526",
+      "nome": "Gas GLP GN NBR 13523 15526",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto de instalacoes de gas combustivel — GLP (Gas Liquefeito de Petroleo) conforme NBR 13523:2019 (central GLP), NBR 15526:2012 (redes internas a edificacoes)...",
+      "tarefas_template": [
+        "Calculando Gas GLP GN NBR 13523 15526 — {cliente}",
+        "Dimensionando Gas GLP GN NBR 13523 15526 — {cliente}",
+        "Verificando Gas GLP GN NBR 13523 15526 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "piscina-dimensionamento-circulacao",
+      "nome": "Piscina Dimensionamento Circulacao",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto hidraulico de piscina (residencial/condominio/comercial/clube) — calcula volume, dimensiona sistema de recirculacao (taxa 3-6h conforme uso), seleciona f...",
+      "tarefas_template": [
+        "Calculando Piscina Dimensionamento Circulacao — {cliente}",
+        "Dimensionando Piscina Dimensionamento Circulacao — {cliente}",
+        "Verificando Piscina Dimensionamento Circulacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "climatizacao-avac-nbr-16401",
+      "nome": "Climatizacao AVAC NBR 16401",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto de climatizacao AVAC (HVAC — aquecimento, ventilacao e ar condicionado) conforme NBR 16401-1/2/3:2008 (instalacoes ar-condicionado central, parametros co...",
+      "tarefas_template": [
+        "Calculando Climatizacao AVAC NBR 16401 — {cliente}",
+        "Dimensionando Climatizacao AVAC NBR 16401 — {cliente}",
+        "Verificando Climatizacao AVAC NBR 16401 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "ventilacao-mecanica",
+      "nome": "Ventilacao Mecanica",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em ventilacao natural e mecanica (forçada e exaustao) — calcula renovacoes por hora (RPH), exaustao de banheiros / cozinhas / lavanderias / sub-solos / garagens, ve...",
+      "tarefas_template": [
+        "Calculando Ventilacao Mecanica — {cliente}",
+        "Dimensionando Ventilacao Mecanica — {cliente}",
+        "Verificando Ventilacao Mecanica — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "cozinha-industrial-nbr-14518",
+      "nome": "Cozinha Industrial NBR 14518",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em projeto de cozinha industrial / comercial — coifa, dutos de exaustao, sistema de captura, supressao de incendio, conforme NBR 14518:2017 (Sistema de exaustao mec...",
+      "tarefas_template": [
+        "Calculando Cozinha Industrial NBR 14518 — {cliente}",
+        "Dimensionando Cozinha Industrial NBR 14518 — {cliente}",
+        "Verificando Cozinha Industrial NBR 14518 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "ar-comprimido-vapor-utilidades",
+      "nome": "Ar Comprimido Vapor Utilidades",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em utilidades industriais — ar comprimido, vapor, agua quente/gelada de processo, oleo termico, nitrogenio. Dimensiona central de compressores (parafuso/pistao/cent...",
+      "tarefas_template": [
+        "Calculando Ar Comprimido Vapor Utilidades — {cliente}",
+        "Dimensionando Ar Comprimido Vapor Utilidades — {cliente}",
+        "Verificando Ar Comprimido Vapor Utilidades — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "orcamento-sintetico-quadro-quantitativo",
+      "nome": "Orcamento Sintetico Quadro Quantitativo",
+      "categoria": "Planejamento",
+      "icone": "calendar",
+      "cor": "#EFAD45",
+      "descricao": "Especialista em orcamento sintetico (top-down) e Quadro de Quantitativos (QQT) para obras de construcao civil — agrupa servicos por etapas/divisoes (servicos preliminares, funda...",
+      "tarefas_template": [
+        "Calculando Orcamento Sintetico Quadro Quantitativo — {cliente}",
+        "Dimensionando Orcamento Sintetico Quadro Quantitativo — {cliente}",
+        "Verificando Orcamento Sintetico Quadro Quantitativo — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "planejamento"
+      ]
+    },
+    {
+      "id": "orcamento-analitico-sinapi-sbc-cub",
+      "nome": "Orcamento Analitico SINAPI SBC CUB",
+      "categoria": "Planejamento",
+      "icone": "calendar",
+      "cor": "#EFAD45",
+      "descricao": "Especialista em orcamento analitico de obras — composicao detalhada de cada servico (insumo + mao-de-obra + equipamento), produtividade (h/un), encargos sociais e leis sociais (...",
+      "tarefas_template": [
+        "Calculando Orcamento Analitico SINAPI SBC CUB — {cliente}",
+        "Dimensionando Orcamento Analitico SINAPI SBC CUB — {cliente}",
+        "Verificando Orcamento Analitico SINAPI SBC CUB — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "planejamento"
+      ]
+    },
+    {
+      "id": "bdi-acordao-2622-tcu",
+      "nome": "BDI Acordao 2622 TCU",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em composicao de BDI (Beneficios e Despesas Indiretas) conforme Acordao TCU 2622/2013, Lei 14133/2021 (nova lei licitacoes) e IN-SLTI. Calcula formula multiplicativ...",
+      "tarefas_template": [
+        "Calculando BDI Acordao 2622 TCU — {cliente}",
+        "Dimensionando BDI Acordao 2622 TCU — {cliente}",
+        "Verificando BDI Acordao 2622 TCU — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "cronograma-fisico-financeiro-ms-project",
+      "nome": "Cronograma Fisico Financeiro MS Project",
+      "categoria": "Planejamento",
+      "icone": "calendar",
+      "cor": "#EFAD45",
+      "descricao": "Especialista em cronograma fisico-financeiro de obra com MS Project, Primavera P6, GanttProject, Sienge — cria EAP no software, define duracoes (estimativa por produtividade SIN...",
+      "tarefas_template": [
+        "Calculando Cronograma Fisico Financeiro MS Project — {cliente}",
+        "Dimensionando Cronograma Fisico Financeiro MS Project — {cliente}",
+        "Verificando Cronograma Fisico Financeiro MS Project — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "planejamento"
+      ]
+    },
+    {
+      "id": "curva-s-medicao-mensal",
+      "nome": "Curva S Medicao Mensal",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em curva S de avanco fisico e financeiro de obra + medicao mensal. Constroi curva S previsto a partir do cronograma (integracao de avanco mensal com formato sigmoid...",
+      "tarefas_template": [
+        "Calculando Curva S Medicao Mensal — {cliente}",
+        "Dimensionando Curva S Medicao Mensal — {cliente}",
+        "Verificando Curva S Medicao Mensal — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "eap-wbs-pacotes-trabalho",
+      "nome": "EAP WBS Pacotes Trabalho",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em EAP (Estrutura Analitica do Projeto) / WBS (Work Breakdown Structure) — decomposicao top-down do projeto em entregaveis e pacotes de trabalho conforme PMBOK 7th ...",
+      "tarefas_template": [
+        "Calculando EAP WBS Pacotes Trabalho — {cliente}",
+        "Dimensionando EAP WBS Pacotes Trabalho — {cliente}",
+        "Verificando EAP WBS Pacotes Trabalho — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "last-planner-system-lean-construction",
+      "nome": "Last Planner System Lean Construction",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em Last Planner System (LPS) e Lean Construction — metodologia desenvolvida por Glenn Ballard e Greg Howell (LCI — Lean Construction Institute). Estrutura planejame...",
+      "tarefas_template": [
+        "Calculando Last Planner System Lean Construction — {cliente}",
+        "Dimensionando Last Planner System Lean Construction — {cliente}",
+        "Verificando Last Planner System Lean Construction — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "evm-earned-value-pmi",
+      "nome": "EVM Earned Value PMI",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em EVM (Earned Value Management) — metodologia formal do PMI Practice Standard for EVM 2nd ed. e PMBOK 7th ed. Calcula PV (Planned Value), EV (Earned Value), AC (Ac...",
+      "tarefas_template": [
+        "Calculando EVM Earned Value PMI — {cliente}",
+        "Dimensionando EVM Earned Value PMI — {cliente}",
+        "Verificando EVM Earned Value PMI — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "levantamento-planialtimetrico-nbr-13133",
+      "nome": "Levantamento Planialtimetrico NBR 13133",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em levantamento topografico planialtimetrico cadastral conforme NBR 13133:1994 (Execucao de levantamento topografico) e NBR 14166:1998 (Rede de referencia cadastral...",
+      "tarefas_template": [
+        "Calculando Levantamento Planialtimetrico NBR 13133 — {cliente}",
+        "Dimensionando Levantamento Planialtimetrico NBR 13133 — {cliente}",
+        "Verificando Levantamento Planialtimetrico NBR 13133 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "sondagem-spt-laudo-nbr-6484",
+      "nome": "Sondagem SPT Laudo NBR 6484",
+      "categoria": "Geotecnia",
+      "icone": "layers",
+      "cor": "#FFB941",
+      "descricao": "Especialista em sondagem a percussao SPT (Standard Penetration Test) conforme NBR 6484:2020 (Solo — Sondagens de simples reconhecimento com SPT — Metodo de ensaio), NBR 7250:198...",
+      "tarefas_template": [
+        "Calculando Sondagem SPT Laudo NBR 6484 — {cliente}",
+        "Dimensionando Sondagem SPT Laudo NBR 6484 — {cliente}",
+        "Verificando Sondagem SPT Laudo NBR 6484 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "geotecnia"
+      ]
+    },
+    {
+      "id": "aerofotogrametria-drone-rtk",
+      "nome": "Aerofotogrametria Drone RTK",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em aerofotogrametria com drone RTK / PPK — planejamento de voo (sobreposicao 80% longitudinal x 60% lateral), GSD (Ground Sample Distance), controle de pontos GCP /...",
+      "tarefas_template": [
+        "Calculando Aerofotogrametria Drone RTK — {cliente}",
+        "Dimensionando Aerofotogrametria Drone RTK — {cliente}",
+        "Verificando Aerofotogrametria Drone RTK — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "georreferenciamento-incra-sigef",
+      "nome": "Georreferenciamento INCRA SIGEF",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em georreferenciamento de imoveis rurais conforme Lei 10.267/2001 (Lei do Georreferenciamento), Norma Tecnica para Georreferenciamento de Imoveis Rurais (NTGIR 3a e...",
+      "tarefas_template": [
+        "Calculando Georreferenciamento INCRA SIGEF — {cliente}",
+        "Dimensionando Georreferenciamento INCRA SIGEF — {cliente}",
+        "Verificando Georreferenciamento INCRA SIGEF — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "movimento-terra-corte-aterro-volume",
+      "nome": "Movimento Terra Corte Aterro Volume",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em terraplenagem, movimento de terra e calculo de volume de corte/aterro conforme NBR 13133 (levantamento topografico), NBR 11682 (estabilidade de talude), DNIT 108...",
+      "tarefas_template": [
+        "Calculando Movimento Terra Corte Aterro Volume — {cliente}",
+        "Dimensionando Movimento Terra Corte Aterro Volume — {cliente}",
+        "Verificando Movimento Terra Corte Aterro Volume — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "licenciamento-ambiental-lp-li-lo",
+      "nome": "Licenciamento Ambiental LP LI LO",
+      "categoria": "Aprovação",
+      "icone": "stamp",
+      "cor": "#FB995D",
+      "descricao": "Especialista em licenciamento ambiental conforme Resolucao CONAMA 237/1997, Lei Complementar 140/2011 (competencias federativas), Politica Nacional de Meio Ambiente (Lei 6.938/8...",
+      "tarefas_template": [
+        "Calculando Licenciamento Ambiental LP LI LO — {cliente}",
+        "Dimensionando Licenciamento Ambiental LP LI LO — {cliente}",
+        "Verificando Licenciamento Ambiental LP LI LO — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "aprovação"
+      ]
+    },
+    {
+      "id": "prad-recuperacao-area-degradada",
+      "nome": "PRAD Recuperacao Area Degradada",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em Plano de Recuperacao de Area Degradada (PRAD) conforme Decreto 97.632/1989, Lei 9.985/2000 (SNUC), Lei 12.651/2012 (Codigo Florestal — APP/RL), Resolucao CONAMA ...",
+      "tarefas_template": [
+        "Calculando PRAD Recuperacao Area Degradada — {cliente}",
+        "Dimensionando PRAD Recuperacao Area Degradada — {cliente}",
+        "Verificando PRAD Recuperacao Area Degradada — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "outorga-uso-agua-ana-cbh",
+      "nome": "Outorga Uso Agua ANA CBH",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em outorga de direito de uso de recursos hidricos conforme Lei 9.433/1997 (Politica Nacional de Recursos Hidricos), Lei 9.984/2000 (criacao da ANA), Resolucao CNRH ...",
+      "tarefas_template": [
+        "Calculando Outorga Uso Agua ANA CBH — {cliente}",
+        "Dimensionando Outorga Uso Agua ANA CBH — {cliente}",
+        "Verificando Outorga Uso Agua ANA CBH — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "pgrcc-residuos-conama-307",
+      "nome": "PGRCC Residuos CONAMA 307",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em Plano de Gerenciamento de Residuos da Construcao Civil (PGRCC) conforme Resolucao CONAMA 307/2002 (atualizada pelas 348/2004, 431/2011, 448/2012 e 469/2015), Pol...",
+      "tarefas_template": [
+        "Calculando PGRCC Residuos CONAMA 307 — {cliente}",
+        "Dimensionando PGRCC Residuos CONAMA 307 — {cliente}",
+        "Verificando PGRCC Residuos CONAMA 307 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "rap-eia-rima-empreendimento",
+      "nome": "RAP EIA RIMA Empreendimento",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em Estudos Ambientais (RAP — Relatorio Ambiental Preliminar, EIA — Estudo de Impacto Ambiental, RIMA — Relatorio de Impacto Ambiental) conforme Resolucao CONAMA 1/1...",
+      "tarefas_template": [
+        "Calculando RAP EIA RIMA Empreendimento — {cliente}",
+        "Dimensionando RAP EIA RIMA Empreendimento — {cliente}",
+        "Verificando RAP EIA RIMA Empreendimento — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "pcmat-nr-18-canteiro-obras",
+      "nome": "PCMAT NR 18 Canteiro Obras",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em PCMAT (Programa de Condicoes e Meio Ambiente de Trabalho na Industria da Construcao) conforme NR-18 (Industria da Construcao — Portaria MTb 3.214/78 + redacao 20...",
+      "tarefas_template": [
+        "Calculando PCMAT NR 18 Canteiro Obras — {cliente}",
+        "Dimensionando PCMAT NR 18 Canteiro Obras — {cliente}",
+        "Verificando PCMAT NR 18 Canteiro Obras — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "pgr-pcmso-nr-1-nr-7",
+      "nome": "PGR PCMSO NR 1 NR 7",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em PGR (Programa de Gerenciamento de Riscos) conforme NR-1 (em vigor desde 03/01/2022, com integracao eSocial S-2240) e PCMSO (Programa de Controle Medico de Saude ...",
+      "tarefas_template": [
+        "Calculando PGR PCMSO NR 1 NR 7 — {cliente}",
+        "Dimensionando PGR PCMSO NR 1 NR 7 — {cliente}",
+        "Verificando PGR PCMSO NR 1 NR 7 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "ltcat-aposentadoria-especial",
+      "nome": "LTCAT Aposentadoria Especial",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em LTCAT (Laudo Tecnico das Condicoes Ambientais do Trabalho) para fins de aposentadoria especial INSS conforme Lei 8.213/1991 (art. 57-58), Decreto 3.048/1999 (Reg...",
+      "tarefas_template": [
+        "Calculando LTCAT Aposentadoria Especial — {cliente}",
+        "Dimensionando LTCAT Aposentadoria Especial — {cliente}",
+        "Verificando LTCAT Aposentadoria Especial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "nr-35-altura-nr-10-eletricidade-pt",
+      "nome": "NR 35 Altura NR 10 Eletricidade PT",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em trabalho em altura (NR-35), trabalho com eletricidade (NR-10) e Permissao de Trabalho (PT). Dominio NR-35 (acima de 2m com risco de queda — Portaria SEPRT 915/20...",
+      "tarefas_template": [
+        "Calculando NR 35 Altura NR 10 Eletricidade PT — {cliente}",
+        "Dimensionando NR 35 Altura NR 10 Eletricidade PT — {cliente}",
+        "Verificando NR 35 Altura NR 10 Eletricidade PT — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "nr-12-protecao-maquinas-nr-13-vasos-pressao",
+      "nome": "NR 12 Protecao Maquinas NR 13 Vasos Pressao",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em seguranca de maquinas e equipamentos (NR-12) e vasos de pressao + caldeiras + tubulacoes (NR-13). Dominio NR-12 (Portaria SIT 197/2010 + atualizacoes 2019-2024) ...",
+      "tarefas_template": [
+        "Calculando NR 12 Protecao Maquinas NR 13 Vasos Pressao — {cliente}",
+        "Dimensionando NR 12 Protecao Maquinas NR 13 Vasos Pressao — {cliente}",
+        "Verificando NR 12 Protecao Maquinas NR 13 Vasos Pressao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "nr-33-espaco-confinado-nr-23-incendio",
+      "nome": "NR 33 Espaco Confinado NR 23 Incendio",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em espaco confinado (NR-33) e protecao contra incendio + brigada (NR-23). Dominio NR-33 (Portaria SIT 202/2006 + atualizacoes 2021/2024) — definicao de espaco confi...",
+      "tarefas_template": [
+        "Calculando NR 33 Espaco Confinado NR 23 Incendio — {cliente}",
+        "Dimensionando NR 33 Espaco Confinado NR 23 Incendio — {cliente}",
+        "Verificando NR 33 Espaco Confinado NR 23 Incendio — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "art-crea-emissao-baixa-quitacao",
+      "nome": "ART CREA Emissao Baixa Quitacao",
+      "categoria": "Laudo/ART",
+      "icone": "file-check",
+      "cor": "#FFA93D",
+      "descricao": "Especialista em emissao, retificacao, baixa e quitacao de ART (Anotacao de Responsabilidade Tecnica) no CREA conforme Lei 6.496/1977, Resolucao CONFEA 1.025/2009 (procedimentos)...",
+      "tarefas_template": [
+        "Calculando ART CREA Emissao Baixa Quitacao — {cliente}",
+        "Dimensionando ART CREA Emissao Baixa Quitacao — {cliente}",
+        "Verificando ART CREA Emissao Baixa Quitacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "laudo-art"
+      ]
+    },
+    {
+      "id": "laudo-pericial-judicial-nbr-13752",
+      "nome": "Laudo Pericial Judicial NBR 13752",
+      "categoria": "Laudo/ART",
+      "icone": "file-check",
+      "cor": "#FFA93D",
+      "descricao": "Especialista em pericia tecnica de engenharia (judicial e extrajudicial) conforme NBR 13752/1996 (Pericias de Engenharia na Construcao Civil), NBR 14653 (Avaliacao de bens — par...",
+      "tarefas_template": [
+        "Calculando Laudo Pericial Judicial NBR 13752 — {cliente}",
+        "Dimensionando Laudo Pericial Judicial NBR 13752 — {cliente}",
+        "Verificando Laudo Pericial Judicial NBR 13752 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "laudo-art"
+      ]
+    },
+    {
+      "id": "vistoria-cautelar-vizinhanca-termo-fotografico",
+      "nome": "Vistoria Cautelar Vizinhanca Termo Fotografico",
+      "categoria": "Vistoria",
+      "icone": "search",
+      "cor": "#F3B551",
+      "descricao": "Especialista em vistoria cautelar de vizinhanca + termo fotografico pre-obra conforme NBR 12722/1992 (Discriminacao de servicos para construcao de edifícios), NBR 13752/1996 (Pe...",
+      "tarefas_template": [
+        "Calculando Vistoria Cautelar Vizinhanca Termo Fotografico — {cliente}",
+        "Dimensionando Vistoria Cautelar Vizinhanca Termo Fotografico — {cliente}",
+        "Verificando Vistoria Cautelar Vizinhanca Termo Fotografico — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "vistoria"
+      ]
+    },
+    {
+      "id": "contrato-engenharia-honorarios-confea",
+      "nome": "Contrato Engenharia Honorarios CONFEA",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em redacao + analise de contrato de prestacao de servicos de engenharia (projeto, consultoria, gerenciamento, supervisao, fiscalizacao, execucao) conforme Codigo Ci...",
+      "tarefas_template": [
+        "Calculando Contrato Engenharia Honorarios CONFEA — {cliente}",
+        "Dimensionando Contrato Engenharia Honorarios CONFEA — {cliente}",
+        "Verificando Contrato Engenharia Honorarios CONFEA — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    },
+    {
+      "id": "ia-engenharia-revit-mep-autocad-autolisp",
+      "nome": "IA Engenharia Revit MEP Autocad Autolisp",
+      "categoria": "Cálculo Estrutural",
+      "icone": "ruler",
+      "cor": "#FFA94D",
+      "descricao": "Especialista em uso de IA + automacao em engenharia civil + MEP — Revit MEP + AutoCAD AutoLISP + Dynamo + Generative Design + Claude/LLM para dimensionamento e leitura semantica...",
+      "tarefas_template": [
+        "Calculando IA Engenharia Revit MEP Autocad Autolisp — {cliente}",
+        "Dimensionando IA Engenharia Revit MEP Autocad Autolisp — {cliente}",
+        "Verificando IA Engenharia Revit MEP Autocad Autolisp — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "cálculo-estrutural"
+      ]
+    }
+  ],
+  "pool_clientes_fallback": [
+    "Obra Residencial Vila Madá",
+    "Galpão Industrial Pirituba",
+    "Reforma Edifício Centro",
+    "Sobrado Alphaville",
+    "Loja Shopping Norte",
+    "Hotel Beira-Mar",
+    "Fábrica Têxtil",
+    "Casa Riviera",
+    "Edifício Comercial Faria Lima",
+    "Posto de Combustível",
+    "Escola Municipal",
+    "Pavilhão Eventos"
+  ]
+}

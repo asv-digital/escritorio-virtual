@@ -1,0 +1,1628 @@
+{
+  "nicho": "arquitetos",
+  "versao": "1.0.0",
+  "metadata": {
+    "titulo_painel": "Estúdio de Arquitetura 24h",
+    "descricao": "57 agentes de arquitetura trabalhando 24/7 — concept, projeto executivo, render, especificações, licenciamento, interiores.",
+    "paleta": {
+      "primary": "#B4A380",
+      "secondary": "#2A2520",
+      "accent": "#D4C4A0",
+      "background": "#0F0E0C",
+      "surface": "#1A1815"
+    },
+    "tom": "minimalista"
+  },
+  "agents": [
+    {
+      "id": "estudo-viabilidade-legal",
+      "nome": "Estudo Viabilidade Legal",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em estudo de viabilidade legal de terreno/imovel ANTES da compra ou inicio do projeto — leitura da Lei de Uso e Ocupacao do Solo (LUOS) municipal, calculo de Coefic...",
+      "tarefas_template": [
+        "Desenhando Estudo Viabilidade Legal — {cliente}",
+        "Detalhando Estudo Viabilidade Legal — {cliente}",
+        "Renderizando Estudo Viabilidade Legal — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "levantamento-arquitetonico-imovel-existente",
+      "nome": "Levantamento Arquitetonico Imovel Existente",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em levantamento arquitetonico cadastral de imovel existente — medicao em campo (trena laser Leica/Bosch GLM, distanciometro, prumo, esquadro), redesenho fiel em CAD...",
+      "tarefas_template": [
+        "Desenhando Levantamento Arquitetonico Imovel Existente — {cliente}",
+        "Detalhando Levantamento Arquitetonico Imovel Existente — {cliente}",
+        "Renderizando Levantamento Arquitetonico Imovel Existente — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "programa-necessidades-diagrama-funcional",
+      "nome": "Programa Necessidades Diagrama Funcional",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em programa de necessidades e diagrama funcional — entrevista estruturada com cliente para extrair lista completa de ambientes (zoneamento intimo/social/servico), d...",
+      "tarefas_template": [
+        "Desenhando Programa Necessidades Diagrama Funcional — {cliente}",
+        "Detalhando Programa Necessidades Diagrama Funcional — {cliente}",
+        "Renderizando Programa Necessidades Diagrama Funcional — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "estudo-massas-urbano-insolacao",
+      "nome": "Estudo Massas Urbano Insolacao",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em estudo de massas urbano + insolacao + orientacao — volumetria preliminar respeitando viabilidade legal (CA, TO, gabarito, recuos), simulacao de carta solar com S...",
+      "tarefas_template": [
+        "Desenhando Estudo Massas Urbano Insolacao — {cliente}",
+        "Detalhando Estudo Massas Urbano Insolacao — {cliente}",
+        "Renderizando Estudo Massas Urbano Insolacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "estudo-preliminar-residencial",
+      "nome": "Estudo Preliminar Residencial",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em estudo preliminar residencial — primeira proposta projetual com plantas conceituais (escala 1:200/1:100), volumetria SketchUp/Revit, partido arquitetonico, memor...",
+      "tarefas_template": [
+        "Desenhando Estudo Preliminar Residencial — {cliente}",
+        "Detalhando Estudo Preliminar Residencial — {cliente}",
+        "Renderizando Estudo Preliminar Residencial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "estudo-preliminar-comercial",
+      "nome": "Estudo Preliminar Comercial",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em estudo preliminar comercial — partido para edificio corporativo, varejo, misto e mall com analise de fluxo cliente x funcionario, vitrine, areas tecnicas, zoneam...",
+      "tarefas_template": [
+        "Desenhando Estudo Preliminar Comercial — {cliente}",
+        "Detalhando Estudo Preliminar Comercial — {cliente}",
+        "Renderizando Estudo Preliminar Comercial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "anteprojeto-arquitetonico",
+      "nome": "Anteprojeto Arquitetonico",
+      "categoria": "Anteprojeto",
+      "icone": "pencil-ruler",
+      "cor": "#BC9F78",
+      "descricao": "Especialista em anteprojeto arquitetonico — desenvolvimento do estudo preliminar aprovado em escala 1:100 e 1:50 com plantas baixas cotadas, cortes ortogonais, fachadas, planta ...",
+      "tarefas_template": [
+        "Desenhando Anteprojeto Arquitetonico — {cliente}",
+        "Detalhando Anteprojeto Arquitetonico — {cliente}",
+        "Renderizando Anteprojeto Arquitetonico — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "anteprojeto"
+      ]
+    },
+    {
+      "id": "projeto-legal-aprovacao-prefeitura",
+      "nome": "Projeto Legal Aprovacao Prefeitura",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em projeto legal de aprovacao em prefeitura — pranchas em padrao da municipalidade (formato, carimbo, selos, dobra), selo CAU + dados RRT, quadro de areas conforme ...",
+      "tarefas_template": [
+        "Desenhando Projeto Legal Aprovacao Prefeitura — {cliente}",
+        "Detalhando Projeto Legal Aprovacao Prefeitura — {cliente}",
+        "Renderizando Projeto Legal Aprovacao Prefeitura — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "projeto-executivo-completo",
+      "nome": "Projeto Executivo Completo",
+      "categoria": "Executivo",
+      "icone": "file-text",
+      "cor": "#A8AF84",
+      "descricao": "Especialista em projeto executivo arquitetonico completo — pranchas em escala 1:50, 1:25 e 1:5 com TODOS os detalhes construtivos, paginacao de pisos e revestimentos, cotas fina...",
+      "tarefas_template": [
+        "Desenhando Projeto Executivo Completo — {cliente}",
+        "Detalhando Projeto Executivo Completo — {cliente}",
+        "Renderizando Projeto Executivo Completo — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "executivo"
+      ]
+    },
+    {
+      "id": "detalhamento-paginacao-piso-revestimento",
+      "nome": "Detalhamento Paginacao Piso Revestimento",
+      "categoria": "Detalhamento",
+      "icone": "scan-line",
+      "cor": "#C4AB7C",
+      "descricao": "Especialista em detalhamento de paginacao de piso e revestimento — modulacao de placas (porcelanato, ceramica, marmoraria, pedra natural, ladrilho hidraulico, granitina, vinilic...",
+      "tarefas_template": [
+        "Desenhando Detalhamento Paginacao Piso Revestimento — {cliente}",
+        "Detalhando Detalhamento Paginacao Piso Revestimento — {cliente}",
+        "Renderizando Detalhamento Paginacao Piso Revestimento — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "detalhamento"
+      ]
+    },
+    {
+      "id": "detalhamento-esquadrias-caixilho",
+      "nome": "Detalhamento Esquadrias Caixilho",
+      "categoria": "Detalhamento",
+      "icone": "scan-line",
+      "cor": "#C4AB7C",
+      "descricao": "Especialista em detalhamento de esquadrias e caixilhos — quadro de esquadrias completo (codigo, dimensao, tipo abertura, material, vidro, fechadura, ferragens, cor), vistas fron...",
+      "tarefas_template": [
+        "Desenhando Detalhamento Esquadrias Caixilho — {cliente}",
+        "Detalhando Detalhamento Esquadrias Caixilho — {cliente}",
+        "Renderizando Detalhamento Esquadrias Caixilho — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "detalhamento"
+      ]
+    },
+    {
+      "id": "detalhamento-escada-guarda-corpo",
+      "nome": "Detalhamento Escada Guarda Corpo",
+      "categoria": "Detalhamento",
+      "icone": "scan-line",
+      "cor": "#C4AB7C",
+      "descricao": "Especialista em detalhamento de escada e guarda-corpo — calculo de espelho/piso pela formula de Blondel (2h+p=60-64cm), patamares, pe-direito livre minimo, dimensoes minimas con...",
+      "tarefas_template": [
+        "Desenhando Detalhamento Escada Guarda Corpo — {cliente}",
+        "Detalhando Detalhamento Escada Guarda Corpo — {cliente}",
+        "Renderizando Detalhamento Escada Guarda Corpo — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "detalhamento"
+      ]
+    },
+    {
+      "id": "detalhamento-cobertura-laje-telhado",
+      "nome": "Detalhamento Cobertura Laje Telhado",
+      "categoria": "Detalhamento",
+      "icone": "scan-line",
+      "cor": "#C4AB7C",
+      "descricao": "Especialista em detalhamento de cobertura, telhado e laje impermeabilizada — calculo de inclinacao por tipo de telha, dimensionamento de calhas e condutores conforme NBR 10844:1...",
+      "tarefas_template": [
+        "Desenhando Detalhamento Cobertura Laje Telhado — {cliente}",
+        "Detalhando Detalhamento Cobertura Laje Telhado — {cliente}",
+        "Renderizando Detalhamento Cobertura Laje Telhado — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "detalhamento"
+      ]
+    },
+    {
+      "id": "planta-forro-rebaixo-iluminacao",
+      "nome": "Planta Forro Rebaixo Iluminacao",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em planta de forro com rebaixo e iluminacao — desenhos de forro (gesso acartonado/drywall, gesso liso, PVC, modular, madeira, metalico), rebaixos, sancas (aberta/fe...",
+      "tarefas_template": [
+        "Desenhando Planta Forro Rebaixo Iluminacao — {cliente}",
+        "Detalhando Planta Forro Rebaixo Iluminacao — {cliente}",
+        "Renderizando Planta Forro Rebaixo Iluminacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "detalhamento-marcenaria-mobiliario-fixo",
+      "nome": "Detalhamento Marcenaria Mobiliario Fixo",
+      "categoria": "Detalhamento",
+      "icone": "scan-line",
+      "cor": "#C4AB7C",
+      "descricao": "Especialista em detalhamento de marcenaria e mobiliario fixo — armarios de cozinha, banheiro, closet, dormitorio, balcoes, paineis, estantes, paineis ripados, em escala 1:25 e 1...",
+      "tarefas_template": [
+        "Desenhando Detalhamento Marcenaria Mobiliario Fixo — {cliente}",
+        "Detalhando Detalhamento Marcenaria Mobiliario Fixo — {cliente}",
+        "Renderizando Detalhamento Marcenaria Mobiliario Fixo — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "detalhamento"
+      ]
+    },
+    {
+      "id": "reforma-residencial-apto-art-modificativa",
+      "nome": "Reforma Residencial Apto ART Modificativa",
+      "categoria": "Reforma",
+      "icone": "wrench",
+      "cor": "#AC9B8C",
+      "descricao": "Especialista em reforma residencial em apartamento com ART modificativa — analise estrutural NBR 16280:2014 (Reforma em edificacoes — Sistema de gestao de reformas), alvara de r...",
+      "tarefas_template": [
+        "Desenhando Reforma Residencial Apto ART Modificativa — {cliente}",
+        "Detalhando Reforma Residencial Apto ART Modificativa — {cliente}",
+        "Renderizando Reforma Residencial Apto ART Modificativa — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "reforma"
+      ]
+    },
+    {
+      "id": "ampliacao-residencial-casa",
+      "nome": "Ampliacao Residencial Casa",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em ampliacao residencial em casa — projeto de ampliacao com analise legal (averbacao adicional na matricula), compatibilizacao com edificacao existente (estrutura, ...",
+      "tarefas_template": [
+        "Desenhando Ampliacao Residencial Casa — {cliente}",
+        "Detalhando Ampliacao Residencial Casa — {cliente}",
+        "Renderizando Ampliacao Residencial Casa — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "retail-loja-shopping-manual-lojista",
+      "nome": "Retail Loja Shopping Manual Lojista",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em projeto de retail de loja em shopping com manual do lojista — atendimento ao manual operador (Iguatemi, Multiplan, brMalls, Aliansce-Sonae, Allos, BR Malls), pra...",
+      "tarefas_template": [
+        "Desenhando Retail Loja Shopping Manual Lojista — {cliente}",
+        "Detalhando Retail Loja Shopping Manual Lojista — {cliente}",
+        "Renderizando Retail Loja Shopping Manual Lojista — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "escritorio-corporativo-nbr-16401",
+      "nome": "Escritorio Corporativo NBR 16401",
+      "categoria": "Comercial",
+      "icone": "store",
+      "cor": "#C09788",
+      "descricao": "Especialista em escritorio corporativo / coworking — programa flexivel, salas de reuniao, areas colaborativas, IT/datacenter, AVAC NBR 16401:2008 (sistemas centrais e unitarios)...",
+      "tarefas_template": [
+        "Desenhando Escritorio Corporativo NBR 16401 — {cliente}",
+        "Detalhando Escritorio Corporativo NBR 16401 — {cliente}",
+        "Renderizando Escritorio Corporativo NBR 16401 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "comercial"
+      ]
+    },
+    {
+      "id": "restaurante-bar-rdc-anvisa-216",
+      "nome": "Restaurante Bar RDC ANVISA 216",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em projeto de restaurante e bar com cozinha industrial conforme RDC ANVISA 216:2004 (Boas Praticas para Servicos de Alimentacao) — fluxo limpo/sujo, separacao de ar...",
+      "tarefas_template": [
+        "Desenhando Restaurante Bar RDC ANVISA 216 — {cliente}",
+        "Detalhando Restaurante Bar RDC ANVISA 216 — {cliente}",
+        "Renderizando Restaurante Bar RDC ANVISA 216 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "clinica-consultorio-rdc-anvisa-50",
+      "nome": "Clinica Consultorio RDC ANVISA 50",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em projeto de clinica e consultorio medico/odontologico/multiprofissional conforme RDC ANVISA 50/2002 (revisada por RDC 51/2011 e RDC 36/2013) — classificacao de ar...",
+      "tarefas_template": [
+        "Desenhando Clinica Consultorio RDC ANVISA 50 — {cliente}",
+        "Detalhando Clinica Consultorio RDC ANVISA 50 — {cliente}",
+        "Renderizando Clinica Consultorio RDC ANVISA 50 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "hotel-pousada-cadastur",
+      "nome": "Hotel Pousada CADASTUR",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em projeto e cadastro de hotel/pousada/resort/hostel/cama-cafe conforme CADASTUR (Lei 11.771/2008 - Lei Geral do Turismo, Decreto 7.381/2010), Sistema Brasileiro de...",
+      "tarefas_template": [
+        "Desenhando Hotel Pousada CADASTUR — {cliente}",
+        "Detalhando Hotel Pousada CADASTUR — {cliente}",
+        "Renderizando Hotel Pousada CADASTUR — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "design-interiores-residencial-completo",
+      "nome": "Design Interiores Residencial Completo",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em projeto completo de design de interiores residencial — apartamento, casa, cobertura, loft — do briefing aprofundado a entrega final. Conduz briefing comportament...",
+      "tarefas_template": [
+        "Desenhando Design Interiores Residencial Completo — {cliente}",
+        "Detalhando Design Interiores Residencial Completo — {cliente}",
+        "Renderizando Design Interiores Residencial Completo — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "design-interiores-comercial",
+      "nome": "Design Interiores Comercial",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em design de interiores comercial — varejo (loja, showroom, popup), escritorio corporativo, hospitalidade (restaurante, bar, cafe, hotel), clinica e bem-estar. Apli...",
+      "tarefas_template": [
+        "Desenhando Design Interiores Comercial — {cliente}",
+        "Detalhando Design Interiores Comercial — {cliente}",
+        "Renderizando Design Interiores Comercial — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "mood-board-paleta-conceito-projeto",
+      "nome": "Mood Board Paleta Conceito Projeto",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em montagem de mood board, paleta cromatica e conceito visual de projeto de arquitetura/interiores. Coleta e organiza imagens de referencia, define paleta primaria/...",
+      "tarefas_template": [
+        "Desenhando Mood Board Paleta Conceito Projeto — {cliente}",
+        "Detalhando Mood Board Paleta Conceito Projeto — {cliente}",
+        "Renderizando Mood Board Paleta Conceito Projeto — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "especificacao-acabamentos-caderno",
+      "nome": "Especificacao Acabamentos Caderno",
+      "categoria": "Detalhamento",
+      "icone": "scan-line",
+      "cor": "#C4AB7C",
+      "descricao": "Especialista em montagem de caderno de especificacao de acabamentos (FF&E + materiais) para projeto de arquitetura/interiores. Estrutura quadro com codigo unico (REV-PISO-01, MA...",
+      "tarefas_template": [
+        "Desenhando Especificacao Acabamentos Caderno — {cliente}",
+        "Detalhando Especificacao Acabamentos Caderno — {cliente}",
+        "Renderizando Especificacao Acabamentos Caderno — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "detalhamento"
+      ]
+    },
+    {
+      "id": "home-staging-imovel-venda",
+      "nome": "Home Staging Imovel Venda",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em home staging para imovel a venda — preparacao rapida e custo-controlado de imovel para fotos profissionais e visitas, com objetivo de reduzir tempo no mercado (D...",
+      "tarefas_template": [
+        "Desenhando Home Staging Imovel Venda — {cliente}",
+        "Detalhando Home Staging Imovel Venda — {cliente}",
+        "Renderizando Home Staging Imovel Venda — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "visita-tecnica-cliente-medicao",
+      "nome": "Visita Tecnica Cliente Medicao",
+      "categoria": "Acompanhamento",
+      "icone": "footprints",
+      "cor": "#A4A778",
+      "descricao": "Especialista em visita tecnica e medicao de imovel — primeira visita do arquiteto/engenheiro para levantar in loco o objeto do projeto. Conduz checklist sistematico do que medir...",
+      "tarefas_template": [
+        "Desenhando Visita Tecnica Cliente Medicao — {cliente}",
+        "Detalhando Visita Tecnica Cliente Medicao — {cliente}",
+        "Renderizando Visita Tecnica Cliente Medicao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "acompanhamento"
+      ]
+    },
+    {
+      "id": "alvara-construcao-pmsp-pmrj",
+      "nome": "Alvara Construcao PMSP PMRJ",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em obtencao de Alvara de Construcao em PMSP (Prefeitura Municipal de Sao Paulo via SLC/Aprova Digital) e PMRJ (Prefeitura Municipal Rio de Janeiro via SISCONS/SISDE...",
+      "tarefas_template": [
+        "Desenhando Alvara Construcao PMSP PMRJ — {cliente}",
+        "Detalhando Alvara Construcao PMSP PMRJ — {cliente}",
+        "Renderizando Alvara Construcao PMSP PMRJ — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "habite-se-carta-habitacao",
+      "nome": "Habite Se Carta Habitacao",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em obtencao do Habite-se (Sao Paulo, Rio de Janeiro chamada de Carta de Habitacao ou CCO - Certificado de Conclusao de Obra) — vistoria final pos-obra para verifica...",
+      "tarefas_template": [
+        "Desenhando Habite Se Carta Habitacao — {cliente}",
+        "Detalhando Habite Se Carta Habitacao — {cliente}",
+        "Renderizando Habite Se Carta Habitacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "avcb-clcb-projeto-bombeiros-it-14",
+      "nome": "AVCB CLCB Projeto Bombeiros IT 14",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em projeto de prevencao e combate a incendio (PCI) e obtencao de AVCB (Auto de Vistoria do Corpo de Bombeiros - SP/MG e maioria) ou CLCB (Certificado de Licenciamen...",
+      "tarefas_template": [
+        "Desenhando AVCB CLCB Projeto Bombeiros IT 14 — {cliente}",
+        "Detalhando AVCB CLCB Projeto Bombeiros IT 14 — {cliente}",
+        "Renderizando AVCB CLCB Projeto Bombeiros IT 14 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "acessibilidade-nbr-9050-laudo",
+      "nome": "Acessibilidade NBR 9050 Laudo",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em acessibilidade conforme NBR 9050:2020 (Acessibilidade a edificacoes, mobiliario, espacos e equipamentos urbanos), Lei 13.146/2015 (Estatuto da Pessoa com Deficie...",
+      "tarefas_template": [
+        "Desenhando Acessibilidade NBR 9050 Laudo — {cliente}",
+        "Detalhando Acessibilidade NBR 9050 Laudo — {cliente}",
+        "Renderizando Acessibilidade NBR 9050 Laudo — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "eiv-estudo-impacto-vizinhanca",
+      "nome": "EIV Estudo Impacto Vizinhanca",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em EIV — Estudo de Impacto de Vizinhanca conforme Lei Federal 10.257/2001 (Estatuto da Cidade) art. 36 a 38, regulamentada por leis municipais especificas (em SP — ...",
+      "tarefas_template": [
+        "Desenhando EIV Estudo Impacto Vizinhanca — {cliente}",
+        "Detalhando EIV Estudo Impacto Vizinhanca — {cliente}",
+        "Renderizando EIV Estudo Impacto Vizinhanca — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "averbacao-construcao-cartorio-rgi",
+      "nome": "Averbacao Construcao Cartorio RGI",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em averbacao de construcao na matricula do imovel no cartorio de Registro Geral de Imoveis (RGI). Conduz a etapa final pos-habite-se onde a obra e oficializada na m...",
+      "tarefas_template": [
+        "Desenhando Averbacao Construcao Cartorio RGI — {cliente}",
+        "Detalhando Averbacao Construcao Cartorio RGI — {cliente}",
+        "Renderizando Averbacao Construcao Cartorio RGI — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "regularizacao-imovel-reurb-lei-13-465",
+      "nome": "Regularizacao Imovel REURB Lei 13.465",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em regularizacao fundiaria urbana via REURB conforme Lei 13.465/2017 (Lei de Regularizacao Fundiaria Urbana), Decreto 9.310/2018 (regulamenta), modalidades REURB-S ...",
+      "tarefas_template": [
+        "Desenhando Regularizacao Imovel REURB Lei 13.465 — {cliente}",
+        "Detalhando Regularizacao Imovel REURB Lei 13.465 — {cliente}",
+        "Renderizando Regularizacao Imovel REURB Lei 13.465 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "inss-cno-cei-matricula-obra",
+      "nome": "INSS CNO CEI Matricula Obra",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em matricula de obra na Receita Federal/INSS, transicao da CEI (Cadastro Especifico do INSS) para CNO (Cadastro Nacional de Obras) — substituicao implementada em 20...",
+      "tarefas_template": [
+        "Desenhando INSS CNO CEI Matricula Obra — {cliente}",
+        "Detalhando INSS CNO CEI Matricula Obra — {cliente}",
+        "Renderizando INSS CNO CEI Matricula Obra — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "iphan-iepha-condephaat-tombamento",
+      "nome": "IPHAN IEPHA CONDEPHAAT Tombamento",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em intervencao em bem tombado e analise de processo de tombamento federal (IPHAN — Instituto do Patrimonio Historico e Artistico Nacional, Decreto-Lei 25/1937), est...",
+      "tarefas_template": [
+        "Desenhando IPHAN IEPHA CONDEPHAAT Tombamento — {cliente}",
+        "Detalhando IPHAN IEPHA CONDEPHAAT Tombamento — {cliente}",
+        "Renderizando IPHAN IEPHA CONDEPHAAT Tombamento — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "nbr-15575-desempenho-edificacoes",
+      "nome": "NBR 15575 Desempenho Edificacoes",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em NBR 15575:2021 (Edificacoes habitacionais — Desempenho), norma de desempenho que estabelece requisitos minimos para edificacoes habitacionais brasileiras. Domina...",
+      "tarefas_template": [
+        "Desenhando NBR 15575 Desempenho Edificacoes — {cliente}",
+        "Detalhando NBR 15575 Desempenho Edificacoes — {cliente}",
+        "Renderizando NBR 15575 Desempenho Edificacoes — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "nbr-9077-saidas-emergencia",
+      "nome": "NBR 9077 Saidas Emergencia",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em NBR 9077:2001 (Saidas de emergencia em edificios) — norma tecnica de referencia para dimensionamento de saidas de emergencia, complementada por IT-08 e IT-11 do ...",
+      "tarefas_template": [
+        "Desenhando NBR 9077 Saidas Emergencia — {cliente}",
+        "Detalhando NBR 9077 Saidas Emergencia — {cliente}",
+        "Renderizando NBR 9077 Saidas Emergencia — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "nbr-16280-reforma-edificio",
+      "nome": "NBR 16280 Reforma Edificio",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em reforma em edificacoes existentes conforme NBR 16280:2015 (versao 2020 com Errata 1) — analise estrutural previa, classificacao da reforma (sem/com alteracao na ...",
+      "tarefas_template": [
+        "Desenhando NBR 16280 Reforma Edificio — {cliente}",
+        "Detalhando NBR 16280 Reforma Edificio — {cliente}",
+        "Renderizando NBR 16280 Reforma Edificio — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "codigo-de-obras-municipal-aplicacao",
+      "nome": "Codigo De Obras Municipal Aplicacao",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em aplicacao pratica do Codigo de Obras e Edificacoes municipal (COE) — dimensoes minimas de comodos, pe-direito minimo, area minima de janela para iluminacao e ven...",
+      "tarefas_template": [
+        "Desenhando Codigo De Obras Municipal Aplicacao — {cliente}",
+        "Detalhando Codigo De Obras Municipal Aplicacao — {cliente}",
+        "Renderizando Codigo De Obras Municipal Aplicacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "nbr-13532-elaboracao-projetos",
+      "nome": "NBR 13532 Elaboracao Projetos",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em elaboracao de projetos arquitetonicos conforme NBR 13532:1995 — fases sequenciais (LV Levantamento, PN Programa de Necessidades, EV Estudo de Viabilidade, EP Est...",
+      "tarefas_template": [
+        "Desenhando NBR 13532 Elaboracao Projetos — {cliente}",
+        "Detalhando NBR 13532 Elaboracao Projetos — {cliente}",
+        "Renderizando NBR 13532 Elaboracao Projetos — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "paisagismo-especificacao-vegetacao",
+      "nome": "Paisagismo Especificacao Vegetacao",
+      "categoria": "Paisagismo",
+      "icone": "trees",
+      "cor": "#B8B374",
+      "descricao": "Especialista em projeto de paisagismo e especificacao tecnica de vegetacao — selecao por bioma e clima (Mata Atlantica, Cerrado, Caatinga, Pampa, Pantanal, Amazonia), exposicao ...",
+      "tarefas_template": [
+        "Desenhando Paisagismo Especificacao Vegetacao — {cliente}",
+        "Detalhando Paisagismo Especificacao Vegetacao — {cliente}",
+        "Renderizando Paisagismo Especificacao Vegetacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "paisagismo"
+      ]
+    },
+    {
+      "id": "luminotecnico-arquitetonico-dialux",
+      "nome": "Luminotecnico Arquitetonico Dialux",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em projeto luminotecnico arquitetonico com DIALux evo (e Relux) — calculo de iluminamento (lux) por ambiente conforme NBR ISO/CIEE 8995-1:2013 e EN 12464-1, IRC (CR...",
+      "tarefas_template": [
+        "Desenhando Luminotecnico Arquitetonico Dialux — {cliente}",
+        "Detalhando Luminotecnico Arquitetonico Dialux — {cliente}",
+        "Renderizando Luminotecnico Arquitetonico Dialux — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "acustica-arquitetonica-nbr-10152",
+      "nome": "Acustica Arquitetonica NBR 10152",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em acustica arquitetonica conforme NBR 10152:2017 (niveis de pressao sonora aceitaveis), NBR 15575 (desempenho acustico de edificacoes habitacionais), NBR 12179 (tr...",
+      "tarefas_template": [
+        "Desenhando Acustica Arquitetonica NBR 10152 — {cliente}",
+        "Detalhando Acustica Arquitetonica NBR 10152 — {cliente}",
+        "Renderizando Acustica Arquitetonica NBR 10152 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "sustentabilidade-leed-aqua-edge",
+      "nome": "Sustentabilidade LEED AQUA EDGE",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em certificacoes de sustentabilidade em edificacoes — LEED v4.1 (USGBC), AQUA-HQE (Fundacao Vanzolini, Brasil), EDGE (IFC/Banco Mundial), Selo Casa Azul+ (Caixa), G...",
+      "tarefas_template": [
+        "Desenhando Sustentabilidade LEED AQUA EDGE — {cliente}",
+        "Detalhando Sustentabilidade LEED AQUA EDGE — {cliente}",
+        "Renderizando Sustentabilidade LEED AQUA EDGE — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "retrofit-fachada-eficiencia-energetica",
+      "nome": "Retrofit Fachada Eficiencia Energetica",
+      "categoria": "Reforma",
+      "icone": "wrench",
+      "cor": "#AC9B8C",
+      "descricao": "Especialista em retrofit de fachadas para eficiencia energetica em edificios existentes — analise termica de envoltoria (transmitancia U, capacidade termica Ct, fator solar FS),...",
+      "tarefas_template": [
+        "Desenhando Retrofit Fachada Eficiencia Energetica — {cliente}",
+        "Detalhando Retrofit Fachada Eficiencia Energetica — {cliente}",
+        "Renderizando Retrofit Fachada Eficiencia Energetica — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "reforma"
+      ]
+    },
+    {
+      "id": "conforto-termico-nbr-15220",
+      "nome": "Conforto Termico NBR 15220",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em conforto termico passivo conforme NBR 15220:2005 (desempenho termico de edificacoes), NBR 15575:2021 (desempenho termico habitacional), zoneamento bioclimatico b...",
+      "tarefas_template": [
+        "Desenhando Conforto Termico NBR 15220 — {cliente}",
+        "Detalhando Conforto Termico NBR 15220 — {cliente}",
+        "Renderizando Conforto Termico NBR 15220 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "bim-revit-modelagem-lod-200-300-400",
+      "nome": "BIM Revit Modelagem LOD 200 300 400",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em modelagem BIM com Autodesk Revit (versoes 2023-2026) — Level of Development (LOD 100/200/300/350/400/500 conforme BIMForum), modelagem por disciplina (Arquitetur...",
+      "tarefas_template": [
+        "Desenhando BIM Revit Modelagem LOD 200 300 400 — {cliente}",
+        "Detalhando BIM Revit Modelagem LOD 200 300 400 — {cliente}",
+        "Renderizando BIM Revit Modelagem LOD 200 300 400 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "bim-coordenacao-clash-navisworks",
+      "nome": "BIM Coordenacao Clash Navisworks",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em coordenacao BIM e Clash Detection em Autodesk Navisworks Manage (versoes 2023-2026) — federacao de modelos multidisciplinares (ARQ + EST + HID + ELE + AVA + INC ...",
+      "tarefas_template": [
+        "Desenhando BIM Coordenacao Clash Navisworks — {cliente}",
+        "Detalhando BIM Coordenacao Clash Navisworks — {cliente}",
+        "Renderizando BIM Coordenacao Clash Navisworks — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "render-arquitetonico-v-ray-lumion-enscape",
+      "nome": "Render Arquitetonico V Ray Lumion Enscape",
+      "categoria": "Render",
+      "icone": "image",
+      "cor": "#B09390",
+      "descricao": "Especialista em render arquitetonico fotorrealista — V-Ray (5/6/7 para 3ds Max, SketchUp, Revit, Rhino), Lumion (12/2023/2024 — workflow rapido), Enscape (3.x — real-time integr...",
+      "tarefas_template": [
+        "Desenhando Render Arquitetonico V Ray Lumion Enscape — {cliente}",
+        "Detalhando Render Arquitetonico V Ray Lumion Enscape — {cliente}",
+        "Renderizando Render Arquitetonico V Ray Lumion Enscape — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "render"
+      ]
+    },
+    {
+      "id": "plantas-humanizadas-apresentacao",
+      "nome": "Plantas Humanizadas Apresentacao",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em plantas humanizadas para apresentacao ao cliente — ilustracao bidimensional/2.5D com mobiliario, vegetacao, sombra projetada, texturas (madeira, piso, grama), pa...",
+      "tarefas_template": [
+        "Desenhando Plantas Humanizadas Apresentacao — {cliente}",
+        "Detalhando Plantas Humanizadas Apresentacao — {cliente}",
+        "Renderizando Plantas Humanizadas Apresentacao — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "prancha-apresentacao-a1-a2",
+      "nome": "Prancha Apresentacao A1 A2",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em diagramacao de prancha de apresentacao arquitetonica formato A1/A2/A0 — hierarquia visual (foco principal + suportes), grid (sistema 12-col / modular), tipografi...",
+      "tarefas_template": [
+        "Desenhando Prancha Apresentacao A1 A2 — {cliente}",
+        "Detalhando Prancha Apresentacao A1 A2 — {cliente}",
+        "Renderizando Prancha Apresentacao A1 A2 — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "proposta-honorarios-cau-iab",
+      "nome": "Proposta Honorarios CAU IAB",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em elaboracao de proposta comercial e calculo de honorarios profissionais conforme Tabela do CAU/BR (Conselho de Arquitetura e Urbanismo) e Tabela do IAB (Instituto...",
+      "tarefas_template": [
+        "Desenhando Proposta Honorarios CAU IAB — {cliente}",
+        "Detalhando Proposta Honorarios CAU IAB — {cliente}",
+        "Renderizando Proposta Honorarios CAU IAB — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "contrato-arquiteto-cliente-cau",
+      "nome": "Contrato Arquiteto Cliente CAU",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em contrato de prestacao de servicos arquitetonicos modelo CAU/BR — clausulas obrigatorias (qualificacao das partes, objeto, escopo de servicos por fase NBR 13532, ...",
+      "tarefas_template": [
+        "Desenhando Contrato Arquiteto Cliente CAU — {cliente}",
+        "Detalhando Contrato Arquiteto Cliente CAU — {cliente}",
+        "Renderizando Contrato Arquiteto Cliente CAU — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "rrt-cau-registro-responsabilidade-tecnica",
+      "nome": "RRT CAU Registro Responsabilidade Tecnica",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em Registro de Responsabilidade Tecnica (RRT) no CAU/BR conforme Resolucao CAU/BR n°91/2014 e atualizacoes — tipos de RRT (Simples, Multiplo Mensal, Minimo, Modific...",
+      "tarefas_template": [
+        "Desenhando RRT CAU Registro Responsabilidade Tecnica — {cliente}",
+        "Detalhando RRT CAU Registro Responsabilidade Tecnica — {cliente}",
+        "Renderizando RRT CAU Registro Responsabilidade Tecnica — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "ia-generativa-arquitetura-midjourney-veras",
+      "nome": "IA Generativa Arquitetura Midjourney Veras",
+      "categoria": "Concept",
+      "icone": "lightbulb",
+      "cor": "#B4A380",
+      "descricao": "Especialista em IA generativa aplicada a arquitetura e design — Midjourney (v6, v6.1, v7), Veras (plugin SketchUp/Revit/Rhino que reinterpreta modelo 3D em render fotorrealista)...",
+      "tarefas_template": [
+        "Desenhando IA Generativa Arquitetura Midjourney Veras — {cliente}",
+        "Detalhando IA Generativa Arquitetura Midjourney Veras — {cliente}",
+        "Renderizando IA Generativa Arquitetura Midjourney Veras — {cliente}",
+        "Validando saída — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 7200
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "concept"
+      ]
+    }
+  ],
+  "pool_clientes_fallback": [
+    "Apto Higienópolis 180m²",
+    "Casa Praia Cabo Frio",
+    "Loft Vila Madá",
+    "Restaurante Centro",
+    "Casa Campo Tabuão",
+    "Cobertura Itaim",
+    "Loja Shopping JK",
+    "Escritório Conceito",
+    "Sobrado Alphaville",
+    "Estúdio Pinheiros",
+    "Showroom Berrini",
+    "Casa Praia Maresias"
+  ]
+}
