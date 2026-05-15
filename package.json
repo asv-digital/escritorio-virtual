@@ -1,0 +1,50 @@
+{
+  "name": "escritorio-virtual",
+  "version": "0.1.0-alpha.1",
+  "private": true,
+  "description": "Painel visual de simulação 24/7 dos 57 agentes Bravy — bônus pacotes ASV Digital",
+  "scripts": {
+    "dev": "next dev -p 3030",
+    "build": "next build",
+    "build:contadores": "NICHO=contadores next build",
+    "build:advogados": "NICHO=advogados next build",
+    "build:engenheiros": "NICHO=engenheiros next build",
+    "build:arquitetos": "NICHO=arquitetos next build",
+    "build:marketing": "NICHO=marketing next build",
+    "build:funcionarios": "NICHO=funcionarios next build",
+    "build:all": "tsx tools/build-all/build.ts",
+    "zip:all": "tsx tools/build-all/zip.ts",
+    "release": "tsx tools/build-all/release.ts",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "catalog:validate": "tsx tools/catalog-cli/validate.ts"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.38.0",
+    "idb-keyval": "^6.2.2",
+    "lucide-react": "^1.16.0",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-hook-form": "^7.75.0",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "tsx": "^4.22.0",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,1578 @@
+{
+  "nicho": "contadores",
+  "versao": "1.0.0",
+  "metadata": {
+    "titulo_painel": "Escritório Contábil 24h",
+    "descricao": "57 agentes contábeis trabalhando 24/7 — apuração, folha, conciliação, fechamento, IRPF, eSocial e mais.",
+    "paleta": {
+      "primary": "#FF6B35",
+      "secondary": "#1E1A17",
+      "accent": "#FFA94D",
+      "background": "#0A0A0A",
+      "surface": "#141414"
+    },
+    "tom": "serio"
+  },
+  "agents": [
+    {
+      "id": "apuracao-simples-nacional",
+      "nome": "Apuração Simples Nacional",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em apuração mensal de DAS para empresas no Simples Nacional. Use proativamente quando o usuário (a) enviar faturamento de empresa optante, (b) mencionar PGDAS-D / a...",
+      "tarefas_template": [
+        "Apurando DAS — {cliente}",
+        "Calculando alíquota efetiva — {cliente}",
+        "Gerando PGDAS-D — {cliente}",
+        "Conferindo Anexo aplicável — {cliente}",
+        "Validando RBT12 — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "apuracao-lucro-presumido",
+      "nome": "Apuração Lucro Presumido",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em apuração trimestral de IRPJ/CSLL e mensal de PIS/COFINS cumulativos no Lucro Presumido. Use proativamente quando o usuário (a) tiver empresa com receita ≤ R$ 78m...",
+      "tarefas_template": [
+        "Calculando IRPJ trimestral — {cliente}",
+        "Apurando CSLL — {cliente}",
+        "Gerando DARFs do trimestre — {cliente}",
+        "Conferindo base presumida — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "apuracao-lucro-real",
+      "nome": "Apuração Lucro Real",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em apuração trimestral OU anual com estimativa no Lucro Real, partindo do LAIR, executando adições/exclusões da Parte A do LALUR, controlando prejuízo fiscal com li...",
+      "tarefas_template": [
+        "Apurando LALUR — {cliente}",
+        "Calculando IRPJ/CSLL anual — {cliente}",
+        "Conferindo adições e exclusões — {cliente}",
+        "Validando prejuízo fiscal acumulado — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "apuracao-mei",
+      "nome": "Apuração MEI",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em MEI — DAS-MEI mensal, DASN-SIMEI anual, controle do limite R$ 81.000, desenquadramento e migração para ME no Simples. Use proativamente quando o usuário (a) tive...",
+      "tarefas_template": [
+        "Gerando DAS-MEI — {cliente}",
+        "Apurando DASN simplificada — {cliente}",
+        "Validando Apuração MEI — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "calculo-icms-icms-st",
+      "nome": "Cálculo ICMS / ICMS-ST",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em apuração de ICMS próprio e ICMS-ST nas operações internas e interestaduais, com MVA ajustada, DIFAL pós LC 190/2022, antecipação tributária e regime do remetente...",
+      "tarefas_template": [
+        "Calculando ICMS-ST — {cliente}",
+        "Conferindo MVA aplicada — {cliente}",
+        "Validando substituição tributária — {cliente}",
+        "Apurando ICMS próprio — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "calculo-ipi",
+      "nome": "Cálculo IPI",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em apuração mensal de IPI para indústria e equiparados, com TIPI 2022 vigente, suspensão (drawback, RECOF, encomenda), crédito presumido de exportação (Lei 9.363/96...",
+      "tarefas_template": [
+        "Apurando IPI mensal — {cliente}",
+        "Conferindo TIPI — {cliente}",
+        "Calculando crédito IPI — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "calculo-iss",
+      "nome": "Cálculo ISS",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em apuração mensal de ISS, identificação do município competente conforme LC 116/2003 e LC 175/2020 (CGOA — domicílio do tomador), retenção pelo tomador, alíquota m...",
+      "tarefas_template": [
+        "Apurando ISS — {cliente}",
+        "Validando alíquota municipal — {cliente}",
+        "Gerando guia ISS — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "calculo-pis-cofins-cumulativo",
+      "nome": "PIS/COFINS Cumulativo",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em apuração mensal de PIS (0,65%) e COFINS (3%) cumulativos no Lucro Presumido, com EXCLUSÃO obrigatória do ICMS destacado (Tema 69 STF), tratamento de receitas mon...",
+      "tarefas_template": [
+        "Apurando PIS/COFINS cumulativo — {cliente}",
+        "Calculando 0,65% PIS — {cliente}",
+        "Calculando 3% COFINS — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "calculo-pis-cofins-nao-cumulativo",
+      "nome": "PIS/COFINS Não-Cumulativo",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em apuração mensal de PIS (1,65%) e COFINS (7,6%) não-cumulativos no Lucro Real, identificando todos os créditos cabíveis incluindo Tema 779 STJ (insumos = essencia...",
+      "tarefas_template": [
+        "Apurando PIS/COFINS não-cumulativo — {cliente}",
+        "Calculando créditos — {cliente}",
+        "Validando saldo credor — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "calculo-irrf-folha",
+      "nome": "IRRF da Folha",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em IRRF na folha (CLT, pró-labore, RPA, autônomo) e em pagamentos de PJ a PF (aluguel, juros, royalties), aplicando tabela progressiva 2026, dependentes (R$ 189,59)...",
+      "tarefas_template": [
+        "Calculando IRRF da folha — {cliente}",
+        "Validando tabela vigente — {cliente}",
+        "Validando IRRF da Folha — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "calculo-inss-empresa",
+      "nome": "INSS Patronal",
+      "categoria": "Tributário",
+      "icone": "calculator",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em INSS patronal mensal — CPP 20% + RAT × FAP + Terceiros (5,8% típico) — desoneração da folha (Lei 14.973/2024 transição 2025-2027), atividades concomitantes propo...",
+      "tarefas_template": [
+        "Calculando INSS patronal — {cliente}",
+        "Apurando contribuições — {cliente}",
+        "Validando INSS Patronal — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 120,
+        "media": 300,
+        "max": 600
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 35,
+      "tags": [
+        "tributário"
+      ]
+    },
+    {
+      "id": "retencoes-tributarias-tomador",
+      "nome": "Retenções Tributárias",
+      "categoria": "Retenções",
+      "icone": "scissors",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em retenções tributárias do TOMADOR de serviço — IRRF 1,5% (1708) ou 1% (limpeza), CSRF 4,65% (5952) condicionado a R$ 215,05/mês, INSS 11% cessão de mão de obra (L...",
+      "tarefas_template": [
+        "Calculando retenções IRRF/CSLL/PIS/COFINS — {cliente}",
+        "Conferindo INSS retido — {cliente}",
+        "Validando Retenções Tributárias — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 90,
+        "media": 240,
+        "max": 480
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        8,
+        17
+      ],
+      "economia_brl": 25,
+      "tags": [
+        "retenções"
+      ]
+    },
+    {
+      "id": "ecd-escrituracao-contabil-digital",
+      "nome": "ECD — Escrituração Contábil Digital",
+      "categoria": "Obrigações Acessórias",
+      "icone": "file-text",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em ECD anual (SPED Contábil) — Diário, Razão, Balancetes — IN RFB 2.003/2021, transmissão até 31/05, validação no PVA, plano de contas com referencial 100%, autenti...",
+      "tarefas_template": [
+        "Gerando ECD — {cliente}",
+        "Validando bloco I — {cliente}",
+        "Conferindo escrituração — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        8,
+        16
+      ],
+      "economia_brl": 80,
+      "tags": [
+        "obrigações-acessórias"
+      ]
+    },
+    {
+      "id": "ecf-escrituracao-contabil-fiscal",
+      "nome": "ECF — Escrituração Fiscal",
+      "categoria": "Obrigações Acessórias",
+      "icone": "file-text",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em ECF anual com cálculo IRPJ/CSLL, LALUR Parte A (adições/exclusões), Parte B (saldo prejuízo fiscal), recuperação automática da ECD, blocos M/N/P/Q/T/W/X. Use pro...",
+      "tarefas_template": [
+        "Gerando ECF — {cliente}",
+        "Validando bloco P — {cliente}",
+        "Conferindo M300/M350 — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        8,
+        16
+      ],
+      "economia_brl": 80,
+      "tags": [
+        "obrigações-acessórias"
+      ]
+    },
+    {
+      "id": "efd-icms-ipi",
+      "nome": "EFD ICMS/IPI",
+      "categoria": "Obrigações Acessórias",
+      "icone": "file-text",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em EFD ICMS/IPI mensal — escrituração C100/C170/C190 (mercadorias), D (transporte), E110/E116 (apuração ICMS), E520/E530 (apuração IPI), G (CIAP), H (inventário anu...",
+      "tarefas_template": [
+        "Gerando EFD ICMS/IPI — {cliente}",
+        "Validando blocos C e E — {cliente}",
+        "Validando EFD ICMS/IPI — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        8,
+        16
+      ],
+      "economia_brl": 80,
+      "tags": [
+        "obrigações-acessórias"
+      ]
+    },
+    {
+      "id": "efd-contribuicoes",
+      "nome": "EFD-Contribuições",
+      "categoria": "Obrigações Acessórias",
+      "icone": "file-text",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em EFD-Contribuições mensal — escrituração PIS/COFINS por CST (Tabela 4.3.3), Bloco M (apuração), F500 (regime caixa Presumido), F600 (CSRF retenções sofridas), Blo...",
+      "tarefas_template": [
+        "Gerando EFD-Contribuições — {cliente}",
+        "Validando bloco M — {cliente}",
+        "Validando EFD-Contribuições — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        8,
+        16
+      ],
+      "economia_brl": 80,
+      "tags": [
+        "obrigações-acessórias"
+      ]
+    },
+    {
+      "id": "efd-reinf",
+      "nome": "EFD-Reinf",
+      "categoria": "Obrigações Acessórias",
+      "icone": "file-text",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em EFD-Reinf — eventos R-1000 (cadastro), R-2010 (retenção INSS 11% serviço tomado), R-2020 (idem prestador), R-2050/R-2055 (rural), R-2099 (fechamento periódico), ...",
+      "tarefas_template": [
+        "Transmitindo EFD-Reinf — {cliente}",
+        "Validando R-4000 — {cliente}",
+        "Validando EFD-Reinf — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        8,
+        16
+      ],
+      "economia_brl": 80,
+      "tags": [
+        "obrigações-acessórias"
+      ]
+    },
+    {
+      "id": "dctfweb",
+      "nome": "DCTFWeb",
+      "categoria": "Obrigações Acessórias",
+      "icone": "file-text",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em DCTFWeb mensal — confessar débitos federais (INSS empresa CPP/RAT/Terceiros, INSS retido, IRRF folha, IRRF PF/PJ, CSRF, IRPJ/CSLL, PIS/COFINS, IPI), vincular DAR...",
+      "tarefas_template": [
+        "Transmitindo DCTFWeb — {cliente}",
+        "Conferindo débitos confessados — {cliente}",
+        "Validando DCTFWeb — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        8,
+        16
+      ],
+      "economia_brl": 80,
+      "tags": [
+        "obrigações-acessórias"
+      ]
+    },
+    {
+      "id": "dirf",
+      "nome": "DIRF",
+      "categoria": "Obrigações Acessórias",
+      "icone": "file-text",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em DIRF retroativa (até 2023) e migração para EFD-Reinf R-4010/R-4020 (≥ 2024). Use proativamente quando o usuário (a) precisa retificar DIRF de anos ≤ 2023, (b) me...",
+      "tarefas_template": [
+        "Gerando DIRF — {cliente}",
+        "Validando retenções do ano — {cliente}",
+        "Validando DIRF — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        8,
+        16
+      ],
+      "economia_brl": 80,
+      "tags": [
+        "obrigações-acessórias"
+      ]
+    },
+    {
+      "id": "dimob",
+      "nome": "DIMOB",
+      "categoria": "Obrigações Acessórias",
+      "icone": "file-text",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em DIMOB anual de imobiliárias, construtoras, incorporadoras e administradoras de bens — venda, locação, intermediação, construção. Use proativamente quando o usuár...",
+      "tarefas_template": [
+        "Gerando DIMOB — {cliente}",
+        "Conferindo aluguéis declarados — {cliente}",
+        "Validando DIMOB — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        8,
+        16
+      ],
+      "economia_brl": 80,
+      "tags": [
+        "obrigações-acessórias"
+      ]
+    },
+    {
+      "id": "dmed",
+      "nome": "DMED",
+      "categoria": "Obrigações Acessórias",
+      "icone": "file-text",
+      "cor": "#E85D2F",
+      "descricao": "Especialista em DMED anual de prestadores de serviços médicos (hospitais, clínicas, médicos PJ, laboratórios) e operadoras de plano de saúde. É o ESPELHO da dedução de saúde do ...",
+      "tarefas_template": [
+        "Gerando DMED — {cliente}",
+        "Conferindo dados de saúde — {cliente}",
+        "Validando DMED — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        8,
+        16
+      ],
+      "economia_brl": 80,
+      "tags": [
+        "obrigações-acessórias"
+      ]
+    },
+    {
+      "id": "esocial-admissao",
+      "nome": "eSocial — Admissão",
+      "categoria": "eSocial",
+      "icone": "user-cog",
+      "cor": "#FF8B5A",
+      "descricao": "Especialista em admissão CLT no eSocial — S-2190 (preliminar, urgência) ou S-2200 (completa), cadastros prévios obrigatórios (S-1000, S-1005, S-1010 rubricas, S-1020 lotação, S-...",
+      "tarefas_template": [
+        "Transmitindo S-2200 — {cliente}",
+        "Validando admissão — {cliente}",
+        "Validando eSocial — Admissão — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 90,
+        "media": 240,
+        "max": 480
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 28,
+      "tags": [
+        "esocial"
+      ]
+    },
+    {
+      "id": "esocial-rescisao",
+      "nome": "eSocial — Rescisão",
+      "categoria": "eSocial",
+      "icone": "user-cog",
+      "cor": "#FF8B5A",
+      "descricao": "Especialista em desligamento CLT no eSocial — S-2299 com motivo correto da Tabela 19 (sem justa causa, justa causa, pedido, acordo 484-A, fim contrato, aposentadoria, faleciment...",
+      "tarefas_template": [
+        "Transmitindo S-2299 — {cliente}",
+        "Conferindo rescisão eSocial — {cliente}",
+        "Validando eSocial — Rescisão — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 90,
+        "media": 240,
+        "max": 480
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 28,
+      "tags": [
+        "esocial"
+      ]
+    },
+    {
+      "id": "esocial-afastamentos",
+      "nome": "eSocial — Afastamentos",
+      "categoria": "eSocial",
+      "icone": "user-cog",
+      "cor": "#FF8B5A",
+      "descricao": "Especialista em afastamentos no eSocial S-2230 (motivos Tabela 18) e CAT S-2210 (acidente trabalho — 24h prazo legal), com pagamento dos primeiros 15 dias pela empresa em auxíli...",
+      "tarefas_template": [
+        "Transmitindo S-2230 — {cliente}",
+        "Registrando afastamento — {cliente}",
+        "Validando eSocial — Afastamentos — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 90,
+        "media": 240,
+        "max": 480
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 28,
+      "tags": [
+        "esocial"
+      ]
+    },
+    {
+      "id": "esocial-eventos-periodicos",
+      "nome": "eSocial — Eventos Periódicos",
+      "categoria": "eSocial",
+      "icone": "user-cog",
+      "cor": "#FF8B5A",
+      "descricao": "Especialista em eventos periódicos eSocial — S-1200 remuneração, S-1210 pagamentos (com IRRF a partir 2024), S-1280 complementares (CPRB), S-1295 pagamento parcial, S-1298 reabe...",
+      "tarefas_template": [
+        "Transmitindo S-1200 — {cliente}",
+        "Fechando folha eSocial — {cliente}",
+        "Validando eSocial — Eventos Periódicos — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 90,
+        "media": 240,
+        "max": 480
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        18
+      ],
+      "economia_brl": 28,
+      "tags": [
+        "esocial"
+      ]
+    },
+    {
+      "id": "folha-pagamento-mensal",
+      "nome": "Folha de Pagamento Mensal",
+      "categoria": "Folha",
+      "icone": "users",
+      "cor": "#D4521F",
+      "descricao": "Especialista em folha CLT mensal — cálculo de salário base + adicionais (peric/insal/noturno/HE), descontos (INSS faixa progressiva, IRRF, VT 6%, plano saúde, faltas), FGTS 8%, ...",
+      "tarefas_template": [
+        "Processando folha mensal — {cliente}",
+        "Calculando holerites — {cliente}",
+        "Conferindo proventos/descontos — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 600,
+        "max": 1200
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        8,
+        14
+      ],
+      "economia_brl": 55,
+      "tags": [
+        "folha"
+      ]
+    },
+    {
+      "id": "ferias-13-salario",
+      "nome": "Férias e 13º Salário",
+      "categoria": "Folha",
+      "icone": "users",
+      "cor": "#D4521F",
+      "descricao": "Especialista em férias (período aquisitivo, gozo, abono pecuniário 10 dias isento — Lei 7.713/88 art. 6º, parcelamento 3 períodos pós-Reforma 2017) e 13º salário (1ª parcela ate...",
+      "tarefas_template": [
+        "Calculando férias — {cliente}",
+        "Apurando 13º salário — {cliente}",
+        "Gerando recibos — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 600,
+        "max": 1200
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        8,
+        14
+      ],
+      "economia_brl": 55,
+      "tags": [
+        "folha"
+      ]
+    },
+    {
+      "id": "rescisao-clt-calculo",
+      "nome": "Rescisão CLT",
+      "categoria": "Folha",
+      "icone": "users",
+      "cor": "#D4521F",
+      "descricao": "Especialista em cálculo financeiro de rescisão CLT — verbas por motivo (sem justa causa, justa causa, pedido, acordo 484-A com multa **20%**, fim contrato, aposentadoria, faleci...",
+      "tarefas_template": [
+        "Calculando rescisão CLT — {cliente}",
+        "Apurando verbas rescisórias — {cliente}",
+        "Gerando TRCT — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 600,
+        "max": 1200
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        8,
+        14
+      ],
+      "economia_brl": 55,
+      "tags": [
+        "folha"
+      ]
+    },
+    {
+      "id": "fgts-guia-recolhimento",
+      "nome": "Guia FGTS",
+      "categoria": "Folha",
+      "icone": "users",
+      "cor": "#D4521F",
+      "descricao": "Especialista em FGTS mensal (8% sobre folha, 2% aprendiz, 8% + 3,2% antecipação multa para doméstico) e rescisório (GRRF: saldo + dep mês + dep aviso + multa 40/20/0% por motivo...",
+      "tarefas_template": [
+        "Gerando guia FGTS — {cliente}",
+        "Conferindo SEFIP — {cliente}",
+        "Validando Guia FGTS — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 600,
+        "max": 1200
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        8,
+        14
+      ],
+      "economia_brl": 55,
+      "tags": [
+        "folha"
+      ]
+    },
+    {
+      "id": "plano-contas-cpc",
+      "nome": "Plano de Contas CPC",
+      "categoria": "Contabilidade",
+      "icone": "book-open",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em estruturar plano de contas com 100% de mapeamento referencial fiscal (Anexo III IN RFB 2.003), aderência aos CPCs (26 apresentação, 27 imobilizado, 4 intangível,...",
+      "tarefas_template": [
+        "Atualizando plano de contas — {cliente}",
+        "Aplicando CPC — {cliente}",
+        "Validando Plano de Contas CPC — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 180,
+        "media": 480,
+        "max": 900
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 32,
+      "tags": [
+        "contabilidade"
+      ]
+    },
+    {
+      "id": "lancamentos-contabeis-padrao",
+      "nome": "Lançamentos Contábeis",
+      "categoria": "Contabilidade",
+      "icone": "book-open",
+      "cor": "#FF6B35",
+      "descricao": "Catálogo operacional de lançamentos D/C para operações cotidianas — vendas (com impostos sobre venda como redutor de receita bruta), compras (com créditos de impostos), folha (c...",
+      "tarefas_template": [
+        "Lançando movimentações — {cliente}",
+        "Conferindo débito/crédito — {cliente}",
+        "Validando histórico — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 180,
+        "media": 480,
+        "max": 900
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 32,
+      "tags": [
+        "contabilidade"
+      ]
+    },
+    {
+      "id": "conciliacao-bancaria",
+      "nome": "Conciliação Bancária",
+      "categoria": "Conciliação",
+      "icone": "git-compare",
+      "cor": "#E07845",
+      "descricao": "Especialista em conciliação bancária mensal — match item a item entre extrato (OFX/CSV/PDF) e razão contábil, identifica tarifas, IOF, juros, débitos automáticos, cheques penden...",
+      "tarefas_template": [
+        "Conciliando extrato — {cliente}",
+        "Cruzando OFX — {cliente}",
+        "Identificando lançamentos não conciliados — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 45,
+      "tags": [
+        "conciliação"
+      ]
+    },
+    {
+      "id": "conciliacao-cartoes-credenciadora",
+      "nome": "Conciliação Cartões",
+      "categoria": "Conciliação",
+      "icone": "git-compare",
+      "cor": "#E07845",
+      "descricao": "Especialista em conciliação de vendas via cartão (Cielo, Stone, Rede, GetNet, PagSeguro, SafraPay, Mercado Pago) com repasses da credenciadora — separa MDR (taxa), antecipação, ...",
+      "tarefas_template": [
+        "Conciliando vendas Stone — {cliente}",
+        "Cruzando Cielo — {cliente}",
+        "Validando taxa MDR — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 45,
+      "tags": [
+        "conciliação"
+      ]
+    },
+    {
+      "id": "conciliacao-fornecedores",
+      "nome": "Conciliação Fornecedores",
+      "categoria": "Conciliação",
+      "icone": "git-compare",
+      "cor": "#E07845",
+      "descricao": "Especialista em conciliação de razão de fornecedores (contas a pagar) — match NFs recebidas × pagamentos × histórico, identifica NFs em duplicidade, adiantamentos (separar em 1....",
+      "tarefas_template": [
+        "Conciliando contas a pagar — {cliente}",
+        "Validando duplicatas — {cliente}",
+        "Validando Conciliação Fornecedores — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 45,
+      "tags": [
+        "conciliação"
+      ]
+    },
+    {
+      "id": "conciliacao-clientes",
+      "nome": "Conciliação Clientes",
+      "categoria": "Conciliação",
+      "icone": "git-compare",
+      "cor": "#E07845",
+      "descricao": "Especialista em conciliação de razão de clientes (contas a receber) — match NFs emitidas × recebimentos, aging (a vencer, 1-30, 31-60, 61-90, 91-180, > 180, > 360), PCLD por mod...",
+      "tarefas_template": [
+        "Conciliando contas a receber — {cliente}",
+        "Validando inadimplência — {cliente}",
+        "Validando Conciliação Clientes — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 300,
+        "media": 720,
+        "max": 1500
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 45,
+      "tags": [
+        "conciliação"
+      ]
+    },
+    {
+      "id": "fechamento-mensal",
+      "nome": "Fechamento Mensal",
+      "categoria": "Fechamento",
+      "icone": "lock",
+      "cor": "#B8451D",
+      "descricao": "Roteiro completo de fechamento contábil mensal em até 5 dias úteis — provisões (CPC 33), depreciação, conciliações (banco/cartão/forn/cli), encerramento de resultado mensal, ger...",
+      "tarefas_template": [
+        "Fechando competência — {cliente}",
+        "Travando lançamentos do mês — {cliente}",
+        "Validando saldos — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3000
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        14,
+        22
+      ],
+      "economia_brl": 150,
+      "tags": [
+        "fechamento"
+      ]
+    },
+    {
+      "id": "balancete-analise",
+      "nome": "Balancete e Análise",
+      "categoria": "Contabilidade",
+      "icone": "book-open",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em ler e analisar balancete mensal — verifica integridade (D=C, sintética = soma analíticas), coerência (saldo invertido, conta natureza errada), variações > 20% vs...",
+      "tarefas_template": [
+        "Gerando balancete — {cliente}",
+        "Analisando contas-chave — {cliente}",
+        "Validando Balancete e Análise — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 180,
+        "media": 480,
+        "max": 900
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 32,
+      "tags": [
+        "contabilidade"
+      ]
+    },
+    {
+      "id": "dre-gerencial",
+      "nome": "DRE Gerencial",
+      "categoria": "Contabilidade",
+      "icone": "book-open",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em DRE gerencial — separação de custos variáveis × fixos, margem de contribuição (MC), ponto de equilíbrio (PE), comparativos realizado × orçado × ano anterior, aná...",
+      "tarefas_template": [
+        "Montando DRE gerencial — {cliente}",
+        "Calculando margem bruta — {cliente}",
+        "Apurando EBITDA — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 180,
+        "media": 480,
+        "max": 900
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 32,
+      "tags": [
+        "contabilidade"
+      ]
+    },
+    {
+      "id": "fluxo-caixa-projetado",
+      "nome": "Fluxo de Caixa Projetado",
+      "categoria": "Contabilidade",
+      "icone": "book-open",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em fluxo de caixa direto realizado e projetado — diário (4 semanas próximas), semanal (3 meses), mensal (12 meses), com 3 cenários (otimista, realista, pessimista),...",
+      "tarefas_template": [
+        "Projetando fluxo de caixa 13 semanas — {cliente}",
+        "Identificando gap de caixa — {cliente}",
+        "Validando Fluxo de Caixa Projetado — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 180,
+        "media": 480,
+        "max": 900
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 32,
+      "tags": [
+        "contabilidade"
+      ]
+    },
+    {
+      "id": "ativo-imobilizado-depreciacao",
+      "nome": "Ativo Imobilizado e Depreciação",
+      "categoria": "Contabilidade",
+      "icone": "book-open",
+      "cor": "#FF6B35",
+      "descricao": "Especialista em ativo imobilizado (CPC 27) — reconhecimento (custo + frete + montagem + tributos não-recuperáveis), depreciação (linear, soma dígitos, unidades produzidas, acele...",
+      "tarefas_template": [
+        "Calculando depreciação — {cliente}",
+        "Atualizando imobilizado — {cliente}",
+        "Validando Ativo Imobilizado e Depreciação — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 180,
+        "media": 480,
+        "max": 900
+      },
+      "frequencia": "alta",
+      "horario_pico": [
+        10,
+        18
+      ],
+      "economia_brl": 32,
+      "tags": [
+        "contabilidade"
+      ]
+    },
+    {
+      "id": "analise-tributaria-regime",
+      "nome": "Análise de Regime Tributário",
+      "categoria": "Análise",
+      "icone": "search",
+      "cor": "#FF9966",
+      "descricao": "Especialista em análise comparativa de regime tributário — Simples × Lucro Presumido × Lucro Real — com projeção 12 meses, considerando ICMS, ISS, PIS/COFINS, IRPJ/CSLL, INSS fo...",
+      "tarefas_template": [
+        "Comparando regimes Simples/Presumido/Real — {cliente}",
+        "Recomendando enquadramento — {cliente}",
+        "Validando Análise de Regime Tributário — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "análise"
+      ]
+    },
+    {
+      "id": "recuperacao-creditos-pis-cofins",
+      "nome": "Recuperação de Créditos PIS/COFINS",
+      "categoria": "Análise",
+      "icone": "search",
+      "cor": "#FF9966",
+      "descricao": "Especialista em recuperação retroativa de PIS/COFINS pagos a maior nos últimos 5 anos — Tema 69 STF (exclusão ICMS retroativa, modulação 15/03/2017), Tema 779 STJ (insumos amplo...",
+      "tarefas_template": [
+        "Apurando créditos retroativos — {cliente}",
+        "Identificando recuperação 60 meses — {cliente}",
+        "Validando Recuperação de Créditos PIS/COFINS — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "análise"
+      ]
+    },
+    {
+      "id": "revisao-fiscal-cruzamento-sped",
+      "nome": "Revisão Fiscal SPED",
+      "categoria": "Análise",
+      "icone": "search",
+      "cor": "#FF9966",
+      "descricao": "Especialista em cruzar ECD × ECF × EFD ICMS/IPI × EFD-Contribuições × eSocial × EFD-Reinf × DCTFWeb identificando divergências antes da malha fina ou em diligência. Use proativa...",
+      "tarefas_template": [
+        "Cruzando SPED vs DCTF — {cliente}",
+        "Identificando divergências — {cliente}",
+        "Validando Revisão Fiscal SPED — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "análise"
+      ]
+    },
+    {
+      "id": "malha-fina-pf-diagnostico",
+      "nome": "Diagnóstico Malha Fina PF",
+      "categoria": "Análise",
+      "icone": "search",
+      "cor": "#FF9966",
+      "descricao": "Especialista em diagnosticar pendências de IRPF na malha fina (extrato e-CAC > Meu IRPF), identificar a causa (rendimento omitido, dedução indevida, dependente, ganho capital), ...",
+      "tarefas_template": [
+        "Diagnosticando malha fina PF — {cliente}",
+        "Identificando inconsistências IRPF — {cliente}",
+        "Validando Diagnóstico Malha Fina PF — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "análise"
+      ]
+    },
+    {
+      "id": "malha-fina-pj-diagnostico",
+      "nome": "Diagnóstico Malha Fina PJ",
+      "categoria": "Análise",
+      "icone": "search",
+      "cor": "#FF9966",
+      "descricao": "Especialista em diagnosticar intimações da malha PJ — TIF (Termo Intimação Fiscal — 20 dias), Comunicado de Inconsistência, Auto de Infração (30 dias para impugnação), Despacho ...",
+      "tarefas_template": [
+        "Diagnosticando malha fina PJ — {cliente}",
+        "Cruzando DCTF/SPED — {cliente}",
+        "Validando Diagnóstico Malha Fina PJ — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        17
+      ],
+      "economia_brl": 220,
+      "tags": [
+        "análise"
+      ]
+    },
+    {
+      "id": "due-diligence-contabil",
+      "nome": "Due Diligence Contábil",
+      "categoria": "Consultoria",
+      "icone": "briefcase",
+      "cor": "#A03D17",
+      "descricao": "Especialista em due diligence contábil-fiscal-trabalhista pré-M&A ou pré-investimento (VC/PE). Identifica passivos ocultos, contingências (CPC 25), ajustes ao EBITDA (Quality of...",
+      "tarefas_template": [
+        "Realizando due diligence — {cliente}",
+        "Analisando passivo oculto — {cliente}",
+        "Validando Due Diligence Contábil — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        16
+      ],
+      "economia_brl": 380,
+      "tags": [
+        "consultoria"
+      ]
+    },
+    {
+      "id": "valuation-pme",
+      "nome": "Valuation PME",
+      "categoria": "Consultoria",
+      "icone": "briefcase",
+      "cor": "#A03D17",
+      "descricao": "Especialista em valuation de PME por DCF (FCFF/FCFE), múltiplos comparáveis (EV/EBITDA, EV/Receita, P/E) e patrimonial (piso). Ajusta EBITDA com one-offs (Quality of Earnings), ...",
+      "tarefas_template": [
+        "Calculando valuation — {cliente}",
+        "Aplicando múltiplos de mercado — {cliente}",
+        "Validando Valuation PME — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 900,
+        "media": 2400,
+        "max": 5400
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        16
+      ],
+      "economia_brl": 380,
+      "tags": [
+        "consultoria"
+      ]
+    },
+    {
+      "id": "irpf-declaracao-completa",
+      "nome": "IRPF — Declaração Completa",
+      "categoria": "IRPF",
+      "icone": "user-check",
+      "cor": "#FF7D4D",
+      "descricao": "Especialista em IRPF anual completa — múltiplas fontes (empregados, autônomo, aluguel, ganho capital, B3, exterior Lei 14.754/2023, atividade rural), Simplificada × Completa (co...",
+      "tarefas_template": [
+        "Preparando IRPF — {cliente}",
+        "Conferindo informes — {cliente}",
+        "Validando deduções — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 600,
+        "max": 1200
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        19
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "irpf"
+      ]
+    },
+    {
+      "id": "irpf-ganho-capital",
+      "nome": "IRPF — Ganho de Capital",
+      "categoria": "IRPF",
+      "icone": "user-check",
+      "cor": "#FF7D4D",
+      "descricao": "Especialista em ganho de capital de PF — imóveis (alíquota progressiva 15-22,5% Lei 13.259/16), ações fora B3 (15%), criptoativos (15% sobre ganho > R$ 35k/mês — Lei 14.754/23, ...",
+      "tarefas_template": [
+        "Calculando ganho de capital — {cliente}",
+        "Apurando GCAP — {cliente}",
+        "Validando IRPF — Ganho de Capital — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 600,
+        "max": 1200
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        19
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "irpf"
+      ]
+    },
+    {
+      "id": "irpf-aluguel-carne-leao",
+      "nome": "IRPF — Carnê-Leão",
+      "categoria": "IRPF",
+      "icone": "user-check",
+      "cor": "#FF7D4D",
+      "descricao": "Especialista em carnê-leão (Lei 7.713/88, RIR 7-18 e 31, IN RFB 1.500/14) — DARF cód 0190 mensal sobre rendimentos de PF (aluguel pago por PF, autônomo prestando a PF, exterior,...",
+      "tarefas_template": [
+        "Apurando Carnê-Leão — {cliente}",
+        "Gerando DARF mensal — {cliente}",
+        "Validando IRPF — Carnê-Leão — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 600,
+        "max": 1200
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        19
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "irpf"
+      ]
+    },
+    {
+      "id": "irpf-investimentos-bolsa",
+      "nome": "IRPF — Investimentos",
+      "categoria": "IRPF",
+      "icone": "user-check",
+      "cor": "#FF7D4D",
+      "descricao": "Especialista em IR sobre operações na B3 — swing trade (15% sobre lucro, isenção R$ 20.000 vendido/mês), day trade (20% sobre lucro, sem isenção), FII (20% na venda de cota, dis...",
+      "tarefas_template": [
+        "Apurando renda variável — {cliente}",
+        "Calculando IR bolsa — {cliente}",
+        "Validando IRPF — Investimentos — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 240,
+        "media": 600,
+        "max": 1200
+      },
+      "frequencia": "media",
+      "horario_pico": [
+        9,
+        19
+      ],
+      "economia_brl": 95,
+      "tags": [
+        "irpf"
+      ]
+    },
+    {
+      "id": "abertura-empresa-cnpj",
+      "nome": "Abertura de CNPJ",
+      "categoria": "Societário",
+      "icone": "building",
+      "cor": "#C44A1F",
+      "descricao": "Especialista em abertura de empresa via REDESIM (Lei 14.195/2021) — viabilidade nome + endereço × CNAE, DBE coletando inscrições (RFB + Estado + Município + Bombeiros + Anvisa),...",
+      "tarefas_template": [
+        "Abrindo CNPJ — {cliente}",
+        "Solicitando inscrição estadual — {cliente}",
+        "Validando Abertura de CNPJ — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        16
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "societário"
+      ]
+    },
+    {
+      "id": "alteracao-contratual",
+      "nome": "Alteração Contratual",
+      "categoria": "Societário",
+      "icone": "building",
+      "cor": "#C44A1F",
+      "descricao": "Especialista em alterações contratuais via REDESIM — entrada/saída de sócios (cessão onerosa com ganho capital DARF 4600 ou gratuita com ITCMD), aumento/redução de capital, muda...",
+      "tarefas_template": [
+        "Preparando alteração contratual — {cliente}",
+        "Atualizando JUCESP/JUCERJA — {cliente}",
+        "Validando Alteração Contratual — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        16
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "societário"
+      ]
+    },
+    {
+      "id": "encerramento-empresa-baixa",
+      "nome": "Encerramento e Baixa",
+      "categoria": "Societário",
+      "icone": "building",
+      "cor": "#C44A1F",
+      "descricao": "Especialista em baixa de empresa via REDESIM — baixa REGULAR (sem dívidas) ou COM DÉBITO (Lei 11.598/07 art. 7º-A — débitos passam aos sócios), distrato social com liquidante, e...",
+      "tarefas_template": [
+        "Dando baixa CNPJ — {cliente}",
+        "Encerrando inscrições — {cliente}",
+        "Validando Encerramento e Baixa — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1800,
+        "max": 3600
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        10,
+        16
+      ],
+      "economia_brl": 280,
+      "tags": [
+        "societário"
+      ]
+    },
+    {
+      "id": "parcelamento-receita-federal",
+      "nome": "Parcelamento RFB",
+      "categoria": "Defesa",
+      "icone": "shield-check",
+      "cor": "#8B3815",
+      "descricao": "Especialista em parcelamentos federais — ordinário 60x (Lei 10.522/2002, multa reduzida 50% Lei 12.844/2013), simplificado (online, até R$ 5mi por débito), transação tributária ...",
+      "tarefas_template": [
+        "Aderindo a parcelamento RFB — {cliente}",
+        "Negociando débitos — {cliente}",
+        "Validando Parcelamento RFB — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3000
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 320,
+      "tags": [
+        "defesa"
+      ]
+    },
+    {
+      "id": "resposta-fiscalizacao-intimacao",
+      "nome": "Resposta a Fiscalização",
+      "categoria": "Defesa",
+      "icone": "shield-check",
+      "cor": "#8B3815",
+      "descricao": "Especialista em responder fiscalização federal/estadual/municipal — TIF (20 dias), Auto de Infração (30 dias para impugnar ao DRJ), Despacho Decisório (30 dias), Aviso de Lançam...",
+      "tarefas_template": [
+        "Respondendo intimação — {cliente}",
+        "Preparando defesa fiscal — {cliente}",
+        "Validando Resposta a Fiscalização — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3000
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 320,
+      "tags": [
+        "defesa"
+      ]
+    },
+    {
+      "id": "reforma-tributaria-cbs-ibs",
+      "nome": "Reforma Tributária CBS/IBS",
+      "categoria": "Defesa",
+      "icone": "shield-check",
+      "cor": "#8B3815",
+      "descricao": "Especialista na Reforma Tributaria sobre o Consumo (EC 132/2023 + LC 214/2025) — CBS (Contribuicao sobre Bens e Servicos federal — substitui PIS/COFINS/IPI) e IBS (Imposto sobre...",
+      "tarefas_template": [
+        "Simulando CBS/IBS — {cliente}",
+        "Projetando impacto da reforma — {cliente}",
+        "Validando Reforma Tributária CBS/IBS — {cliente}"
+      ],
+      "duracao_seg": {
+        "min": 600,
+        "media": 1500,
+        "max": 3000
+      },
+      "frequencia": "baixa",
+      "horario_pico": [
+        9,
+        17
+      ],
+      "economia_brl": 320,
+      "tags": [
+        "defesa"
+      ]
+    }
+  ],
+  "pool_clientes_fallback": [
+    "Loja do João",
+    "Pizzaria do Zé",
+    "Padaria Central",
+    "Boutique Style",
+    "Açaí Tropical",
+    "Salão Vip",
+    "Mercadinho Bom Preço",
+    "Borracharia Rapidinha",
+    "Lanchonete Família",
+    "Oficina Mecânica Sul",
+    "Construtora Aliança",
+    "Restaurante Sabor",
+    "Pet Shop Amigo",
+    "Farmácia Saúde"
+  ]
+}
