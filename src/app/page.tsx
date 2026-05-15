@@ -1,4 +1,5 @@
 import { Header } from "@/components/layout/Header";
+import { OnboardingWizard } from "@/components/onboarding/OnboardingWizard";
 import { AgentGrid } from "@/components/painel/AgentGrid";
 import { FeedAtividade } from "@/components/painel/FeedAtividade";
 import { MetricasTopo } from "@/components/painel/MetricasTopo";
@@ -8,6 +9,7 @@ export default function Painel() {
   return (
     <>
       <SimulatorBoot />
+      <OnboardingWizard />
       <Header />
       <main className="mx-auto w-full max-w-[1400px] flex-1 px-4 py-6 md:px-6">
         <div className="mb-6">
