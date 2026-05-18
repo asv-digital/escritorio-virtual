@@ -5,7 +5,7 @@
  * Uso: pnpm release
  */
 import { execSync } from "node:child_process";
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { NICHO_LABEL, NICHOS, NICHO_TITULO } from "./nichos";
@@ -69,13 +69,16 @@ try {
   execSync(`git push origin ${tag}`, { stdio: "inherit" });
 }
 
-// Cria release
+// Salva notes em arquivo temporário pra evitar problemas de escape com backticks no shell
+const notesFile = join(releaseDir, "RELEASE_NOTES.md");
+writeFileSync(notesFile, notes);
+
 const cmd = [
   "gh release create",
   tag,
   ...zips.map((z) => `"${z}"`),
   `--title "Escritório Virtual ${tag}"`,
-  `--notes "${notes.replace(/"/g, '\\"')}"`,
+  `--notes-file "${notesFile}"`,
 ].join(" ");
 
 execSync(cmd, { cwd: ROOT, stdio: "inherit" });
