@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# zips de release (vão pro GitHub Release, não pro git)
+/releases/
+/.tmp-zip/
+
 # production
 /build
 
