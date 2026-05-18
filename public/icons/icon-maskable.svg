@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="0" fill="#0A0E18"/>
+  <rect x="76.8" y="76.8" width="358.4" height="358.4" rx="0" fill="#4D8BFF"/>
+  <text x="256" y="256" font-family="monospace" font-size="136" font-weight="800" fill="#0A0E18" text-anchor="middle" dominant-baseline="central">OP</text>
+</svg>

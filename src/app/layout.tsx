@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { getCatalog } from "@/lib/catalog/loader";
+import { PWAManager } from "@/components/pwa/PWAManager";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,14 @@ export const metadata: Metadata = {
     "bravy",
     "asv digital",
   ],
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: [
+      { url: "/icons/favicon.svg", type: "image/svg+xml" },
+      { url: "/icons/icon-192.svg", sizes: "192x192", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/icons/icon-192.svg", sizes: "192x192" }],
+  },
 };
 
 export const viewport: Viewport = {
@@ -61,6 +70,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col bg-[var(--bg)] text-[var(--fg)]">
         {children}
+        <PWAManager />
       </body>
     </html>
   );
